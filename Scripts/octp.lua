@@ -7,13 +7,8 @@ function getOffsetKey()
 	local strArgs = edizon.getStrArgs()
 	local intArgs = edizon.getIntArgs()
 	local offsetKey = strArgs[1]
-
 	if strArgs[3] then
-		if intArgs[3] then
-			offsetKey = strArgs[3].."$|$|"..intArgs[3]
-		else
-			offsetKey = strArgs[3]
-		end
+		offsetKey = strArgs[3].."$|$|"..(intArgs[3] or 1)
 	end
 	return offsetKey
 end
@@ -23,13 +18,19 @@ function getOffset()
 	local intArgs = edizon.getIntArgs()
 	local offsetKey = getOffsetKey()
 
-	if cachedOffset[offsetKey] ~= nil then
-		return cachedOffset[offsetKey]
-	end
-
 	local indirectAddress = tonumber(strArgs[1], 16)
 	local searchString = strArgs[3]
 	local resultNum = intArgs[3] or 1
+	local start = 1
+
+	if cachedOffset[offsetKey] ~= nil then
+		return cachedOffset[offsetKey]
+	end
+	
+	if cachedOffset[searchString.."$|$|"..(resultNum-1)] ~= nil then
+		start = cachedOffset[searchString.."$|$|"..(resultNum-1)]+2
+		resultNum = 1
+	end
 
 	local addressSize = intArgs[1]
 
@@ -40,7 +41,7 @@ function getOffset()
 		searchSize = searchString:len()
 
 		local found = 0
-		for i = 1, #saveFileBuffer do
+		for i = start, #saveFileBuffer do
 			if i - 1 + searchSize > #saveFileBuffer then
 				break
 			end
