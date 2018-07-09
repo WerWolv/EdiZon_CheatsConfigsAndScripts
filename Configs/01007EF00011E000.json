@@ -5,7 +5,7 @@
 	"items": [
 	 {
 		"name" : "Rupee",
-		"category" : "Category 1",
+		"category" : "Collectibles",
 		"intArgs" : [ 4, 4 ], 
 		"strArgs" : [ "0000", "EAF8" ],
 		"widget" : {
@@ -16,7 +16,7 @@
 	 },
 	 {
 		"name" : "Mons",
-		"category" : "Category 1",
+		"category" : "Collectibles",
 		"intArgs" : [ 4, 4 ],
 		"strArgs" : [ "0000", "D7FA8" ],
 		"widget" : {
@@ -27,7 +27,7 @@
 	 },
 	 {
 		"name" : "Gerudoo Relic uses remaining",
-		"category" : "Category 2",
+		"category" : "Collectibles",
 		"intArgs" : [ 4, 4 ],
 		"strArgs" : [ "0000", "89968" ],
 		"widget" : {
@@ -38,7 +38,7 @@
 	 },
 	 {
 		"name" : "Goron Relic uses remaining",
-		"category" : "Category 2",
+		"category" : "Collectibles",
 		"intArgs" : [ 4, 4 ],
 		"strArgs" : [ "0000", "E7BA0" ],
 		"widget" : {
@@ -49,7 +49,7 @@
 	 },
 	 {
 		"name" : "Rito Relic uses remaining.",
-		 "category" : "Category 2",
+		"category" : "Collectibles",
 		"intArgs" : [ 4, 4 ],
 		"strArgs" : [ "0000", "F9CC8" ],
 		"widget" : {
@@ -60,7 +60,7 @@
 	 }, 
 	 {
 		"name" : "Hearts",
-		"category" : "Category 3",
+		"category" : "Stats",
 		"intArgs" : [ 4, 4 ],
 		"strArgs" : [ "0000", "10970" ],
 		"widget" : {
@@ -72,7 +72,7 @@
 	 },
 	 {
 		"name" : "Stamina",
-		"category" : "Category 3",
+		"category" : "Stats",
 		"intArgs" : [ 4, 4 ],
 		"strArgs" : [ "0000", "0503C8" ],
 		"widget" : {
