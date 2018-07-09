@@ -1,0 +1,216 @@
+{
+	"saveFilePaths" : [ "/" ],
+	"files" : "zmha\\.bin",
+	"filetype": "bin",
+	"items": [
+	 {
+		"name" : "Rupee",
+		"category" : "Materials",
+		"intArgs" : [ 5, 5 ], 
+		"strArgs" : [ "0000", "2B8" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 9999999
+	   } 
+	 },
+	 {
+		"name" : "Monster Tooth",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B00" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Old Rag",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B02" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Soldiers Uniform",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B04" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Rock",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B06" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Aeralfos Leather",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B08" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Fiery Aeralfos Leather",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B0A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Gibdo Bandage",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B0C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "ReDead Bandage",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B0E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Lizalfos Scale",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B10" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Dinolfos Fang",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B12" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Moblin Flank",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B14" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Shield Moblin Helmet",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B16" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Piece of Darknut Armor",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B18" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Stalmaster Wrist Bone",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B1A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Big Poe Necklace",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B1C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Essence of Icy Big Poe",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B1E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Hylian Captain Gauntlet",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B20" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Goron Armor Breastplate",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B22" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	  }
+	]
+}
