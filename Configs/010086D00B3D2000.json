@@ -28,7 +28,7 @@
 	{
 		"name" : "Level",
 		"category" : "2. Olberic",
-		"intArgs" : [ 2, 2 ],
+		"intArgs" : [ 2, 2, 1 ],
 		"strArgs" : [ "0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
@@ -39,7 +39,7 @@
 	{
 		"name" : "Exp",
 		"category" : "2. Olberic",
-		"intArgs" : [ 2, 4 ],
+		"intArgs" : [ 2, 4, 1 ],
 		"strArgs" : [ "0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
@@ -50,7 +50,7 @@
 	{
 		"name" : "Job Point",
 		"category" : "2. Olberic",
-		"intArgs" : [ 2, 4 ],
+		"intArgs" : [ 2, 4, 1 ],
 		"strArgs" : [ "0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
