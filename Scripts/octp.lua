@@ -1,11 +1,9 @@
--- octp --
-
 saveFileBuffer = edizon.getSaveFileBuffer()
 cachedOffset = {}
 
 function getStrArgsAsString()
 	strArgs = edizon.getStrArgs()
-	return ((strArgs[1] or '')..(strArgs[2] or '')..(strArgs[3] or ''))
+	return ((strArgs[1] or '')..'_'..(strArgs[3] or '')..'_'..(strArgs[4] or ''))
 end
 
 function getOffset()
@@ -23,12 +21,20 @@ function getOffset()
 	addressSize = intArgs[1]
 
 	offset = 0
-
+	start = 1
+	
+	r = tonumber(strArgs[4], 10)
+	
+	--[[if cachedOffset[((strArgs[1] or '')..'_'..(strArgs[3] or '')..'_'..(r-1))] ~= nil then
+		start = cachedOffset[((strArgs[1] or '')..'_'..(strArgs[3] or '')..'_'..(r-1))]+2
+		r = r - 1
+	end]]--
+	
 	if searchString ~= nil and searchString ~= '' then
 		searchTable = { searchString:byte(1, -1) }
 		searchSize = searchString:len()
-
-		for i = 1, #saveFileBuffer do
+		
+		for i = start, #saveFileBuffer do
 			if i - 1 + searchSize > #saveFileBuffer then
 				break
 			end
@@ -38,11 +44,14 @@ function getOffset()
 				if c ~= searchTable[j] then
 					break
 				end
-				found = j == 10
+				found = j == searchSize
 			end
 			if found then
-				offset = i - 1
-				break
+				r = r - 1
+				if ( r <= 0 ) then
+					offset = i - 1
+					break
+				end
 			end
 		end
 	elseif indirectAddress ~= 0 then
@@ -58,11 +67,12 @@ end
 function getValueFromSaveFile()
 	strArgs = edizon.getStrArgs()
 	intArgs = edizon.getIntArgs()
-
+	
 	address = tonumber(strArgs[2], 16)
 	valueSize = intArgs[2]
 
 	offset = getOffset()
+	
 	value = 0
 
 	for i = 0, valueSize - 1 do
@@ -86,7 +96,6 @@ function setValueInSaveFile(value)
 end
 
 function getModifiedSaveFile()
-	strArgsAsString = getStrArgsAsString()
-	cachedOffset[strArgsAsString] = nil
+	cachedOffset = {}
 	return saveFileBuffer
 end
