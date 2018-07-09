@@ -1,0 +1,18 @@
+{
+	"saveFilePaths" : [ "/" ],
+	"files" : "KSSaveData\\d",
+	"filetype": "octp",
+	"items": [
+	{
+	  "name" : "PlaySecond",
+	  "category" : "Time Management",
+	  "intArgs" : [ 2, 2 ],
+	  "strArgs" : [ "0000", "0024", "PlaySecond" ],
+	  "widget" : {
+		"type" : "int",
+		"minValue" : 0,
+		"maxValue" : 10800
+	  }
+	}
+	]
+}
