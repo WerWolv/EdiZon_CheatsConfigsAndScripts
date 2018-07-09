@@ -1,6 +1,6 @@
 # EdiZon_ConfigsAndScripts
 
-This is the official repository for EdiZon Editor Config and Editor Script files. If you want yours to be added, please send them to @WerWolv98 or @thomasnet-mc.
+This is the official repository for EdiZon Editor Config and Editor Script files. If you want yours to be added, please send them to @WerWolv98 or @thomasnet-mc or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
