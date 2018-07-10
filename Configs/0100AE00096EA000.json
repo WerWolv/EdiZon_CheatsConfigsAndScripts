@@ -1094,7 +1094,7 @@
 	 },
 	 {
 		"name" : "Tetras Sandals",
-		"category" : "Materials",
+		"category" : "Silver Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1BB2" ],
 		"widget" : {
