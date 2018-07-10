@@ -7,7 +7,7 @@
 		"name" : "PlaySecond",
 		"category" : "1. General",
 		"intArgs" : [ 2, 2 ],
-		"strArgs" : [ "0000", "0024", "PlaySecond" ],
+		"strArgs" : [ "100000", "0024", "PlaySecond" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -29,7 +29,7 @@
 		"name" : "Level",
 		"category" : "2. Olberic",
 		"intArgs" : [ 2, 2, 1 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -40,7 +40,7 @@
 		"name" : "Exp",
 		"category" : "2. Olberic",
 		"intArgs" : [ 2, 4, 1 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -51,7 +51,7 @@
 		"name" : "Job Point",
 		"category" : "2. Olberic",
 		"intArgs" : [ 2, 4, 1 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -62,7 +62,7 @@
 		"name" : "Level",
 		"category" : "3. Tressa",
 		"intArgs" : [ 2, 2, 2 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -73,7 +73,7 @@
 		"name" : "Exp",
 		"category" : "3. Tressa",
 		"intArgs" : [ 2, 4, 2 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -84,7 +84,7 @@
 		"name" : "Job Point",
 		"category" : "3. Tressa",
 		"intArgs" : [ 2, 4, 2 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -95,7 +95,7 @@
 		"name" : "Level",
 		"category" : "4. Cyrus",
 		"intArgs" : [ 2, 2, 3 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -106,7 +106,7 @@
 		"name" : "Exp",
 		"category" : "4. Cyrus",
 		"intArgs" : [ 2, 4, 3 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -117,7 +117,7 @@
 		"name" : "Job Point",
 		"category" : "4. Cyrus",
 		"intArgs" : [ 2, 4, 3 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -128,7 +128,7 @@
 		"name" : "Level",
 		"category" : "5. Primrose",
 		"intArgs" : [ 2, 2, 4 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -139,7 +139,7 @@
 		"name" : "Exp",
 		"category" : "5. Primrose",
 		"intArgs" : [ 2, 4, 4 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -150,7 +150,7 @@
 		"name" : "Job Point",
 		"category" : "5. Primrose",
 		"intArgs" : [ 2, 4, 4 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -161,7 +161,7 @@
 		"name" : "Level",
 		"category" : "6. H'annit",
 		"intArgs" : [ 2, 2, 5 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -172,7 +172,7 @@
 		"name" : "Exp",
 		"category" : "6. H'annit",
 		"intArgs" : [ 2, 4, 5 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -183,7 +183,7 @@
 		"name" : "Job Point",
 		"category" : "6. H'annit",
 		"intArgs" : [ 2, 4, 5 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -194,7 +194,7 @@
 		"name" : "Level",
 		"category" : "7. Therion",
 		"intArgs" : [ 2, 2, 6 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -205,7 +205,7 @@
 		"name" : "Exp",
 		"category" : "7. Therion",
 		"intArgs" : [ 2, 4, 6 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -216,7 +216,7 @@
 		"name" : "Job Point",
 		"category" : "7. Therion",
 		"intArgs" : [ 2, 4, 6 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -227,7 +227,7 @@
 		"name" : "Level",
 		"category" : "8. Ophilia",
 		"intArgs" : [ 2, 2, 7 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -238,7 +238,7 @@
 		"name" : "Exp",
 		"category" : "8. Ophilia",
 		"intArgs" : [ 2, 4, 7 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -249,7 +249,7 @@
 		"name" : "Job Point",
 		"category" : "8. Ophilia",
 		"intArgs" : [ 2, 4, 7 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -260,7 +260,7 @@
 		"name" : "Level",
 		"category" : "9. Alfyn",
 		"intArgs" : [ 2, 2, 8 ],
-		"strArgs" : [ "0000", "0092", "CharacterID" ],
+		"strArgs" : [ "F0000", "0092", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
@@ -271,7 +271,7 @@
 		"name" : "Exp",
 		"category" : "9. Alfyn",
 		"intArgs" : [ 2, 4, 8 ],
-		"strArgs" : [ "0000", "00DB", "CharacterID" ],
+		"strArgs" : [ "F0000", "00DB", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
@@ -282,7 +282,7 @@
 		"name" : "Job Point",
 		"category" : "9. Alfyn",
 		"intArgs" : [ 2, 4, 8 ],
-		"strArgs" : [ "0000", "02C5", "CharacterID" ],
+		"strArgs" : [ "F0000", "02C5", "CharacterID" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
