@@ -13,6 +13,7 @@ Config files go into the `/EdiZon/editor` folder, Script files go into the `/Edi
 | [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | bin.lua                 | WerWolv  |
 | [Hollow Knight](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100633007D48000.json)                   | json.lua & lib/json.lua | WerWolv  |
 | [Octopath Traveler Prologue Demo](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010096000B3EA000.json) | octp.lua                | shahmirn and SleepyPrince |
+| [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk |
 
 
 ## All Editor Script files
