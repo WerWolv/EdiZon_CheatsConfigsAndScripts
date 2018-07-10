@@ -3,44 +3,58 @@
 saveFileBuffer = edizon.getSaveFileBuffer()
 cachedOffset = {}
 
-function getStrArgsAsString()
-	strArgs = edizon.getStrArgs()
-	return ((strArgs[1] or '')..(strArgs[2] or '')..(strArgs[3] or ''))
+function getOffsetKey()
+	local strArgs = edizon.getStrArgs()
+	local intArgs = edizon.getIntArgs()
+	local offsetKey = strArgs[1]
+	if strArgs[3] then
+		offsetKey = strArgs[3].."$|$|"..(intArgs[3] or 1)
+	end
+	return offsetKey
 end
 
 function getOffset()
-	strArgs = edizon.getStrArgs()
-	intArgs = edizon.getIntArgs()
-	strArgsAsString = getStrArgsAsString()
+	local strArgs = edizon.getStrArgs()
+	local intArgs = edizon.getIntArgs()
+	local offsetKey = getOffsetKey()
 
-	if cachedOffset[strArgsAsString] ~= nil then
-		return cachedOffset[strArgsAsString]
+	local indirectAddress = tonumber(strArgs[1], 16)
+	local searchString = strArgs[3]
+	local resultNum = intArgs[3] or 1
+	local start = 1
+
+	if cachedOffset[offsetKey] ~= nil then
+		return cachedOffset[offsetKey]
+	end
+	
+	if cachedOffset[searchString.."$|$|"..(resultNum-1)] ~= nil then
+		start = cachedOffset[searchString.."$|$|"..(resultNum-1)]+2
+		resultNum = 1
 	end
 
-	indirectAddress = tonumber(strArgs[1], 16)
-	searchString = strArgs[3]
+	local addressSize = intArgs[1]
 
-	addressSize = intArgs[1]
-
-	offset = 0
+	local offset = 0
 
 	if searchString ~= nil and searchString ~= '' then
 		searchTable = { searchString:byte(1, -1) }
 		searchSize = searchString:len()
 
-		for i = 1, #saveFileBuffer do
+		local found = 0
+		for i = start, #saveFileBuffer do
 			if i - 1 + searchSize > #saveFileBuffer then
 				break
 			end
-			found = false
 			for j = 1, searchSize do
 				c = saveFileBuffer[i + j -1]
 				if c ~= searchTable[j] then
 					break
 				end
-				found = j == 10
+				if j == searchSize then
+					found = found + 1
+				end
 			end
-			if found then
+			if found == resultNum then
 				offset = i - 1
 				break
 			end
@@ -51,19 +65,19 @@ function getOffset()
 		end
 	end
 
-	cachedOffset[strArgsAsString] = offset
+	cachedOffset[offsetKey] = offset
 	return offset
 end
 
 function getValueFromSaveFile()
-	strArgs = edizon.getStrArgs()
-	intArgs = edizon.getIntArgs()
+	local strArgs = edizon.getStrArgs()
+	local intArgs = edizon.getIntArgs()
 
-	address = tonumber(strArgs[2], 16)
-	valueSize = intArgs[2]
+	local address = tonumber(strArgs[2], 16)
+	local valueSize = intArgs[2]
 
-	offset = getOffset()
-	value = 0
+	local offset = getOffset()
+	local value = 0
 
 	for i = 0, valueSize - 1 do
 		value = value | (saveFileBuffer[offset + address + i + 1] << i * 8)
@@ -73,12 +87,12 @@ function getValueFromSaveFile()
 end
 
 function setValueInSaveFile(value)
-	strArgs = edizon.getStrArgs()
-	intArgs = edizon.getIntArgs()
-	address = tonumber(strArgs[2], 16)
-	valueSize = intArgs[2]
+	local strArgs = edizon.getStrArgs()
+	local intArgs = edizon.getIntArgs()
+	local address = tonumber(strArgs[2], 16)
+	local valueSize = intArgs[2]
 
-	offset = getOffset()
+	local offset = getOffset()
 
 	for i = 0, valueSize - 1 do
 		saveFileBuffer[offset + address + i + 1] = (value & (0xFF << i * 8)) >> (i * 8)
@@ -86,7 +100,7 @@ function setValueInSaveFile(value)
 end
 
 function getModifiedSaveFile()
-	strArgsAsString = getStrArgsAsString()
-	cachedOffset[strArgsAsString] = nil
+	local offsetKey = getOffsetKey()
+	cachedOffset[offsetKey] = nil
 	return saveFileBuffer
 end
