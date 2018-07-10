@@ -5,7 +5,7 @@
 	"items": [
 	 {
 		"name" : "Rupee",
-		"category" : "Materials",
+		"category" : "Rupees",
 		"intArgs" : [ 5, 5 ], 
 		"strArgs" : [ "0000", "2B8" ],
 		"widget" : {
@@ -15,8 +15,19 @@
 	   } 
 	 },
 	 {
+		"name" : "Metal Plate",
+		"category" : "Bronze Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1AFE" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
 		"name" : "Monster Tooth",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B00" ],
 		"widget" : {
@@ -27,7 +38,7 @@
 	 },
 	 {
 		"name" : "Old Rag",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B02" ],
 		"widget" : {
@@ -38,7 +49,7 @@
 	 },
      {
 		"name" : "Soldiers Uniform",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B04" ],
 		"widget" : {
@@ -49,7 +60,7 @@
 	 },
 	 {
 		"name" : "Rock",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B06" ],
 		"widget" : {
@@ -60,7 +71,7 @@
 	 },
 	 {
 		"name" : "Aeralfos Leather",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B08" ],
 		"widget" : {
@@ -71,7 +82,7 @@
 	 },
 	 {
 		"name" : "Fiery Aeralfos Leather",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B0A" ],
 		"widget" : {
@@ -82,7 +93,7 @@
 	 },
      {
 		"name" : "Gibdo Bandage",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B0C" ],
 		"widget" : {
@@ -93,7 +104,7 @@
 	 },
 	 {
 		"name" : "ReDead Bandage",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B0E" ],
 		"widget" : {
@@ -104,7 +115,7 @@
 	 },
 	 {
 		"name" : "Lizalfos Scale",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B10" ],
 		"widget" : {
@@ -115,7 +126,7 @@
 	 },
 	 {
 		"name" : "Dinolfos Fang",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B12" ],
 		"widget" : {
@@ -126,7 +137,7 @@
 	 },
      {
 		"name" : "Moblin Flank",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B14" ],
 		"widget" : {
@@ -137,7 +148,7 @@
 	 },
 	 {
 		"name" : "Shield Moblin Helmet",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B16" ],
 		"widget" : {
@@ -148,7 +159,7 @@
 	 },
 	 {
 		"name" : "Piece of Darknut Armor",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B18" ],
 		"widget" : {
@@ -159,7 +170,7 @@
 	 },
 	 {
 		"name" : "Stalmaster Wrist Bone",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B1A" ],
 		"widget" : {
@@ -170,7 +181,7 @@
 	 },
      {
 		"name" : "Big Poe Necklace",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B1C" ],
 		"widget" : {
@@ -181,7 +192,7 @@
 	 },
 	 {
 		"name" : "Essence of Icy Big Poe",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B1E" ],
 		"widget" : {
@@ -192,7 +203,7 @@
 	 },
 	 {
 		"name" : "Hylian Captain Gauntlet",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B20" ],
 		"widget" : {
@@ -203,7 +214,7 @@
 	 },
 	 {
 		"name" : "Goron Armor Breastplate",
-		"category" : "Materials",
+		"category" : "Bronze Materials",
 		"intArgs" : [ 2, 2 ],
 		"strArgs" : [ "0000", "1B22" ],
 		"widget" : {
@@ -211,6 +222,1062 @@
 			"minValue" : 0,
 			"maxValue" : 999
 	   }
-	  }
+	 },
+	 {
+		"name" : "Ganons Mane",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B24" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "King Dodongos Claws",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B26" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Gohmas Acid",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B28" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Manhandlas Toxic Dust",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B2A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Argoroks Embers",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B2C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "The Imprisoneds Scales",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B2E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Cias Bracelet",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B30" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Volgas Helmet",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B32" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Wizzros Robe",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B34" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Links Boots",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B36" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Lanas Hair Clip",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B38" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Zeldas Brooch",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B3A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Impas Hair Band",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B3C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Ganondorfs Gauntlet",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B3E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 34",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B40" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 35",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B42" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 36",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B44" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 37",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B46" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 38",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B48" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 39",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B4A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "UNIDENTIFIED Material 40",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B4C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 41",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B4E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Sheiks Kunai",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B40" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Darunias Spikes",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B42" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Rutos Earrings",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B44" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Agithas Basket",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B46" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Midnas Hair",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B48" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Fis Heels",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B4A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Girahims Sash",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B4C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Zants Magic Gem",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B4E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Round Aeralfos Shield",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B50" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Fiery Aeralfos Wing",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B52" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Heavy Gibdo Sword",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B54" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "ReDead Knight Ashes",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B56" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Lizalfos Gauntlet",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B58" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Dinolfos Arm Guard",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B5A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Moblin Spear",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B5C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Metal Moblin Shield",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B5E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Large Darknut Sword",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B60" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Stalmasters Skull",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B62" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Big Poes Lantern",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B64" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Icey Big Poes Talisman",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B66" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Holy Hylian Shield",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B68" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Thick Goron Helmet",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B6A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Ganons Fang",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B6C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "King Dodongos Crystal",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B6E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Gohmas Lens",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B70" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Manhandlas Sapling",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B72" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Argoroks Stone",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B74" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "The Imprisoneds Pillar",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B76" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Cias Staff",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B78" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Volgas Dragon Spear",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B7A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Wizzros Ring",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B7C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Links Scarf",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B7E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Lanas Cloak",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B80" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Zeldas Tiara",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B82" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Impas Breastplate",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B84" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Ganondorfs Jewel",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B86" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Sheiks Turban",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B88" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Darunias Bracelet",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B8A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Rutos Scale",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B8C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Agithas Pendant",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B8E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Midnas Fused Shadow",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B90" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Fis Crystal",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B92" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Ghirahims Cape",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B94" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Zants Helmet",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B96" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Big Blin Hide",
+		"category" : "Bronze Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B98" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Stone Blin Buckler",
+		"category" : "Bronze Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B9A" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Monster Horn",
+		"category" : "Bronze Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B9C" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Big Blin Club",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1B9E" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Stone Blin Helmet",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BA0" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Helmaroc Plume",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BA2" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Phantom Ganons Cape",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BA4" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Twili Midnas Hairpin",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BA6" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Young Links Boots",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BA8" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Tingles Map",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BAA" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Linkles Boots",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BAC" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Skull Kids Hat",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BAE" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Pirates Charm",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BB0" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Tetras Sandals",
+		"category" : "Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BB2" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "King Daphnes Robe",
+		"category" : "Silver Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BB4" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Helmaroc Kings Mask",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BB6" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Phantom Ganons Sword",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BB8" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Twili Midnas Robe",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BBA" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "Keaton Mask",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BBC" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Tingles Watch",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BBE" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Linkles Compass",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BC0" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Majoras Mask",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BC2" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Island Outfit",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BC4" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "Tetras Bandana",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BC6" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "King Daphnes Crown",
+		"category" : "Gold Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BC8" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 111",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BCA" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+     {
+		"name" : "UNIDENTIFIED Material 112",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BCC" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 113",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BCE" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 114",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BD0" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 },
+	 {
+		"name" : "UNIDENTIFIED Material 115",
+		"category" : "Unitentified Materials",
+		"intArgs" : [ 2, 2 ],
+		"strArgs" : [ "0000", "1BD2" ],
+		"widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999
+	   }
+	 }
 	]
 }
