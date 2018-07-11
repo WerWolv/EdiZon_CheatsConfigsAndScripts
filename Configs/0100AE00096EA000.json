@@ -6,8 +6,8 @@
 	 {
 		"name" : "Rupee",
 		"category" : "Rupees",
-		"intArgs" : [ 5, 5 ], 
-		"strArgs" : [ "0000", "2B8" ],
+		"intArgs" : [ 4, 4 ], 
+		"strArgs" : [ "0000", "02B8" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 0,
