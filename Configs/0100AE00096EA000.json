@@ -1289,6 +1289,259 @@
 			"listItemNames" : [ "1 Kill Sets 255 Level" ],
 			"listItemValues" : [ 12842457 ] 
 	   }
+	 },
+	 {
+		"name" : "Zelda",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "330BC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Sheik",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "330EC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Impa",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3311C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Ganon",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3314C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Darunia",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3317C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Ruto",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "331AC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Agitha",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "331DC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Imp Midna",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3320C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Fi",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3323C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Girahim",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3326C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Zant",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3329C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Lana",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "332CC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Cia",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "332FC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Volga",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3332C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Wizzro",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3335C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Twili Midna",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3338C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Young Link",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "333BC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Tingle",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "333EC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Linkle",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3347C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Skull Kid",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "334AC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Toon Link",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "334DC" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "Tetra",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3350C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
+	 },
+	 {
+		"name" : "King Daphnes",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3353C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
 	 }
 	]
 }
