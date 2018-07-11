@@ -1278,6 +1278,17 @@
 			"minValue" : 0,
 			"maxValue" : 999
 	   }
+	 },
+	 {
+		"name" : "Link",
+		"category" : "Max Experience",
+		"intArgs" : [ 4, 4 ],
+		"strArgs" : [ "0000", "3308C" ],
+		"widget" : {
+			"type" : "list",
+			"listItemNames" : [ "1 Kill Sets 255 Level" ],
+			"listItemValues" : [ 12842457 ] 
+	   }
 	 }
 	]
 }
