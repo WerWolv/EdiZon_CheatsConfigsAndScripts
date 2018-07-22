@@ -8,7 +8,7 @@ function convertToString(t)
 		str = str..string.char(arg)
 	end
 	
-	return	str
+	return str
 end
 
 function convertToTable(s)
@@ -32,6 +32,12 @@ function getValueFromSaveFile()
 	for i, tag in pairs(strArgs) do
 		if type(item) ~= "table" then break end
 	
+		if string.sub(tag, 1, 1) == "\\" then
+			tag = tonumber(string.sub(tag, 2, 2)) + 1
+			
+			if tag == nil then return 0 end
+		end
+	
 		item = item[tag]
 	end
 	
@@ -49,15 +55,21 @@ function setValueInSaveFile(value)
 	
 	local ref = items
 	
-	for i, arg in ipairs(strArgs) do
+	for i, tag in ipairs(strArgs) do
+		if string.sub(tag, 1, 1) == "\\" then
+			tag = tonumber(string.sub(tag, 2, 2)) + 1
+			
+			if tag == nil then return 0 end
+		end
+	
 		if i == #strArgs then
 			if intArgs[1] == 0 then
-				ref[arg] = value
+				ref[tag] = value
 			else
-				ref[arg] = (value == 1)
+				ref[tag] = (value == 1)
 			end
 		else 
-			ref = ref[arg]
+			ref = ref[tag]
 		end
 	end
 end
@@ -66,8 +78,6 @@ function getModifiedSaveFile()
 	encoded = json.encode(saveFileBuffer)
 	convertedTable = {}
 	convertedTable = convertToTable(encoded)
-		
-	print(convertedTable[#convertedTable - 1])
-		
+				
 	return convertedTable
 end
