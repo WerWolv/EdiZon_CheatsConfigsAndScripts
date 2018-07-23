@@ -2,15 +2,6 @@
 
 json = require("lib.json")
 
-function convertToString(t)
-	str = ""
-	for i, arg in ipairs(t) do
-		str = str..string.char(arg)
-	end
-	
-	return str
-end
-
 function convertToTable(s)
 	t = {}
 	
@@ -21,7 +12,7 @@ function convertToTable(s)
 	return t
 end
 
-saveFileBuffer = json.decode(convertToString(edizon.getSaveFileBuffer()))
+saveFileBuffer = json.decode(edizon.getSaveFileString())
 
 function getValueFromSaveFile()
 	strArgs = edizon.getStrArgs()
