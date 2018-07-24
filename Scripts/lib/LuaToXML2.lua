@@ -32,15 +32,15 @@ local function TableToXML_(Tab, Key2, Depth, Attributes2)
 					Attributes = Attributes:sub(1, #Attributes - 1)
 					
 					if Attributes:match("xsi:nil=\"true\"") then
-						Str = Str .. string.rep("\t", Depth) .. "<" .. tostring(Key) .. Attributes .. " />\n"
+						Str = Str .. string.rep("", Depth) .. "<" .. tostring(Key) .. Attributes .. " />"
 					else
-						Str = Str .. string.rep("\t", Depth) .. "<" .. tostring(Key) .. Attributes .. ">\n"
+						Str = Str .. string.rep("", Depth) .. "<" .. tostring(Key) .. Attributes .. ">"
 					end
 					
 					TableToXML_(Value, Key, Depth + 1, Attributes)
 					
 					if not Attributes:match("xsi:nil=\"true\"") then
-						Str = Str .. string.rep("\t", Depth) ..  "</" .. tostring(Key) .. ">\n"
+						Str = Str .. string.rep("", Depth) ..  "</" .. tostring(Key) .. ">"
 					end
 				end
 			end
@@ -56,27 +56,27 @@ local function TableToXML_(Tab, Key2, Depth, Attributes2)
 			
 			Attributes = Attributes:sub(1, #Attributes - 1)
 			if Attributes:match("xsi:nil=\"true\"") then
-				Str = Str .. string.rep("\t", Depth) ..  "<" .. tostring(Key2) .. Attributes .. " />\n"
+				Str = Str .. string.rep("", Depth) ..  "<" .. tostring(Key2) .. Attributes .. " />"
 			else
-				Str = Str .. string.rep("\t", Depth) ..  "<" .. tostring(Key2) .. Attributes .. ">\n"
+				Str = Str .. string.rep("", Depth) ..  "<" .. tostring(Key2) .. Attributes .. ">"
 			end
 			
 			TableToXML_(Value, Key, Depth + 1, Attributes)
 			if not Attributes:match("xsi:nil=\"true\"") then
-				Str = Str .. string.rep("\t", Depth) ..  "</" .. tostring(Key2) .. ">\n"
+				Str = Str .. string.rep("", Depth) ..  "</" .. tostring(Key2) .. ">"
 			end
 		
 		elseif type(Key) == "string" then
-			Str = Str .. string.rep("\t", Depth) ..  "<" .. tostring(Key) .. ">" .. tostring(Value) .. "</" .. tostring(Key) .. ">\n"
+			Str = Str .. string.rep("", Depth) ..  "<" .. tostring(Key) .. ">" .. tostring(Value) .. "</" .. tostring(Key) .. ">"
 		else
 			Attributes2 = Attributes2 or ""
-			Str = Str .. string.rep("\t", Depth) ..  "<" .. tostring(Key2) .. Attributes2 .. ">" .. tostring(Value) .. "</" .. tostring(Key2) .. ">\n"
+			Str = Str .. string.rep("", Depth) ..  "<" .. tostring(Key2) .. Attributes2 .. ">" .. tostring(Value) .. "</" .. tostring(Key2) .. ">"
 		end
 	end
 end 
 
 function P.TableToXML(Tab)
-	Str = "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n"
+	Str = "<?xml version=\"1.0\" encoding=\"utf-8\"?>"
 	
 	TableToXML_(Tab, "", 0)
 	

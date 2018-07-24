@@ -12,7 +12,8 @@ end
 
 local parser = xml2lua.parser(handler)
 local saveString = edizon.getSaveFileString()
-saveString = saveString:sub(4)
+startPosition = { string.find(saveString, "%<%?xml") }
+saveString = saveString:sub(startPosition[1])
 parser:parse(saveString)
 saveGame = handler.root
 	
