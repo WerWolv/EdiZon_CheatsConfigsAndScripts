@@ -24,14 +24,14 @@ function getValueFromSaveFile()
 		if type(item) ~= "table" then break end
 	
 		if string.sub(tag, 1, 1) == "\\" then
-			tag = tonumber(string.sub(tag, 2, 2)) + 1
+			tag = tonumber(tag:sub(2)) + 1
 			
 			if tag == nil then return 0 end
 		end
 	
 		item = item[tag]
 	end
-	
+		
 	if intArgs[1] == 0 then
 		return item
 	else
@@ -45,14 +45,12 @@ function setValueInSaveFile(value)
 	intArgs = edizon.getIntArgs()
 	
 	local ref = items
-	
+		
 	for i, tag in ipairs(strArgs) do
+		
 		if string.sub(tag, 1, 1) == "\\" then
-			tag = tonumber(string.sub(tag, 2, 2)) + 1
-			
-			if tag == nil then return 0 end
+			tag = tonumber(tag:sub(2)) + 1
 		end
-	
 		if i == #strArgs then
 			if intArgs[1] == 0 then
 				ref[tag] = value
@@ -62,6 +60,7 @@ function setValueInSaveFile(value)
 		else 
 			ref = ref[tag]
 		end
+		
 	end
 end
 
