@@ -71,7 +71,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -83,7 +83,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -227,7 +227,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -239,7 +239,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -383,7 +383,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -395,7 +395,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -539,7 +539,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -551,7 +551,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -695,7 +695,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -707,7 +707,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -851,7 +851,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -863,7 +863,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -1007,7 +1007,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -1019,7 +1019,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -1163,7 +1163,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
@@ -1175,7 +1175,7 @@
 		"widget": {
 			"type": "int",
 			"minValue": 0,
-			"maxValue": 9999,
+			"maxValue": 20000,
 			"stepSize": 50
 		}
 	},
