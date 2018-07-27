@@ -18,7 +18,7 @@ Config files go into the `/EdiZon/editor` folder, Script files go into the `/Edi
 | [Bayonetta 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007960049A0000.json) | bin.lua | madhatter |
 | [Mario + Rabbids : Kingdom Battle](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010067300059A000.json) | json.lua | madhatter |
 | [Mario Tennis Aces](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100BDE00862A000.json) | bin.lua | cubex |
-| [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100849000BDA000.json) | setsuna.lua | JojoTheGoat |
+| [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100849000BDA000.json) | setsuna.lua &  	lib/plc/md5.lua | JojoTheGoat |
 
 
 ## All Editor Script files
