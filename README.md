@@ -14,6 +14,7 @@ Config files go into the `/EdiZon/editor` folder, Script files go into the `/Edi
 | [Hollow Knight](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100633007D48000.json)                   | json.lua & lib/json.lua | WerWolv  |
 | [Octopath Traveler Prologue Demo](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010096000B3EA000.json) | octp.lua                | shahmirn and SleepyPrince |
 | [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk |
+| [Hyrule Warriors: Definitive Edition](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100AE00096EA000.json) | bin.lua | borntohonk and loganavatar |
 | [Bayonetta 1](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010076F0049A2000.json) | bin.lua | madhatter |
 | [Bayonetta 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007960049A0000.json) | bin.lua | madhatter |
 | [Mario + Rabbids : Kingdom Battle](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010067300059A000.json) | json.lua | madhatter |
