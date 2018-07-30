@@ -6,6 +6,10 @@ If you want yours to be added, please send them to @WerWolv98 or @thomasnet-mc o
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
+Before submitting a config file, please make sure it works correctly and run it through this site: https://jsonformatter.curiousconcept.com/ It will show you any syntax errors and formats the file nicely.
+
+Before submitting a script file, please vetify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
+
 ## All Editor Config files
 
 | Game                            | Requirements            | Author    |
