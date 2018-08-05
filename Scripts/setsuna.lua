@@ -1,6 +1,6 @@
 -- setsuna (modified bin.lua) --
 
-md5 = require("lib.plc.md5")
+md5 = require("lib.md5")
 
 saveFileBuffer = edizon.getSaveFileBuffer()
 
