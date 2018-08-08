@@ -25,6 +25,7 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 | [Mario Tennis Aces](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100BDE00862A000.json) | bin.lua | cubex |
 | [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100849000BDA000.json) | setsuna.lua & lib/md5.lua | JojoTheGoat |
 | [Puyo Puyo Tetris](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010053D0001BE000.json) | puyopuyo.lua & lib/checksum.lua | JojoTheGoat |
+| [Super Bomberman R](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007AD00013E000.json) | bin.lua | JojoTheGoat |
 
 
 ## All Editor Script files
