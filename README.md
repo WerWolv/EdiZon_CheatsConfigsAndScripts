@@ -43,7 +43,7 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 | ------------------------------- |:-----------------------:| ---------:|
 | [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100E95004038000.json)             | bin.lua                 | madhatter  |
 | [Adventure Time](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100C4E004406000.json)             | json.lua & lib/json.lua         | madhatter  |
-| [Fire Emblem Warriors](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100F15003E64000.json)             | json.lua & lib/json.lua         | madhatter  |
+| [Fire Emblem Warriors](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100F15003E64000.json)             | json.lua & lib/json.lua         | CrisFTW  |
 
 
 ## Pending Editor Script files
