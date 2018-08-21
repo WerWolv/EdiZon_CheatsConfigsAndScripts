@@ -433,7 +433,7 @@
 		"name" : "Level",
 		"category" : "7. Julienne",
 		"intArgs" : [ 2, 1 ], 
-		"strArgs" : [ "0000", "730E8" ],
+		"strArgs" : [ "0000", "73194" ],
 		"widget" : {
 			"type" : "int",
 			"minValue" : 1,
