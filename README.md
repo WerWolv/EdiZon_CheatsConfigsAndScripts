@@ -44,7 +44,8 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 | [Adventure Time](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100C4E004406000.json)             | json.lua & lib/json.lua         | madhatter  |
 | [Fire Emblem Warriors](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100F15003E64000.json)             | bin.lua         | CrisFTW & Brawl345  |
 | [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100849000BDA000.json) | setsuna.lua & lib/md5.lua | mrLewisFC |
-| [Party Planet](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0x01004F10066B0000.json)             | bin.lua         | trueicecold  |
+| [Party Planet](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/01004F10066B0000.json)             | bin.lua         | trueicecold  |
+| [Golf Story](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Pending/Configs/0100779004172000.json)             | bin.lua         | trueicecold  |
 
 ## Pending Editor Script files
 
