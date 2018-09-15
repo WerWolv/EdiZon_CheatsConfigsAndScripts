@@ -1,4 +1,5 @@
 {
+	"beta" : true,
 	"all": {
 		"saveFilePaths" : [ "" ],
 		"files" : "SAVEDATA\\d\\d",
@@ -12,8 +13,7 @@
 			"widget" : {
 				"type" : "int",
 				"minValue" : 0,
-				"maxValue" : 999999999,
-				"stepSize" : 5000
+				"maxValue" : 999999999
 		   } 
 		 },
 		 {

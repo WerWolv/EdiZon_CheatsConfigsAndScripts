@@ -1,4 +1,5 @@
 {
+	"beta" : true,
 	"all" : {
 		"saveFilePaths" : [ "Managers" ],
 		"files" : "PlayerManager.bs",

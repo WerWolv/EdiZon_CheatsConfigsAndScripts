@@ -1,4 +1,5 @@
 {
+	"beta" : true,
 	"all" : {
 		"saveFilePaths" : [ "" ],
 		"files" : "File[ABC]",
@@ -14,8 +15,7 @@
 				"widget" : {
 					"type" : "int",
 					"minValue" : 10,
-					"maxValue" : 255,
-                    "stepSize":1
+					"maxValue" : 255
 				}
             }
         ]

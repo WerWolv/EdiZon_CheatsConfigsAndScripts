@@ -1,4 +1,5 @@
 {
+	"beta" : true,
 	"all" : {
 		"saveFilePaths" : [ "" ],
 		"files" : "bf2savefile\\.sav",
