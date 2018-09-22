@@ -1,10 +1,21 @@
 {
-	"beta" : false,
+	"beta" : true,
 	"1.5.0" : {
 		"saveFilePaths" : [ "\\d" ],
 		"files" : "game_data\\.sav",
 		"filetype": "bin",
 		"items": [
+		 {
+			"name" : "Playtime (Seconds)",
+			"category" : "Other",
+			"intArgs" : [ 4, 4 ], 
+			"strArgs" : [ "0000", "75998" ],
+			"widget" : {
+				"type" : "int",
+				"minValue" : 0,
+				"maxValue" : 999999
+		   } 
+		 },
 		 {
 			"name" : "Rupee",
 			"category" : "Collectibles",
@@ -50,7 +61,7 @@
 		   }
 		 },
 		 {
-			"name" : "Rito Relic uses remaining.",
+			"name" : "Rito Relic uses remaining",
 			"category" : "Collectibles",
 			"intArgs" : [ 4, 4 ],
 			"strArgs" : [ "0000", "F9CC8" ],
@@ -58,6 +69,28 @@
 				"type" : "int",
 				"minValue" : 0,
 				"maxValue" : 99
+		   }
+		 }, 
+		 {
+			"name" : "Korok Seeds",
+			"category" : "Collectibles",
+			"intArgs" : [ 4, 4 ],
+			"strArgs" : [ "0000", "84908" ],
+			"widget" : {
+				"type" : "int",
+				"minValue" : 0,
+				"maxValue" : 900
+		   }
+		 }, 
+		{
+			"name" : "Motorcycle",
+			"category" : "Collectibles",
+			"intArgs" : [ 4, 4 ],
+			"strArgs" : [ "0000", "D2660" ],
+			"widget" : {
+				"type" : "bool",
+				"onValue" : 1,
+				"offValue" : 0
 		   }
 		 }, 
 		 {
