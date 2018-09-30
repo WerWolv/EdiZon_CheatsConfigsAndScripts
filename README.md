@@ -31,7 +31,8 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 | [Lost Sphear](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010077B0038B2000.json) | lostsphear.lua & lib/md5.lua | mrLewisFC | Yes |
 | [Party Planet](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004F10066B0000.json)             | bin.lua         | trueicecold  | Yes |
 | [Golf Story](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100779004172000.json)             | bin.lua         | trueicecold  | Yes |
-| [God Wars](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010076C009F02000.json)             | bin.lua         | mrLewisFC | Yes |
+| [God Wars](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F3D00B032000.json)             | bin.lua         | mrLewisFC | Yes |
+| [The Lost Child](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01008A000A404000.json)             | bin.lua         | mrLewisFC | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   | 
