@@ -3,6 +3,7 @@
 This is a little helper script, that I (Luro02)
 wrote to help making the config files more consistent
 and usable.
+[DEPRECATED] Please use npm install & npm test instead
 """
 import sys
 import json
