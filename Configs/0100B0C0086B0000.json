@@ -1,5 +1,5 @@
 {
-	"beta" : false,
+	"beta" : true,
 	"all" : {
 		"saveFilePaths" : [ "" ],
 		"files" : "GAMEDATA.bin",
