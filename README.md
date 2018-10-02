@@ -33,6 +33,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Golf Story](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100779004172000.json)             | bin.lua         | trueicecold  | Yes |
 | [God Wars](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F3D00B032000.json)             | bin.lua         | mrLewisFC | Yes |
 | [The Lost Child](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01008A000A404000.json)             | bin.lua         | mrLewisFC | Yes |
+| [Mega Man 11](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100B0C0086B0000.json)             | bin.lua         | jonyluke | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
