@@ -2,13 +2,13 @@
 
 This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor
 ](https://github.com/thomasnet-mc/EdiZon) to modify every Nintendo Switch save file.
-If you want yours to be added, please send them to @WerWolv98 or @thomasnet-mc or create a Pull Request.
+If you want yours to be added, please send them to @WerWolv98 or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
-Before submitting a config file, please make sure it works correctly and run it through this site: https://jsonformatter.curiousconcept.com/ It will show you any syntax errors and formats the file nicely or you can use the python3 script inside the "Tools"-folder.
+Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
 
-Before submitting a script file, please vetify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
+Before submitting a script file, please verify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
 
 ## Editor Config files
 
