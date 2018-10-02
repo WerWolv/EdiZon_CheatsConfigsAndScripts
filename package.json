@@ -1,0 +1,42 @@
+{
+	"name": "edizon_configsandscripts",
+	"version": "1.0.0",
+	"description": "This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor\r ](https://github.com/thomasnet-mc/EdiZon) to modify every Nintendo Switch save file.\r If you want yours to be added, please send them to @WerWolv98 or @thomasnet-mc or create a Pull Request.",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"ajv-cli": "^3.0.0",
+		"husky": "^1.1.0",
+		"lint-staged": "^7.3.0",
+		"prettier-eslint-cli": "^4.7.0"
+	},
+	"scripts": {
+		"formatter": "prettier-eslint --write --list-different \"./Configs/*.json\"",
+		"validator": "ajv -s ./Tools/Schemas/config.json -d \"./Configs/*.json\"",
+		"test": "npm run validator && npm run formatter"
+	},
+	"prettier": {
+		"useTabs": true
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "lint-staged"
+		}
+	},
+	"lint-staged": {
+		"./Configs/*.json": [
+			"prettier --write",
+			"git add"
+		]
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/WerWolv98/EdiZon_ConfigsAndScripts.git"
+	},
+	"author": "WerWolv98",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/issues"
+	},
+	"homepage": "https://github.com/WerWolv98/EdiZon_ConfigsAndScripts#readme"
+}

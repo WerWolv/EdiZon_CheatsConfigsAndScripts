@@ -2,13 +2,13 @@
 
 This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor
 ](https://github.com/thomasnet-mc/EdiZon) to modify every Nintendo Switch save file.
-If you want yours to be added, please send them to @WerWolv98 or @thomasnet-mc or create a Pull Request.
+If you want yours to be added, please send them to @WerWolv98 or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
-Before submitting a config file, please make sure it works correctly and run it through this site: https://jsonformatter.curiousconcept.com/ It will show you any syntax errors and formats the file nicely or you can use the python3 script inside the "Tools"-folder.
+Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
 
-Before submitting a script file, please vetify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
+Before submitting a script file, please verify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
 
 ## Editor Config files
 
@@ -16,7 +16,7 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 |:-------------------------------:|:-----------------------:|:---------:|:--------:|
 | [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | bin.lua                 | WerWolv  | No |
 | [Hollow Knight](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100633007D48000.json)                   | json.lua & lib/json.lua | WerWolv  | No |
-| [Octopath Traveler](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E66006406000.json) | octp.lua      | shahmirn and SleepyPrince | No |
+| [Octopath Traveler](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E66006406000.json) | octp.lua      | shahmirn, SleepyPrince & @x43x61x69 | No |
 | [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk & macia10 | Yes |
 | [Hyrule Warriors: Definitive Edition](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100AE00096EA000.json) | bin.lua | borntohonk and loganavatar | No |
 | [Bayonetta 1](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010076F0049A2000.json) | bin.lua | madhatter | No |
@@ -35,7 +35,7 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 | [The Lost Child](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01008A000A404000.json)             | bin.lua         | mrLewisFC | Yes |
 
 ## Editor Script files
-| Script                            | Requirements            | Author    | Beta   | 
+| Script                            | Requirements            | Author    | Beta   |
 |:---------------------------------:|:-----------------------:|:---------:|:------:|
 | [Binary](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/bin.lua) | None                 | WerWolv  | No |
 | [JSON](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/json.lua) | [lib/json.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/json.lua) | WerWolv  | No |
@@ -43,4 +43,3 @@ Before submitting a script file, please vetify that it works with EdiZon. Change
 | [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/setsuna.lua) | [lib/md5.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/md5.lua) | JojoTheGoat | No |
 | [Puyo Puyo Tetris](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/puyopuyo.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua) | JojoTheGoat | No |
 | [Lost Sphear](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lostsphear.lua) | [lib/md5.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/md5.lua) | mrLewisFC | Yes |
-
