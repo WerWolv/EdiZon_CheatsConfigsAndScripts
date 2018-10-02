@@ -44,10 +44,9 @@
 			"intArgs": [ 2, 2, 1 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -56,10 +55,9 @@
 			"intArgs": [ 2, 2, 1 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -211,10 +209,9 @@
 			"intArgs": [ 2, 2, 2 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -223,10 +220,9 @@
 			"intArgs": [ 2, 2, 2 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -378,10 +374,9 @@
 			"intArgs": [ 2, 2, 3 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -390,10 +385,9 @@
 			"intArgs": [ 2, 2, 3 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -545,10 +539,9 @@
 			"intArgs": [ 2, 2, 4 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -557,10 +550,9 @@
 			"intArgs": [ 2, 2, 4 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -712,10 +704,9 @@
 			"intArgs": [ 2, 2, 5 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -724,10 +715,9 @@
 			"intArgs": [ 2, 2, 5 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -879,10 +869,9 @@
 			"intArgs": [ 2, 2, 6 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -891,10 +880,9 @@
 			"intArgs": [ 2, 2, 6 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -1046,10 +1034,9 @@
 			"intArgs": [ 2, 2, 7 ],
 			"strArgs": [ "F0000", "0225", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -1058,10 +1045,9 @@
 			"intArgs": [ 2, 2, 7 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
@@ -1208,15 +1194,25 @@
 			}
 		},
 		{
+			"name": "Job (Primary)",
+			"category": "9. Alfyn",
+			"intArgs": [ 2, 2, 8 ],
+			"strArgs": [ "F0000", "0225", "CharacterID" ],
+			"widget": {
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
+			}
+		},
+		{
 			"name": "Job (Secondary)",
 			"category": "9. Alfyn",
 			"intArgs": [ 2, 2, 8 ],
 			"strArgs": [ "F0000", "0276", "CharacterID" ],
 			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 11,
-				"stepSize": 1
+				"type" : "list",
+				"listItemNames" : [ "Merchant", "Thief", "Warrior", "Hunter", "Cleric", "Dancer", "Scholar", "Apothecary", "Warmaster", "Sorcerer", "Starseeker", "Runelord" ],
+				"listItemValues" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 ]
 			}
 		},
 		{
