@@ -1,0 +1,21 @@
+{
+	"beta" : true,
+	"all" : {
+		"saveFilePaths" : [ "" ],
+		"files" : "GAMEDATA.bin",
+		"filetype": "bin",
+		"items": [
+		{
+		  "name" : "Bolt",
+		  "category" : "Money",
+		  "intArgs" : [ 4, 4 ], 
+		  "strArgs" : [ "0000", "0B00" ],
+		  "widget" : {
+			"type" : "int",
+			"minValue" : 0,
+			"maxValue" : 999999
+		  }
+		}
+		]
+	}	
+}
