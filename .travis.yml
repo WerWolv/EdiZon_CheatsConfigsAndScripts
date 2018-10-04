@@ -4,3 +4,10 @@ node_js:
 cache:
   directories:
     - "node_modules"
+deploy:
+  skip_cleanup: true
+  provider: script
+  script: bash Tools/travis_deploy.sh
+  on:
+    all_branches: true
+    condition: $TRAVIS_EVENT_TYPE  =~ ^api|cron$
