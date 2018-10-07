@@ -35,7 +35,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [The Lost Child](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01008A000A404000.json)             | bin.lua         | mrLewisFC | Yes |
 | [Mega Man 11](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100B0C0086B0000.json)             | bin.lua         | jonyluke | Yes |
 | [Yooka Laylee](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F110029C8000.json)             | json.lua         | WerWolv | Yes |010036B0034E4000
-| [Yooka Laylee](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010036B0034E4000.json)             | bin.lua         | WerWolv | Yes |
+| [Super Mario Party](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010036B0034E4000.json)             | bin.lua         | WerWolv | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
