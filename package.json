@@ -8,12 +8,12 @@
 		"ajv-cli": "^3.0.0",
 		"husky": "^1.1.0",
 		"lint-staged": "^7.3.0",
-		"prettier-eslint-cli": "^4.7.0"
+		"prettier": "^1.14.0"
 	},
 	"scripts": {
-		"formatter": "prettier-eslint --write --list-different \"./Configs/*.json\"",
-		"validator": "ajv -s ./Tools/Schemas/config.json -d \"./Configs/*.json\"",
-		"test": "npm run validator && npm run formatter"
+		"formatter": "prettier --write -l \"./Configs/*.json\"",
+		"validator": "ajv -s ./Tools/Schemas/config.json -d \"./Configs/*.json\" --unknown-formats=ignore",
+		"test": "npm run validator"
 	},
 	"prettier": {
 		"useTabs": true
