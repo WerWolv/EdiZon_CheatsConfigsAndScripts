@@ -1,0 +1,132 @@
+{
+	"beta": true,
+	"all": {
+		"saveFilePaths": [""],
+		"files": "save.001",
+		"filetype": "bin",
+		"items": [
+			{
+				"name": "HL",
+				"category": "Money",
+				"intArgs": [0, 8],
+				"strArgs": ["0000", "0290"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 9999999999999
+				}
+            },
+            {
+                "name": "HP",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "1184"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "Mana",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "11E4"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 9999999
+				}
+            },
+            {
+                "name": "SP",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "1180"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "ATT",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "118C"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "DEF",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "1190"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "HIT",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "119C"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "INT",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "1184"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "SPD",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "1198"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                "name": "RES",
+				"category": "Laharl",
+				"intArgs": [0, 4],
+				"strArgs": ["0000", "11A8"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 10000000
+				}
+            },
+            {
+                
+                "name": "EXP? - You probably shouldn't use this...",
+				"category": "Laharl",
+				"intArgs": [0, 8],
+				"strArgs": ["0000", "0BB0"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 70000000000
+				}
+			}
+		]
+	}
+}
