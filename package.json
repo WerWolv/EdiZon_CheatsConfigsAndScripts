@@ -12,7 +12,7 @@
 	},
 	"scripts": {
 		"formatter": "prettier --write -l \"./Configs/*.json\"",
-		"validator": "ajv -s ./Tools/Schemas/config.json -d \"./Configs/*.json\"",
+		"validator": "ajv -s ./Tools/Schemas/config.json -d \"./Configs/*.json\" --unknown-formats=ignore",
 		"test": "npm run validator"
 	},
 	"prettier": {
