@@ -37,6 +37,8 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Yooka Laylee](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F110029C8000.json)             | json.lua         | WerWolv | Yes |010036B0034E4000
 | [Super Mario Party](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010036B0034E4000.json)             | bin.lua         | WerWolv | Yes |
 | [Disgaea 1: Complete](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004B100AF18000.json)             | bin.lua         | findonovan95 | Yes |
+| [Dark Souls Remastered](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004AB00A260000.json)             | darksouls.lua         | drdrjojo | Yes |
+
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
