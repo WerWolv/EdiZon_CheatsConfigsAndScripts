@@ -77,7 +77,3 @@ end
 function getModifiedSaveFile()
 	return saveFileBuffer
 end
-
-function getModifiedSaveFile()
-	return saveFileBuffer
-end
