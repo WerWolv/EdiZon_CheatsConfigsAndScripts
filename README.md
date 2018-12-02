@@ -39,6 +39,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Disgaea 1: Complete](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004B100AF18000.json)             | bin.lua         | findonovan95 | Yes |
 | [Dark Souls Remastered](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004AB00A260000.json)             | darksouls.lua         | Jojo | Yes |
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01006A800016E000.json)             | smash.lua         | mrLewisFC | Yes |
+| [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C1F0051B6000.json)           | dktf.lua          | kindofblues | Yes |
 
 
 ## Editor Script files
@@ -52,4 +53,5 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Lost Sphear](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lostsphear.lua) | [lib/md5.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/md5.lua) | mrLewisFC | Yes |
 | [Dark Souls Remastered](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/darksouls.lua) | [lib/md5.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/md5.lua) | Jojo | Yes |
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/smash.lua) | None | mrLewisFC | Yes |
+| [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/dktf.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | kindofblues | Yes |
 
