@@ -1,0 +1,32 @@
+{
+	"beta": true,
+	"all": {
+		"saveFilePaths": [""],
+		"files": "save.bin",
+		"filetype": "dktf",
+		"items": [
+			{
+				"name": "Red Balloons",
+				"category": "Inventory",
+				"intArgs": [2, 1],
+				"strArgs": ["0000", "0873"],
+				"widget": {
+					"type": "int",
+					"minValue": 1,
+					"maxValue": 99
+				}
+			},
+			{
+				"name": "Banana Coins",
+				"category": "Inventory",
+				"intArgs": [2, 2],
+				"strArgs": ["0000", "086E"],
+				"widget": {
+					"type": "int",
+					"minValue": 0,
+					"maxValue": 999
+				}
+			}
+		]
+	}
+}
