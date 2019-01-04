@@ -2,7 +2,7 @@
 
 This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor
 ](https://github.com/thomasnet-mc/EdiZon) to modify every Nintendo Switch save file.
-If you want yours to be added, please send them to @WerWolv98 or create a Pull Request.
+If you want yours to be added, please send them to @WerWolv#1337 on Discord or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
