@@ -17,7 +17,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | bin.lua                 | WerWolv  | No |
 | [Hollow Knight](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100633007D48000.json)                   | json.lua & lib/json.lua | WerWolv  | No |
 | [Octopath Traveler](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E66006406000.json) | octp.lua      | shahmirn, SleepyPrince & @x43x61x69 | No |
-| [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk & macia10 | Yes |
+| [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk & macia10 | No |
 | [Hyrule Warriors: Definitive Edition](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100AE00096EA000.json) | bin.lua | borntohonk and loganavatar | No |
 | [Bayonetta 1](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010076F0049A2000.json) | bin.lua | madhatter | No |
 | [Bayonetta 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007960049A0000.json) | bin.lua | madhatter | No |
@@ -30,12 +30,12 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Fire Emblem Warriors](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F15003E64000.json)             | bin.lua         | CrisFTW & Brawl345  | No |
 | [Lost Sphear](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010077B0038B2000.json) | lostsphear.lua & lib/md5.lua | mrLewisFC | Yes |
 | [Party Planet](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004F10066B0000.json)             | bin.lua         | trueicecold  | Yes |
-| [Golf Story](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100779004172000.json)             | bin.lua         | trueicecold  | Yes |
+| [Golf Story](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100779004172000.json)             | bin.lua         | trueicecold  | No |
 | [God Wars](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F3D00B032000.json)             | bin.lua         | mrLewisFC | Yes |
 | [The Lost Child](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01008A000A404000.json)             | bin.lua         | mrLewisFC | Yes |
 | [Mega Man 11](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100B0C0086B0000.json)             | bin.lua         | jonyluke | Yes |
-| [Yooka Laylee](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F110029C8000.json)             | json.lua         | WerWolv | Yes |010036B0034E4000
-| [Super Mario Party](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010036B0034E4000.json)             | bin.lua         | WerWolv | Yes |
+| [Yooka Laylee](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F110029C8000.json)             | json.lua         | WerWolv | No |010036B0034E4000
+| [Super Mario Party](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010036B0034E4000.json)             | bin.lua         | WerWolv | No |
 | [Disgaea 1: Complete](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004B100AF18000.json)             | bin.lua         | findonovan95 | Yes |
 | [Dark Souls Remastered](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004AB00A260000.json)             | darksouls.lua         | Jojo | Yes |
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01006A800016E000.json)             | smash.lua         | mrLewisFC | Yes |
