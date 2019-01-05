@@ -25,7 +25,6 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100849000BDA000.json) | setsuna.lua & lib/md5.lua | Jojo & mrLewisFC | Yes |
 | [Puyo Puyo Tetris](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010053D0001BE000.json) | puyopuyo.lua & lib/checksum.lua | Jojo | No |
 | [Super Bomberman R](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007AD00013E000.json) | bin.lua | Jojo | No |
-| [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E95004038000.json)             | bin.lua                 | madhatter  | Yes |
 | [Adventure Time](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C4E004406000.json)             | json.lua & lib/json.lua         | madhatter  | No |
 | [Fire Emblem Warriors](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100F15003E64000.json)             | bin.lua         | CrisFTW & Brawl345  | No |
 | [Lost Sphear](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/010077B0038B2000.json) | lostsphear.lua & lib/md5.lua | mrLewisFC | Yes |
