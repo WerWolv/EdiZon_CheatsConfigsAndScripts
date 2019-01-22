@@ -1,10 +1,10 @@
 -- New Super Mario Bros U Deluxe (modified bin) --
 -- by DNA
 
+
 checksum = require("lib.checksum")
 
 saveFileBuffer = edizon.getSaveFileBuffer()
-
 
 function getValueFromSaveFile()
 	strArgs = edizon.getStrArgs()
@@ -41,6 +41,10 @@ function setValueInSaveFile(value)
 	valueSize = intArgs[2]
 	
 	offset = 0
+	struct_size = 0x207
+	qs1=0xC40
+	qs2=0xE48
+	qs3=0x1050
 	
 	if indirectAddress ~= 0 then
 		for i = 0, addressSize - 1 do
@@ -56,6 +60,39 @@ function setValueInSaveFile(value)
 		for i = 0, valueSize - 1 do
 			saveFileBuffer[offset + address + i + 1] = (value & (0xFF << i * 8)) >> (i * 8)
 		end
+	end
+	
+	if saveFileBuffer[qs1] > 0 then
+		for i = 0, struct_size - 4 do
+			saveFileBuffer[i + qs1 + 1] = 0
+		end
+		
+		saveFileBuffer[qs1 + struct_size - 2] = 0xAC
+		saveFileBuffer[qs1 + struct_size - 1] = 0x72
+		saveFileBuffer[qs1 + struct_size] = 0x7B
+		saveFileBuffer[qs1 + struct_size + 1] = 0x17
+	end
+	
+	if saveFileBuffer[qs2] > 0 then
+		for i = 0, struct_size - 4 do
+			saveFileBuffer[i + qs2 + 1] = 0
+		end
+		
+		saveFileBuffer[qs2 + struct_size - 2] = 0xAC
+		saveFileBuffer[qs2 + struct_size - 1] = 0x72
+		saveFileBuffer[qs2 + struct_size] = 0x7B
+		saveFileBuffer[qs2 + struct_size + 1] = 0x17
+	end
+	
+	if saveFileBuffer[qs3] > 0 then
+		for i = 0, struct_size - 4 do
+			saveFileBuffer[i + qs3 + 1] = 0
+		end
+		
+		saveFileBuffer[qs3 + struct_size - 2] = 0xAC
+		saveFileBuffer[qs3 + struct_size - 1] = 0x72
+		saveFileBuffer[qs3 + struct_size] = 0x7B
+		saveFileBuffer[qs3 + struct_size + 1] = 0x17
 	end
 
 end
