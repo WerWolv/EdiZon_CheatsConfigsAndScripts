@@ -42,6 +42,9 @@ function setValueInSaveFile(value)
 	
 	offset = 0
 	struct_size = 0x207
+	s1=0x10
+	s2=0x218
+	s3=0x420
 	qs1=0xC40
 	qs2=0xE48
 	qs3=0x1050
@@ -52,18 +55,16 @@ function setValueInSaveFile(value)
 		end
 	end
 	
-	if dummy == "Lives" then
-		for i = 0, 4 do
-			saveFileBuffer[offset + address + i + 1] = value
-		end
-	else
-		for i = 0, valueSize - 1 do
-			saveFileBuffer[offset + address + i + 1] = (value & (0xFF << i * 8)) >> (i * 8)
-		end
-	end
 	
-	if saveFileBuffer[qs1] > 0 then
-		for i = 0, struct_size - 4 do
+	if saveFileBuffer[qs1+1] > 0 then
+	
+		--print(saveFileBuffer[qs1+1])
+	
+		for i = 0, struct_size - 3 do
+
+			saveFileBuffer[i + s1 + 1] = saveFileBuffer[i + qs1 + 1]
+			--print(s1 + i .. "-" .. qs1 + i)
+			--print(saveFileBuffer[i + s1 + 1] .. "-" .. saveFileBuffer[i + qs1 + 1] .. "\n")
 			saveFileBuffer[i + qs1 + 1] = 0
 		end
 		
@@ -73,8 +74,9 @@ function setValueInSaveFile(value)
 		saveFileBuffer[qs1 + struct_size + 1] = 0x17
 	end
 	
-	if saveFileBuffer[qs2] > 0 then
-		for i = 0, struct_size - 4 do
+	if saveFileBuffer[qs2+1] > 0 then
+		for i = 0, struct_size - 3 do
+			saveFileBuffer[i + s2 + 1] = saveFileBuffer[i + qs2 + 1]
 			saveFileBuffer[i + qs2 + 1] = 0
 		end
 		
@@ -84,8 +86,9 @@ function setValueInSaveFile(value)
 		saveFileBuffer[qs2 + struct_size + 1] = 0x17
 	end
 	
-	if saveFileBuffer[qs3] > 0 then
-		for i = 0, struct_size - 4 do
+	if saveFileBuffer[qs3+1] > 0 then
+		for i = 0, struct_size - 3 do
+			saveFileBuffer[i + s3 + 1] = saveFileBuffer[i + qs3 + 1]
 			saveFileBuffer[i + qs3 + 1] = 0
 		end
 		
@@ -95,6 +98,16 @@ function setValueInSaveFile(value)
 		saveFileBuffer[qs3 + struct_size + 1] = 0x17
 	end
 
+		if dummy == "Lives" then
+		for i = 0, 4 do
+			saveFileBuffer[offset + address + i + 1] = value
+		end
+	else
+		for i = 0, valueSize - 1 do
+			saveFileBuffer[offset + address + i + 1] = (value & (0xFF << i * 8)) >> (i * 8)
+		end
+	end
+	
 end
 
 
