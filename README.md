@@ -41,6 +41,8 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C1F0051B6000.json)           | dktf.lua          | kindofblues | Yes |
 | [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100EA80032EA000.json)           | nsmbud.lua          | DNA | Yes |
 | [Stardew Valley](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E65002BB8000.json)           | xml.py          | echo000 & WerWolv | Yes |
+| [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E95004038000.json)           | bin.lua          | madhatter & macia10 | Yes |
+| [Xenoblade Chronicles 2 Torna Golden Country Stand Alone](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C9F009F7A000.json)           | torna.py          | macia10 | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
@@ -57,4 +59,5 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/smash.lua) | None | mrLewisFC | Yes |
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/dktf.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | kindofblues | Yes |
 | [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | DNA | Yes |
+| [Torna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | None  | macia10 | Yes |
 
