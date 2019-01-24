@@ -1,4 +1,6 @@
 {
+	"author": "DNA",
+	"scriptLanguage": "lua",
 	"beta": true,
 	"all": [
 		{
