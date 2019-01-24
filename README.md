@@ -59,5 +59,5 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/smash.lua) | None | mrLewisFC | Yes |
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/dktf.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | kindofblues | Yes |
 | [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | DNA | Yes |
-| [Torna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | None  | macia10 | Yes |
+| [Torna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/torna.py) | None  | macia10 | Yes |
 
