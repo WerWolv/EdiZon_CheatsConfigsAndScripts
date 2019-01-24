@@ -40,13 +40,15 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01006A800016E000.json)             | smash.lua         | mrLewisFC | Yes |
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C1F0051B6000.json)           | dktf.lua          | kindofblues | Yes |
 | [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100EA80032EA000.json)           | nsmbud.lua          | DNA | Yes |
-
+| [Stardew Valley](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E65002BB8000.json)           | xml.py          | echo000 & WerWolv | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
 |:---------------------------------:|:-----------------------:|:---------:|:------:|
-| [Binary](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/bin.lua) | None                 | WerWolv  | No |
+| [Binary (Lua)](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/bin.lua) | None                 | WerWolv  | No |
+| [Binary (Python)](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/bin.py) | None  | WerWolv | Yes |
 | [JSON](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/json.lua) | [lib/json.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/json.lua) | WerWolv  | No |
+| [XML](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | [lib/python3.5/xmltodict.py](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/python3.5/xmltodict.py)  | WerWolv | Yes |
 | [Octopath Traveler (UE4 GVAS)](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/octp.lua) | None | shahmirn and SleepyPrince | No |
 | [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/setsuna.lua) | [lib/md5.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/md5.lua) | Jojo | No |
 | [Puyo Puyo Tetris](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/puyopuyo.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua) | Jojo | No |
