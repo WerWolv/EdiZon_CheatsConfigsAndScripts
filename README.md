@@ -43,6 +43,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Stardew Valley](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E65002BB8000.json)           | xml.py          | echo000 & WerWolv | Yes |
 | [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E95004038000.json)           | bin.lua          | madhatter & macia10 | Yes |
 | [Xenoblade Chronicles 2 Torna Golden Country Stand Alone](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C9F009F7A000.json)           | torna.py          | macia10 | Yes |
+| [Celeste](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01002B30028F6000.json)           | xml.py          | WerWolv | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
