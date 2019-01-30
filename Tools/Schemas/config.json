@@ -1,21 +1,36 @@
 {
 	"type": "object",
 	"title": "EdiZon",
-	"minProperties": 1,
+	"minProperties": 3,
 	"propertyNames": {
-		"pattern": "^(?:useInstead|beta|all|(?:\\d+\\.\\d+\\.\\d+[ ]?)+)$"
+		"pattern": "^(?:useInstead|beta|all|author|scriptLanguage|(?:\\d+\\.\\d+\\.\\d+[ ]?)+)$"
 	},
-	"oneOf": [
+	"allof": [
 		{
 			"title": "Config",
-			"defaultProperties": ["beta", "all"],
+			"defaultProperties": ["beta", "all", "author", "scriptLanguage" ],
 			"properties": {
 				"beta": {
 					"$id": "#/properties/beta",
-					"type": "boolean",
+					"type": "string",
 					"title": "Beta Config",
 					"description": "Script developers must set this to true so it shows up as Beta config in EdiZon. This will be set to false once the config has been available for some time without any issues.",
 					"default": true
+				},
+              	"author": {
+					"$id": "#/properties/author",
+					"type": "string",
+					"title": "Config author",
+					"description": "Original creator of this config. This name will be credited inside the editor.",
+					"default": ""
+				},
+              	"scriptLanguage": {
+					"$id": "#/properties/scriptLanguage",
+					"type": "string",
+					"title": "Config author",
+                  	"enum" : [ "lua", "python" ],
+					"description": "Which script language should be used.",
+					"default": "lua"
 				}
 			},
 			"additionalProperties": {
@@ -117,7 +132,7 @@
 										"type": "array",
 										"title": "Integer Arguments",
 										"description": "Integer arguments that get sent 1:1 to the Editor-Script when executed. They depend on the Editor-Script implementation. Check out the Editor-Script file Wiki page for more information.",
-										"minItems": 1,
+										"minItems": 0,
 										"additionalItems": true,
 										"items": {
 											"$id": "#/properties/all/items/items/items/properties/intArgs/items",
@@ -132,7 +147,7 @@
 										"type": "array",
 										"title": "String Arguments",
 										"description": "String arguments that get sent 1:1 to the Editor-Script when executed. They depend on the Editor-Script implementation. Check out the Editor-Script file Wiki page for more information.",
-										"minItems": 1,
+										"minItems": 0,
 										"items": {
 											"$id": "#/properties/all/items/items/items/properties/strArgs/items",
 											"type": "string",
@@ -149,7 +164,7 @@
 											"type": {
 												"$id": "#/properties/all/items/items/items/properties/widget/properties/type",
 												"type": "string",
-												"enum": ["int", "bool", "list"],
+												"enum": ["int", "bool", "list", "string", "button", "comment"],
 												"title": "Type",
 												"description": "Configures the type of widget that gets used. Currently there are int, bool and list which generate a numeric up-down scroller, a switch and a list selection.",
 												"default": "int"
@@ -177,14 +192,6 @@
 														"title": "Maximum Value",
 														"description": "Specific for integer types. This is the maximum value the allowed to be set before it wraps around.",
 														"default": 99
-													},
-													"stepSize": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/stepSize",
-														"type": "integer",
-														"title": "Step Size",
-														"description": "Specific for integer types. This defines how big the steps are when changing a value. Multipliers will be applied to this as well. If unset, 1 will be used.",
-														"default": 1,
-														"examples": [100]
 													},
 													"readEquation": {
 														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/readEquation",
@@ -263,6 +270,64 @@
 															"title": "Item Value",
 															"examples": [123, 456, 789]
 														}
+													}
+												}
+											},
+											{
+												"title": "String Widget",
+												"additionalProperties": false,
+												"required": ["minLength", "maxLength"],
+												"properties": {
+													"type": {
+														"enum": ["string"]
+													},
+													"minLength": {
+														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/minLength",
+														"type": ["integer"],
+														"title": "Minimum string length",
+														"description": "Specific for string types. This is the minimum length of the string that has to be input to be accepted.",
+														"default": 1
+													},
+													"maxLength": {
+														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/maxLength",
+														"type": ["integer"],
+														"title": "Maximum string length",
+														"description": "Specific for string types. This is the maximum length of the string that has to be input to be accepted.",
+														"default": 10
+													}
+												}
+											},
+											{
+												"title": "Button Widget",
+												"additionalProperties": false,
+												"required": ["function"],
+												"properties": {
+													"type": {
+														"enum": ["button"]
+													},
+													"function": {
+														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/function",
+														"type": ["string"],
+														"title": "Function to be called",
+														"description": "Specific for button types. This is the name of the lua or python function to be called when clicking on that widget.",
+														"default": ""
+													}
+												}
+											},
+											{
+												"title": "Comment Widget",
+												"additionalProperties": false,
+												"required": ["comment"],
+												"properties": {
+													"type": {
+														"enum": ["comment"]
+													},
+													"comment": {
+														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/comment",
+														"type": ["string"],
+														"title": "Comment",
+														"description": "Specific for comment types. This text will get displayed in light gray on the comment widget. If the user selects it with A, a popup will appear that displays the entire text. You need to manually add \n for a new line.",
+														"default": ""
 													}
 												}
 											}
