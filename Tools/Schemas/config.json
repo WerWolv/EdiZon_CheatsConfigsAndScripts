@@ -1,34 +1,34 @@
 {
 	"type": "object",
 	"title": "EdiZon",
-	"minProperties": 3,
+	"minProperties": 1,
 	"propertyNames": {
 		"pattern": "^(?:useInstead|beta|all|author|scriptLanguage|(?:\\d+\\.\\d+\\.\\d+[ ]?)+)$"
 	},
-	"allof": [
+	"oneOf": [
 		{
 			"title": "Config",
-			"defaultProperties": ["beta", "all", "author", "scriptLanguage" ],
+			"defaultProperties": ["beta", "all", "author", "scriptLanguage"],
 			"properties": {
 				"beta": {
 					"$id": "#/properties/beta",
-					"type": "string",
+					"type": "boolean",
 					"title": "Beta Config",
 					"description": "Script developers must set this to true so it shows up as Beta config in EdiZon. This will be set to false once the config has been available for some time without any issues.",
 					"default": true
 				},
-              	"author": {
+				"author": {
 					"$id": "#/properties/author",
 					"type": "string",
 					"title": "Config author",
 					"description": "Original creator of this config. This name will be credited inside the editor.",
 					"default": ""
 				},
-              	"scriptLanguage": {
+				"scriptLanguage": {
 					"$id": "#/properties/scriptLanguage",
 					"type": "string",
 					"title": "Config author",
-                  	"enum" : [ "lua", "python" ],
+					"enum": ["lua", "py"],
 					"description": "Which script language should be used.",
 					"default": "lua"
 				}
@@ -164,7 +164,14 @@
 											"type": {
 												"$id": "#/properties/all/items/items/items/properties/widget/properties/type",
 												"type": "string",
-												"enum": ["int", "bool", "list", "string", "button", "comment"],
+												"enum": [
+													"int",
+													"bool",
+													"list",
+													"string",
+													"button",
+													"comment"
+												],
 												"title": "Type",
 												"description": "Configures the type of widget that gets used. Currently there are int, bool and list which generate a numeric up-down scroller, a switch and a list selection.",
 												"default": "int"
@@ -192,6 +199,14 @@
 														"title": "Maximum Value",
 														"description": "Specific for integer types. This is the maximum value the allowed to be set before it wraps around.",
 														"default": 99
+													},
+													"stepSize": {
+														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/stepSize",
+														"type": "integer",
+														"title": "Step Size",
+														"description": "Specific for integer types. This defines how big the steps are when changing a value. Multipliers will be applied to this as well. If unset, 1 will be used.",
+														"default": 1,
+														"examples": [100]
 													},
 													"readEquation": {
 														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/readEquation",
