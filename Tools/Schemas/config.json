@@ -87,6 +87,12 @@
 							"description": "Specifies which Editor-Script file gets used to do the parsing. If bin.lua should get used, enter bin.",
 							"default": "bin"
 						},
+                      	"startupMessage": {
+							"$id": "#/properties/1.0.0/properties/startupMessage",
+							"type": "string",
+							"description": "Message that gets displayed to the user right after the config loads. Used for hints and warnings before using the config.",
+							"title": "Startup Message"
+						},
 						"items": {
 							"$id": "#/properties/all/items/items",
 							"type": "array",
@@ -155,6 +161,12 @@
 											"examples": ["001C", "0050"]
 										}
 									},
+                                  	"tooltip": {
+                                        "$id": "#/properties/1.0.0/properties/tooltip",
+                                        "type": "string",
+                                        "description": "Additional information for every widget that gets displayed when hovering over the widget for a few seconds",
+                                        "title": "Tooltip"
+                                    },
 									"widget": {
 										"$id": "#/properties/all/items/items/items/properties/widget",
 										"type": "object",
