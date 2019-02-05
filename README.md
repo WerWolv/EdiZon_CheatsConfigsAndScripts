@@ -44,6 +44,8 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E95004038000.json)           | bin.lua          | madhatter & macia10 | Yes |
 | [Xenoblade Chronicles 2 Torna Golden Country Stand Alone](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C9F009F7A000.json)           | torna.py          | macia10 | Yes |
 | [Celeste](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01002B30028F6000.json)           | xml.py          | WerWolv | Yes |
+| [Mario Kart 8](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100152000022000.json)           | mk8.py          | Ac_K | No |
+| [Kirby Star Allies](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007E3006DDA000.json)           | kirbysa.py          | Ac_K | No |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
@@ -61,4 +63,5 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/dktf.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | kindofblues | Yes |
 | [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | DNA | Yes |
 | [Torna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/torna.py) | None  | macia10 | Yes |
-
+| [Mario Kart 8](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/mk8.py) | None  | Ac_K | No |
+| [Kirby Star Allies](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/kirbysa.py) | None  | Ac_K | No |
