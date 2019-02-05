@@ -11,8 +11,8 @@
 				{
 					"name": "INFO",
 					"category": "INFO",
-					"intArgs": [ ],
-					"strArgs": [ ],
+					"intArgs": [],
+					"strArgs": [],
 					"widget": {
 						"type": "comment",
 						"comment": "It is not possible, to create\na save file with this editor.\nStart a new game, open the menu and\n'Quick Save' the game."
@@ -32,8 +32,8 @@
 				{
 					"name": "Readme",
 					"category": "Save Slot 1",
-					"intArgs": [ ],
-					"strArgs": [ ],
+					"intArgs": [],
+					"strArgs": [],
 					"widget": {
 						"type": "comment",
 						"comment": "There is some strange behavior\n if you start with the crown power up"
@@ -323,8 +323,8 @@
 				{
 					"name": "Readme",
 					"category": "Save Slot 2",
-					"intArgs": [ ],
-					"strArgs": [ ],
+					"intArgs": [],
+					"strArgs": [],
 					"widget": {
 						"type": "comment",
 						"comment": "There is some strange behavior\n if you start with the crown power up"
@@ -614,8 +614,8 @@
 				{
 					"name": "Readme",
 					"category": "Save Slot 3",
-					"intArgs": [ ],
-					"strArgs": [ ],
+					"intArgs": [],
+					"strArgs": [],
 					"widget": {
 						"type": "comment",
 						"comment": "There is some strange behavior\n if you start with the crown power up"
