@@ -14,7 +14,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 
 | Game                            | Requirements            | Author    | Beta     |
 |:-------------------------------:|:-----------------------:|:---------:|:--------:|
-| [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | bin.lua                 | WerWolv  | No |
+| [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | smo.py, lib/byml.py & lib/python3.5/sortedcontainers/| Ac_K & WerWolv  | No |
 | [Hollow Knight](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100633007D48000.json)                   | json.lua & lib/json.lua | WerWolv  | No |
 | [Octopath Traveler](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E66006406000.json) | octp.lua      | shahmirn, SleepyPrince & @x43x61x69 | No |
 | [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk & macia10 | No |
@@ -65,3 +65,4 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Torna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/torna.py) | None  | macia10 | Yes |
 | [Mario Kart 8](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/mk8.py) | None  | Ac_K | No |
 | [Kirby Star Allies](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/kirbysa.py) | None  | Ac_K | No |
+| [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/smo.py) | [lib/byml.py](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/byml.py) & lib/python3.5/sortedcontainers/  | Ac_K & WerWolv | No |
