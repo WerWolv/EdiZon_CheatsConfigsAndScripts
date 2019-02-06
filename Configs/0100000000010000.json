@@ -1,6 +1,7 @@
 {
 	"author": "Ac_K & WerWolv",
 	"scriptLanguage": "py",
+  "beta": true,
 	"all": [
 		{
 			"saveFilePaths": [""],
