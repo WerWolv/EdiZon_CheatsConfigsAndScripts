@@ -9,7 +9,7 @@ Config files go into the `/EdiZon/editor` folder, Script files go into the `/Edi
 Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
 
 ## Save file analyzing
-You can use the save_util.py Python script to analyze your save file. It supports following options:
+You can use the [save_util.py Python script]((https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Tools/save_util.py) to analyze your save file. It supports following options:
 ```python
 options = {
     'zlib_compress' : { 'function' : zlib_compress, 'description' : 'Compresses file with zlib. Args: < FilePath, [CompressionLevel], [StartAddress], [EndAddress] >' },
