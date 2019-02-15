@@ -1,14 +1,24 @@
 # EdiZon Configs and Scripts
 
 This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor
-](https://github.com/thomasnet-mc/EdiZon) to modify every Nintendo Switch save file.
+](https://github.com/WerWolv/EdiZon) to modify every Nintendo Switch save file.
 If you want yours to be added, please send them to @WerWolv#1337 on Discord or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
 Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
 
-Before submitting a script file, please verify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
+## Save file analyzing
+You can use the save_util.py Python script to analyze your save file. It supports following options:
+```python
+options = {
+    'zlib_compress' : { 'function' : zlib_compress, 'description' : 'Compresses file with zlib. Args: < FilePath, [CompressionLevel], [StartAddress], [EndAddress] >' },
+    'zlib_decompress' : { 'function' : zlib_decompress, 'description' : 'Decompresses zlib compressed file. Args: < FilePath, [StartAddress], [EndAddress] >' },
+    'crc32' : { 'function' : crc32, 'description' : 'Calculates the CRC32 checksum of a file. Args: < FilePath, [StartAddress], [EndAddress] >' },
+    'md5' : { 'function' : md5, 'description' : 'Calculates the MD5 Hash of a file. Args: < FilePath, [StartAddress], [EndAddress] >' }
+}
+```
+Feel free to add more common functions and PR them!
 
 ## Editor Config files
 
