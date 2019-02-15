@@ -23,7 +23,7 @@
 					"name": "Drifts",
 					"category": "Main Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1968"],
+					"strArgs": ["0000", "1968"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -34,7 +34,7 @@
 					"name": "Mini-Turbos",
 					"category": "Main Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1970"],
+					"strArgs": ["0000", "1970"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -45,7 +45,7 @@
 					"name": "Super Mini-Turbos",
 					"category": "Main Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1974"],
+					"strArgs": ["0000", "1974"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -56,7 +56,7 @@
 					"name": "Ultra Mini-Turbos",
 					"category": "Main Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1978"],
+					"strArgs": ["0000", "1978"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -67,7 +67,7 @@
 					"name": "Jump Boosts",
 					"category": "Main Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1964"],
+					"strArgs": ["0000", "1964"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -78,7 +78,7 @@
 					"name": "Race Rating",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1E94"],
+					"strArgs": ["0000", "1E94"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -89,7 +89,7 @@
 					"name": "Battle Rating",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1E98"],
+					"strArgs": ["0000", "1E98"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -100,7 +100,7 @@
 					"name": "Total Battles",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1E9C"],
+					"strArgs": ["0000", "1E9C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -111,7 +111,7 @@
 					"name": "Friend Battles",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EA0"],
+					"strArgs": ["0000", "1EA0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -122,7 +122,7 @@
 					"name": "Tournament Battles",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EA4"],
+					"strArgs": ["0000", "1EA4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -133,7 +133,7 @@
 					"name": "Racing (All)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EA8"],
+					"strArgs": ["0000", "1EA8"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -144,7 +144,7 @@
 					"name": "Racing (Gold)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EAC"],
+					"strArgs": ["0000", "1EAC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -155,7 +155,7 @@
 					"name": "Racing (Silver)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EB0"],
+					"strArgs": ["0000", "1EB0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -166,7 +166,7 @@
 					"name": "Racing (Bronze)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EB4"],
+					"strArgs": ["0000", "1EB4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -177,7 +177,7 @@
 					"name": "Ballon Battle (All)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EB8"],
+					"strArgs": ["0000", "1EB8"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -188,7 +188,7 @@
 					"name": "Ballon Battle (Gold)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EBC"],
+					"strArgs": ["0000", "1EBC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -199,7 +199,7 @@
 					"name": "Ballon Battle (Silver)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EC0"],
+					"strArgs": ["0000", "1EC0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -210,7 +210,7 @@
 					"name": "Ballon Battle (Bronze)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EC4"],
+					"strArgs": ["0000", "1EC4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -221,7 +221,7 @@
 					"name": "Renegade Roundup (All)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EC8"],
+					"strArgs": ["0000", "1EC8"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -232,7 +232,7 @@
 					"name": "Renegade Roundup (Gold)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1ECC"],
+					"strArgs": ["0000", "1ECC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -243,7 +243,7 @@
 					"name": "Bob-omb Blast (All)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1ED8"],
+					"strArgs": ["0000", "1ED8"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -254,7 +254,7 @@
 					"name": "Bob-omb Blast (Gold)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EDC"],
+					"strArgs": ["0000", "1EDC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -265,7 +265,7 @@
 					"name": "Bob-omb Blast (Silver)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EE0"],
+					"strArgs": ["0000", "1EE0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -276,7 +276,7 @@
 					"name": "Bob-omb Blast (Bronze)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EE4"],
+					"strArgs": ["0000", "1EE4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -287,7 +287,7 @@
 					"name": "Coin Runners (All)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EE8"],
+					"strArgs": ["0000", "1EE8"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -298,7 +298,7 @@
 					"name": "Coin Runners (Gold)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EEC"],
+					"strArgs": ["0000", "1EEC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -309,7 +309,7 @@
 					"name": "Coin Runners (Silver)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EF0"],
+					"strArgs": ["0000", "1EF0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -320,7 +320,7 @@
 					"name": "Coin Runners (Bronze)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EF4"],
+					"strArgs": ["0000", "1EF4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -331,7 +331,7 @@
 					"name": "Shine Thief (All)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EF8"],
+					"strArgs": ["0000", "1EF8"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -342,7 +342,7 @@
 					"name": "Shine Thief (Gold)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1EFC"],
+					"strArgs": ["0000", "1EFC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -353,7 +353,7 @@
 					"name": "Shine Thief (Silver)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F00"],
+					"strArgs": ["0000", "1F00"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -364,7 +364,7 @@
 					"name": "Shine Thief (Bronze)",
 					"category": "Online Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F04"],
+					"strArgs": ["0000", "1F04"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -375,7 +375,7 @@
 					"name": "Racing (All)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F08"],
+					"strArgs": ["0000", "1F08"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -386,7 +386,7 @@
 					"name": "Racing (Gold)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F0C"],
+					"strArgs": ["0000", "1F0C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -397,7 +397,7 @@
 					"name": "Racing (Silver)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F10"],
+					"strArgs": ["0000", "1F10"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -408,7 +408,7 @@
 					"name": "Racing (Bronze)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F14"],
+					"strArgs": ["0000", "1F14"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -419,7 +419,7 @@
 					"name": "Ballon Battle (All)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F18"],
+					"strArgs": ["0000", "1F18"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -430,7 +430,7 @@
 					"name": "Ballon Battle (Gold)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F1C"],
+					"strArgs": ["0000", "1F1C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -441,7 +441,7 @@
 					"name": "Ballon Battle (Silver)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F20"],
+					"strArgs": ["0000", "1F20"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -452,7 +452,7 @@
 					"name": "Ballon Battle (Bronze)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F24"],
+					"strArgs": ["0000", "1F24"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -463,7 +463,7 @@
 					"name": "Renegade Roundup (All)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F28"],
+					"strArgs": ["0000", "1F28"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -474,7 +474,7 @@
 					"name": "Renegade Roundup (Gold)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F2C"],
+					"strArgs": ["0000", "1F2C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -485,7 +485,7 @@
 					"name": "Bob-omb Blast (All)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F38"],
+					"strArgs": ["0000", "1F38"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -496,7 +496,7 @@
 					"name": "Bob-omb Blast (Gold)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F3C"],
+					"strArgs": ["0000", "1F3C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -507,7 +507,7 @@
 					"name": "Bob-omb Blast (Silver)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F40"],
+					"strArgs": ["0000", "1F40"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -518,7 +518,7 @@
 					"name": "Bob-omb Blast (Bronze)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F44"],
+					"strArgs": ["0000", "1F44"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -529,7 +529,7 @@
 					"name": "Coin Runners (All)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F48"],
+					"strArgs": ["0000", "1F48"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -540,7 +540,7 @@
 					"name": "Coin Runners (Gold)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F4C"],
+					"strArgs": ["0000", "1F4C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -551,7 +551,7 @@
 					"name": "Coin Runners (Silver)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F50"],
+					"strArgs": ["0000", "1F50"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -562,7 +562,7 @@
 					"name": "Coin Runners (Bronze)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F54"],
+					"strArgs": ["0000", "1F54"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -573,7 +573,7 @@
 					"name": "Shine Thief (All)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F58"],
+					"strArgs": ["0000", "1F58"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -584,7 +584,7 @@
 					"name": "Shine Thief (Gold)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F5C"],
+					"strArgs": ["0000", "1F5C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -595,7 +595,7 @@
 					"name": "Shine Thief (Silver)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F60"],
+					"strArgs": ["0000", "1F60"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -606,7 +606,7 @@
 					"name": "Shine Thief (Bronze)",
 					"category": "Wireless Stats",
 					"intArgs": [4, 4],
-					"strArgs": [ "0000", "1F64"],
+					"strArgs": ["0000", "1F64"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
