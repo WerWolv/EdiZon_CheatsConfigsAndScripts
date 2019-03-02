@@ -1420,7 +1420,7 @@
 						"listItemValues": [0, 1, 2, 3, 5, 6, 7, 8, 9, 14, 15]
 					}
 				},
-				{
+        {
 					"name": "Yoshi",
 					"category": "01 Luigi Save Slot 1",
 					"intArgs": [ ],

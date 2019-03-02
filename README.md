@@ -1,20 +1,30 @@
 # EdiZon Configs and Scripts
 
 This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor
-](https://github.com/thomasnet-mc/EdiZon) to modify every Nintendo Switch save file.
+](https://github.com/WerWolv/EdiZon) to modify every Nintendo Switch save file.
 If you want yours to be added, please send them to @WerWolv#1337 on Discord or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
 
 Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
 
-Before submitting a script file, please verify that it works with EdiZon. Change some values, check in the game if they have changed. Create a backup before and after modification and compare them.
+## Save file analyzing
+You can use the [save_util.py Python script](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Tools/save_util.py) to analyze your save file. It supports following options:
+```python
+options = {
+    'zlib_compress' : { 'function' : zlib_compress, 'description' : 'Compresses file with zlib. Args: < FilePath, [CompressionLevel], [StartAddress], [EndAddress] >' },
+    'zlib_decompress' : { 'function' : zlib_decompress, 'description' : 'Decompresses zlib compressed file. Args: < FilePath, [StartAddress], [EndAddress] >' },
+    'crc32' : { 'function' : crc32, 'description' : 'Calculates the CRC32 checksum of a file. Args: < FilePath, [StartAddress], [EndAddress] >' },
+    'md5' : { 'function' : md5, 'description' : 'Calculates the MD5 Hash of a file. Args: < FilePath, [StartAddress], [EndAddress] >' }
+}
+```
+Feel free to add more common functions and PR them!
 
-## Editor Config files
+## Editor Config files [![Build Status](https://travis-ci.com/WerWolv/EdiZon_ConfigsAndScripts.svg?branch=master)](https://travis-ci.com/WerWolv/EdiZon_ConfigsAndScripts)
 
 | Game                            | Requirements            | Author    | Beta     |
 |:-------------------------------:|:-----------------------:|:---------:|:--------:|
-| [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | bin.lua                 | WerWolv  | No |
+| [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100000000010000.json)             | smo.py, lib/byml.py & lib/python3.5/sortedcontainers/| Ac_K & WerWolv  | No |
 | [Hollow Knight](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100633007D48000.json)                   | json.lua & lib/json.lua | WerWolv  | No |
 | [Octopath Traveler](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E66006406000.json) | octp.lua      | shahmirn, SleepyPrince & @x43x61x69 | No |
 | [BOTW](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007EF00011E000.json)    | bin.lua | borntohonk & macia10 | No |
@@ -44,6 +54,8 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E95004038000.json)           | bin.lua          | madhatter & macia10 | Yes |
 | [Xenoblade Chronicles 2 Torna Golden Country Stand Alone](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C9F009F7A000.json)           | torna.py          | macia10 | Yes |
 | [Celeste](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01002B30028F6000.json)           | xml.py          | WerWolv | Yes |
+| [Mario Kart 8](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100152000022000.json)           | mk8.py          | Ac_K | No |
+| [Kirby Star Allies](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01007E3006DDA000.json)           | kirbysa.py          | Ac_K | No |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
@@ -51,7 +63,7 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Binary (Lua)](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/bin.lua) | None                 | WerWolv  | No |
 | [Binary (Python)](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/bin.py) | None  | WerWolv | Yes |
 | [JSON](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/json.lua) | [lib/json.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/json.lua) | WerWolv  | No |
-| [XML](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | [lib/python3.5/xmltodict.py](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/python3.5/xmltodict.py)  | WerWolv | Yes |
+| [XML](https://github.com/WerWolv/EdiZon_ConfigsAndScripts/blob/master/Scripts/xmls.py) | [lib/python3.5/xmltodict.py](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/python3.5/xmltodict.py)  | WerWolv | Yes |
 | [Octopath Traveler (UE4 GVAS)](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/octp.lua) | None | shahmirn and SleepyPrince | No |
 | [I am Setsuna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/setsuna.lua) | [lib/md5.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/md5.lua) | Jojo | No |
 | [Puyo Puyo Tetris](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/puyopuyo.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua) | Jojo | No |
@@ -61,4 +73,6 @@ Before submitting a script file, please verify that it works with EdiZon. Change
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/dktf.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | kindofblues | Yes |
 | [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/nsmbud.lua) | [lib/checksum.lua](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/checksum.lua)  | DNA | Yes |
 | [Torna](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/torna.py) | None  | macia10 | Yes |
-
+| [Mario Kart 8](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/mk8.py) | None  | Ac_K | No |
+| [Kirby Star Allies](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/kirbysa.py) | None  | Ac_K | No |
+| [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/smo.py) | [lib/byml.py](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/byml.py) & lib/python3.5/sortedcontainers/  | Ac_K & WerWolv | No |

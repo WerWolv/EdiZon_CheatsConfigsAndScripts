@@ -1,385 +1,480 @@
 {
-	"type": "object",
-	"title": "EdiZon",
-	"minProperties": 1,
-	"propertyNames": {
-		"pattern": "^(?:useInstead|beta|all|author|scriptLanguage|(?:\\d+\\.\\d+\\.\\d+[ ]?)+)$"
-	},
-	"oneOf": [
-		{
-			"title": "Config",
-			"defaultProperties": ["beta", "all", "author", "scriptLanguage"],
-			"properties": {
-				"beta": {
-					"$id": "#/properties/beta",
-					"type": "boolean",
-					"title": "Beta Config",
-					"description": "Script developers must set this to true so it shows up as Beta config in EdiZon. This will be set to false once the config has been available for some time without any issues.",
-					"default": true
-				},
-				"author": {
-					"$id": "#/properties/author",
-					"type": "string",
-					"title": "Config author",
-					"description": "Original creator of this config. This name will be credited inside the editor.",
-					"default": ""
-				},
-				"scriptLanguage": {
-					"$id": "#/properties/scriptLanguage",
-					"type": "string",
-					"title": "Config author",
-					"enum": ["lua", "py"],
-					"description": "Which script language should be used.",
-					"default": "lua"
-				}
-			},
-			"additionalProperties": {
-				"$id": "#/properties/all",
-				"type": "array",
-				"title": "Version",
-				"description": "The name of the key simply has to be the version of the game for which the values works. Multiple versions can be specified by entering all of them in the same key and separating them by a space.",
-				"minItems": 1,
-				"uniqueItems": true,
-				"additionalItems": true,
-				"items": {
-					"$id": "#/properties/all/items",
-					"title": "Savefile",
-					"headerTemplate": "Savefile \"{{self.files}}\"",
-					"additionalProperties": false,
-					"required": ["saveFilePaths", "files", "filetype", "items"],
-					"properties": {
-						"saveFilePaths": {
-							"$id": "#/properties/all/items/saveFilePaths",
-							"type": "array",
-							"title": "Save File Paths",
-							"description": "The folder paths in which the save files are located. For this, a RegEx will be used. Use \"\" to target the root directory.",
-							"minItems": 1,
-							"uniqueItems": false,
-							"additionalItems": true,
-							"format": "table",
-							"items": {
-								"$id": "#/properties/all/items/saveFilePaths/items",
-								"type": "string",
-								"title": "Path",
-								"default": "\"\"",
-								"format": "regex"
-							}
-						},
-						"files": {
-							"$id": "#/properties/all/items/files",
-							"type": "string",
-							"title": "Save File Name",
-							"description": "Specifies which files should get displayed in the list. This value consist of a RegEx, which targets all valid names for the save files.",
-							"examples": ["File\\d+\\.bin"],
-							"format": "regex"
-						},
-						"encoding": {
-							"$id": "#/properties/1.0.0/properties/encoding",
-							"type": "string",
-							"enum": ["ascii", "utf-8", "utf-16le", "utf-16be"],
-							"description": "Used to specify the encoding of the save file if it's a plain text file.",
-							"title": "Encoding"
-						},
-						"filetype": {
-							"$id": "#/properties/all/items/filetype",
-							"type": "string",
-							"title": "Filetype",
-							"description": "Specifies which Editor-Script file gets used to do the parsing. If bin.lua should get used, enter bin.",
-							"default": "bin"
-						},
-                      	"startupMessage": {
-							"$id": "#/properties/1.0.0/properties/startupMessage",
-							"type": "string",
-							"description": "Message that gets displayed to the user right after the config loads. Used for hints and warnings before using the config.",
-							"title": "Startup Message"
-						},
-						"items": {
-							"$id": "#/properties/all/items/items",
-							"type": "array",
-							"title": "Widgets",
-							"description": "Inside this array, every new element will become a new widget inside the editor. ",
-							"minItems": 1,
-							"uniqueItems": true,
-							"additionalItems": true,
-							"items": {
-								"$id": "#/properties/all/items/items/items",
-								"type": "object",
-								"title": "Widget",
-								"headerTemplate": "[{{ self.category }}] {{ self.name }}",
-								"additionalProperties": false,
-								"required": [
-									"name",
-									"category",
-									"intArgs",
-									"strArgs",
-									"widget"
-								],
-								"options": {
-									"collapsed": true
-								},
-								"format": "categories",
-								"properties": {
-									"name": {
-										"$id": "#/properties/all/items/items/items/properties/name",
-										"type": "string",
-										"title": "Name",
-										"description": "The name of the widget. This is the text which will be displayed next to the value on the widget.",
-										"examples": ["Coin Count"]
-									},
-									"category": {
-										"$id": "#/properties/all/items/items/items/properties/category",
-										"type": "string",
-										"title": "Category",
-										"description": "This string specifies in which category the widget will get sorted. This can be any ASCII string.",
-										"examples": ["Collectibles"]
-									},
-									"intArgs": {
-										"$id": "#/properties/all/items/items/items/properties/intArgs",
-										"type": "array",
-										"title": "Integer Arguments",
-										"description": "Integer arguments that get sent 1:1 to the Editor-Script when executed. They depend on the Editor-Script implementation. Check out the Editor-Script file Wiki page for more information.",
-										"minItems": 0,
-										"additionalItems": true,
-										"items": {
-											"$id": "#/properties/all/items/items/items/properties/intArgs/items",
-											"type": "integer",
-											"title": "Integer Argument",
-											"default": 0,
-											"examples": [2, 2]
-										}
-									},
-									"strArgs": {
-										"$id": "#/properties/all/items/items/items/properties/strArgs",
-										"type": "array",
-										"title": "String Arguments",
-										"description": "String arguments that get sent 1:1 to the Editor-Script when executed. They depend on the Editor-Script implementation. Check out the Editor-Script file Wiki page for more information.",
-										"minItems": 0,
-										"items": {
-											"$id": "#/properties/all/items/items/items/properties/strArgs/items",
-											"type": "string",
-											"title": "String Argument",
-											"examples": ["001C", "0050"]
-										}
-									},
-                                  	"tooltip": {
-                                        "$id": "#/properties/1.0.0/properties/tooltip",
-                                        "type": "string",
-                                        "description": "Additional information for every widget that gets displayed when hovering over the widget for a few seconds",
-                                        "title": "Tooltip"
-                                    },
-									"widget": {
-										"$id": "#/properties/all/items/items/items/properties/widget",
-										"type": "object",
-										"title": "Settings",
-										"required": ["type"],
-										"properties": {
-											"type": {
-												"$id": "#/properties/all/items/items/items/properties/widget/properties/type",
-												"type": "string",
-												"enum": [
-													"int",
-													"bool",
-													"list",
-													"string",
-													"button",
-													"comment"
-												],
-												"title": "Type",
-												"description": "Configures the type of widget that gets used. Currently there are int, bool and list which generate a numeric up-down scroller, a switch and a list selection.",
-												"default": "int"
-											}
-										},
-										"oneOf": [
-											{
-												"title": "Integer Widget",
-												"additionalProperties": false,
-												"required": ["minValue", "maxValue"],
-												"properties": {
-													"type": {
-														"enum": ["int"]
-													},
-													"minValue": {
-														"$id": "#/properties/all/items/items/items/properties/widget/properties/minValue",
-														"type": "integer",
-														"title": "Minimum Value",
-														"description": "Specific for integer types. This is the minimum value the allowed to be set before it wraps around.",
-														"default": 0
-													},
-													"maxValue": {
-														"$id": "#/properties/all/items/items/items/properties/widget/properties/maxValue",
-														"type": "integer",
-														"title": "Maximum Value",
-														"description": "Specific for integer types. This is the maximum value the allowed to be set before it wraps around.",
-														"default": 99
-													},
-													"stepSize": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/stepSize",
-														"type": "integer",
-														"title": "Step Size",
-														"description": "Specific for integer types. This defines how big the steps are when changing a value. Multipliers will be applied to this as well. If unset, 1 will be used.",
-														"default": 1,
-														"examples": [100]
-													},
-													"readEquation": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/readEquation",
-														"type": "string",
-														"title": "Read Equation",
-														"description": "A mathematical equation that will get evaluated directly after a value gets read from the save file. The keyword value stands for the value before the calculation.",
-														"examples": ["10 * value"]
-													},
-													"writeEquation": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/writeEquation",
-														"type": "string",
-														"title": "Write Equation",
-														"description": "If readEquation is used, this is necessary for a working config. It gets applied directly before a value is written to the save file. The keyword value stands for the value before the calculation.",
-														"examples": ["value / 10"]
-													}
-												}
-											},
-											{
-												"title": "Boolean Widget",
-												"additionalProperties": false,
-												"required": ["onValue", "offValue"],
-												"properties": {
-													"type": {
-														"enum": ["bool"]
-													},
-													"onValue": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/onValue",
-														"type": ["string", "integer"],
-														"title": "On Value",
-														"description": "Specific for boolean types. This is the value that will be set if the switch is set to ON. This may be an int or a string.",
-														"default": 1
-													},
-													"offValue": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/offValue",
-														"type": ["string", "integer"],
-														"title": "Off Value",
-														"description": "Specific for boolean types. This is the value that will be set if the switch is set to OFF. This may be an int or a string.",
-														"default": 0
-													}
-												}
-											},
-											{
-												"title": "List Widget",
-												"additionalProperties": false,
-												"required": ["listItemNames", "listItemValues"],
-												"properties": {
-													"type": {
-														"enum": ["list"]
-													},
-													"listItemNames": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemNames",
-														"type": "array",
-														"title": "List Item Names",
-														"description": "Specific for list types. List of names that get shown in the editor drop down list.",
-														"additionalItems": true,
-														"items": {
-															"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemNames/items",
-															"type": "string",
-															"title": "List Item",
-															"examples": [
-																"List Entry 1",
-																"List Entry 2",
-																"List Entry 3"
-															]
-														}
-													},
-													"listItemValues": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemValues",
-														"type": "array",
-														"title": "List Item Values",
-														"description": "Specific for list types. List of values that get written to the save file when a value inside the drop down list is selected. In the above example, if List Entry 1 gets selected, 123 will be written. ",
-														"additionalItems": true,
-														"items": {
-															"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemValues/items",
-															"type": ["string", "integer"],
-															"title": "Item Value",
-															"examples": [123, 456, 789]
-														}
-													}
-												}
-											},
-											{
-												"title": "String Widget",
-												"additionalProperties": false,
-												"required": ["minLength", "maxLength"],
-												"properties": {
-													"type": {
-														"enum": ["string"]
-													},
-													"minLength": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/minLength",
-														"type": ["integer"],
-														"title": "Minimum string length",
-														"description": "Specific for string types. This is the minimum length of the string that has to be input to be accepted.",
-														"default": 1
-													},
-													"maxLength": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/maxLength",
-														"type": ["integer"],
-														"title": "Maximum string length",
-														"description": "Specific for string types. This is the maximum length of the string that has to be input to be accepted.",
-														"default": 10
-													}
-												}
-											},
-											{
-												"title": "Button Widget",
-												"additionalProperties": false,
-												"required": ["function"],
-												"properties": {
-													"type": {
-														"enum": ["button"]
-													},
-													"function": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/function",
-														"type": ["string"],
-														"title": "Function to be called",
-														"description": "Specific for button types. This is the name of the lua or python function to be called when clicking on that widget.",
-														"default": ""
-													}
-												}
-											},
-											{
-												"title": "Comment Widget",
-												"additionalProperties": false,
-												"required": ["comment"],
-												"properties": {
-													"type": {
-														"enum": ["comment"]
-													},
-													"comment": {
-														"$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/comment",
-														"type": ["string"],
-														"title": "Comment",
-														"description": "Specific for comment types. This text will get displayed in light gray on the comment widget. If the user selects it with A, a popup will appear that displays the entire text. You need to manually add \n for a new line.",
-														"default": ""
-													}
-												}
-											}
-										]
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		},
-		{
-			"title": "Redirect Config",
-			"properties": {
-				"useInstead": {
-					"$id": "#/properties/useInstead",
-					"type": "string",
-					"title": "Useinstead",
-					"description": "If a game uses different titleIDs for different regions but the save files itself are identical, it is possible to redirect a config file to another.",
-					"examples": ["0100E66006406000.json"],
-					"pattern": "^[0-9A-F]{16}\\.json$"
-				}
-			},
-			"additionalProperties": false
-		}
-	]
+  "type": "object",
+  "title": "EdiZon",
+  "minProperties": 1,
+  "propertyNames": {
+    "pattern": "^(?:useInstead|beta|all|author|scriptLanguage|(?:\\d+\\.\\d+\\.\\d+[ ]?)+)$"
+  },
+  "oneOf": [
+    {
+      "title": "Config",
+      "defaultProperties": [
+        "beta",
+        "all",
+        "author",
+        "scriptLanguage"
+      ],
+      "properties": {
+        "beta": {
+          "$id": "#/properties/beta",
+          "type": "boolean",
+          "title": "Beta Config",
+          "description": "Script developers must set this to true so it shows up as Beta config in EdiZon. This will be set to false once the config has been available for some time without any issues.",
+          "default": true
+        },
+        "author": {
+          "$id": "#/properties/author",
+          "type": "string",
+          "title": "Config author",
+          "description": "Original creator of this config. This name will be credited inside the editor.",
+          "default": ""
+        },
+        "scriptLanguage": {
+          "$id": "#/properties/scriptLanguage",
+          "type": "string",
+          "title": "Config author",
+          "enum": [
+            "lua",
+            "py"
+          ],
+          "description": "Which script language should be used.",
+          "default": "lua"
+        }
+      },
+      "additionalProperties": {
+        "$id": "#/properties/all",
+        "type": "array",
+        "title": "Version",
+        "description": "The name of the key simply has to be the version of the game for which the values works. Multiple versions can be specified by entering all of them in the same key and separating them by a space.",
+        "minItems": 1,
+        "uniqueItems": true,
+        "additionalItems": true,
+        "items": {
+          "$id": "#/properties/all/items",
+          "title": "Savefile",
+          "headerTemplate": "Savefile \"{{self.files}}\"",
+          "additionalProperties": false,
+          "required": [
+            "saveFilePaths",
+            "files",
+            "filetype",
+            "items"
+          ],
+          "properties": {
+            "saveFilePaths": {
+              "$id": "#/properties/all/items/saveFilePaths",
+              "type": "array",
+              "title": "Save File Paths",
+              "description": "The folder paths in which the save files are located. For this, a RegEx will be used. Use \"\" to target the root directory.",
+              "minItems": 1,
+              "uniqueItems": false,
+              "additionalItems": true,
+              "format": "table",
+              "items": {
+                "$id": "#/properties/all/items/saveFilePaths/items",
+                "type": "string",
+                "title": "Path",
+                "default": "\"\"",
+                "format": "regex"
+              }
+            },
+            "files": {
+              "$id": "#/properties/all/items/files",
+              "type": "string",
+              "title": "Save File Name",
+              "description": "Specifies which files should get displayed in the list. This value consist of a RegEx, which targets all valid names for the save files.",
+              "examples": [
+                "File\\d+\\.bin"
+              ],
+              "format": "regex"
+            },
+            "encoding": {
+              "$id": "#/properties/1.0.0/properties/encoding",
+              "type": "string",
+              "enum": [
+                "ascii",
+                "utf-8",
+                "utf-16le",
+                "utf-16be"
+              ],
+              "description": "Used to specify the encoding of the save file if it's a plain text file.",
+              "title": "Encoding"
+            },
+            "filetype": {
+              "$id": "#/properties/all/items/filetype",
+              "type": "string",
+              "title": "Filetype",
+              "description": "Specifies which Editor-Script file gets used to do the parsing. If bin.lua should get used, enter bin.",
+              "default": "bin"
+            },
+            "startupMessage": {
+              "$id": "#/properties/1.0.0/properties/startupMessage",
+              "type": "string",
+              "description": "Message that gets displayed to the user right after the config loads. Used for hints and warnings before using the config.",
+              "title": "Startup Message"
+            },
+            "items": {
+              "$id": "#/properties/all/items/items",
+              "type": "array",
+              "title": "Widgets",
+              "description": "Inside this array, every new element will become a new widget inside the editor. ",
+              "minItems": 1,
+              "uniqueItems": true,
+              "additionalItems": true,
+              "items": {
+                "$id": "#/properties/all/items/items/items",
+                "type": "object",
+                "title": "Widget",
+                "headerTemplate": "[{{ self.category }}] {{ self.name }}",
+                "additionalProperties": false,
+                "required": [
+                  "name",
+                  "category",
+                  "intArgs",
+                  "strArgs",
+                  "widget"
+                ],
+                "options": {
+                  "collapsed": true
+                },
+                "format": "categories",
+                "properties": {
+                  "name": {
+                    "$id": "#/properties/all/items/items/items/properties/name",
+                    "type": "string",
+                    "title": "Name",
+                    "description": "The name of the widget. This is the text which will be displayed next to the value on the widget.",
+                    "examples": [
+                      "Coin Count"
+                    ]
+                  },
+                  "category": {
+                    "$id": "#/properties/all/items/items/items/properties/category",
+                    "type": "string",
+                    "title": "Category",
+                    "description": "This string specifies in which category the widget will get sorted. This can be any ASCII string.",
+                    "examples": [
+                      "Collectibles"
+                    ]
+                  },
+                  "intArgs": {
+                    "$id": "#/properties/all/items/items/items/properties/intArgs",
+                    "type": "array",
+                    "title": "Integer Arguments",
+                    "description": "Integer arguments that get sent 1:1 to the Editor-Script when executed. They depend on the Editor-Script implementation. Check out the Editor-Script file Wiki page for more information.",
+                    "minItems": 0,
+                    "additionalItems": true,
+                    "items": {
+                      "$id": "#/properties/all/items/items/items/properties/intArgs/items",
+                      "type": "integer",
+                      "title": "Integer Argument",
+                      "default": 0,
+                      "examples": [
+                        2,
+                        2
+                      ]
+                    }
+                  },
+                  "strArgs": {
+                    "$id": "#/properties/all/items/items/items/properties/strArgs",
+                    "type": "array",
+                    "title": "String Arguments",
+                    "description": "String arguments that get sent 1:1 to the Editor-Script when executed. They depend on the Editor-Script implementation. Check out the Editor-Script file Wiki page for more information.",
+                    "minItems": 0,
+                    "items": {
+                      "$id": "#/properties/all/items/items/items/properties/strArgs/items",
+                      "type": "string",
+                      "title": "String Argument",
+                      "examples": [
+                        "001C",
+                        "0050"
+                      ]
+                    }
+                  },
+                  "tooltip": {
+                    "$id": "#/properties/1.0.0/properties/tooltip",
+                    "type": "string",
+                    "description": "Additional information for every widget that gets displayed when hovering over the widget for a few seconds",
+                    "title": "Tooltip"
+                  },
+                  "dummy": {
+                    "$id": "#/properties/1.0.0/properties/dummy",
+                    "type": "boolean",
+                    "description": "Whether the widget is a dummy widget",
+                    "title": "Dummy"
+                  },
+                  "widget": {
+                    "$id": "#/properties/all/items/items/items/properties/widget",
+                    "type": "object",
+                    "title": "Settings",
+                    "required": [
+                      "type"
+                    ],
+                    "properties": {
+                      "type": {
+                        "$id": "#/properties/all/items/items/items/properties/widget/properties/type",
+                        "type": "string",
+                        "enum": [
+                          "int",
+                          "bool",
+                          "list",
+                          "string",
+                          "button",
+                          "comment"
+                        ],
+                        "title": "Type",
+                        "description": "Configures the type of widget that gets used. Currently there are int, bool and list which generate a numeric up-down scroller, a switch and a list selection.",
+                        "default": "int"
+                      }
+                    },
+                    "oneOf": [
+                      {
+                        "title": "Integer Widget",
+                        "additionalProperties": false,
+                        "required": [
+                          "minValue",
+                          "maxValue"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "int"
+                            ]
+                          },
+                          "minValue": {
+                            "$id": "#/properties/all/items/items/items/properties/widget/properties/minValue",
+                            "type": "integer",
+                            "title": "Minimum Value",
+                            "description": "Specific for integer types. This is the minimum value the allowed to be set before it wraps around.",
+                            "default": 0
+                          },
+                          "maxValue": {
+                            "$id": "#/properties/all/items/items/items/properties/widget/properties/maxValue",
+                            "type": "integer",
+                            "title": "Maximum Value",
+                            "description": "Specific for integer types. This is the maximum value the allowed to be set before it wraps around.",
+                            "default": 99
+                          },
+                          "stepSize": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/stepSize",
+                            "type": "integer",
+                            "title": "Step Size",
+                            "description": "Specific for integer types. This defines how big the steps are when changing a value. Multipliers will be applied to this as well. If unset, 1 will be used.",
+                            "default": 1,
+                            "examples": [
+                              100
+                            ]
+                          },
+                          "readEquation": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/readEquation",
+                            "type": "string",
+                            "title": "Read Equation",
+                            "description": "A mathematical equation that will get evaluated directly after a value gets read from the save file. The keyword value stands for the value before the calculation.",
+                            "examples": [
+                              "10 * value"
+                            ]
+                          },
+                          "writeEquation": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/writeEquation",
+                            "type": "string",
+                            "title": "Write Equation",
+                            "description": "If readEquation is used, this is necessary for a working config. It gets applied directly before a value is written to the save file. The keyword value stands for the value before the calculation.",
+                            "examples": [
+                              "value / 10"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "title": "Boolean Widget",
+                        "additionalProperties": false,
+                        "required": [
+                          "onValue",
+                          "offValue"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "bool"
+                            ]
+                          },
+                          "onValue": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/onValue",
+                            "type": [
+                              "string",
+                              "integer"
+                            ],
+                            "title": "On Value",
+                            "description": "Specific for boolean types. This is the value that will be set if the switch is set to ON. This may be an int or a string.",
+                            "default": 1
+                          },
+                          "offValue": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/offValue",
+                            "type": [
+                              "string",
+                              "integer"
+                            ],
+                            "title": "Off Value",
+                            "description": "Specific for boolean types. This is the value that will be set if the switch is set to OFF. This may be an int or a string.",
+                            "default": 0
+                          }
+                        }
+                      },
+                      {
+                        "title": "List Widget",
+                        "additionalProperties": false,
+                        "required": [
+                          "listItemNames",
+                          "listItemValues"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "list"
+                            ]
+                          },
+                          "listItemNames": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemNames",
+                            "type": "array",
+                            "title": "List Item Names",
+                            "description": "Specific for list types. List of names that get shown in the editor drop down list.",
+                            "additionalItems": true,
+                            "items": {
+                              "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemNames/items",
+                              "type": "string",
+                              "title": "List Item",
+                              "examples": [
+                                "List Entry 1",
+                                "List Entry 2",
+                                "List Entry 3"
+                              ]
+                            }
+                          },
+                          "listItemValues": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemValues",
+                            "type": "array",
+                            "title": "List Item Values",
+                            "description": "Specific for list types. List of values that get written to the save file when a value inside the drop down list is selected. In the above example, if List Entry 1 gets selected, 123 will be written. ",
+                            "additionalItems": true,
+                            "items": {
+                              "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/listItemValues/items",
+                              "type": [
+                                "string",
+                                "integer"
+                              ],
+                              "title": "Item Value",
+                              "examples": [
+                                123,
+                                456,
+                                789
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "title": "String Widget",
+                        "additionalProperties": false,
+                        "required": [
+                          "minLength",
+                          "maxLength"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "string"
+                            ]
+                          },
+                          "minLength": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/minLength",
+                            "type": [
+                              "integer"
+                            ],
+                            "title": "Minimum string length",
+                            "description": "Specific for string types. This is the minimum length of the string that has to be input to be accepted.",
+                            "default": 1
+                          },
+                          "maxLength": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/maxLength",
+                            "type": [
+                              "integer"
+                            ],
+                            "title": "Maximum string length",
+                            "description": "Specific for string types. This is the maximum length of the string that has to be input to be accepted.",
+                            "default": 10
+                          }
+                        }
+                      },
+                      {
+                        "title": "Button Widget",
+                        "additionalProperties": false,
+                        "required": [
+                          "function"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "button"
+                            ]
+                          },
+                          "function": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/function",
+                            "type": [
+                              "string"
+                            ],
+                            "title": "Function to be called",
+                            "description": "Specific for button types. This is the name of the lua or python function to be called when clicking on that widget.",
+                            "default": ""
+                          }
+                        }
+                      },
+                      {
+                        "title": "Comment Widget",
+                        "additionalProperties": false,
+                        "required": [
+                          "comment"
+                        ],
+                        "properties": {
+                          "type": {
+                            "enum": [
+                              "comment"
+                            ]
+                          },
+                          "comment": {
+                            "$id": "#/properties/1.0.0/properties/items/items/properties/widget/properties/comment",
+                            "type": [
+                              "string"
+                            ],
+                            "title": "Comment",
+                            "description": "Specific for comment types. This text will get displayed in light gray on the comment widget. If the user selects it with A, a popup will appear that displays the entire text. You need to manually add \n for a new line.",
+                            "default": ""
+                          }
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "title": "Redirect Config",
+      "properties": {
+        "useInstead": {
+          "$id": "#/properties/useInstead",
+          "type": "string",
+          "title": "Useinstead",
+          "description": "If a game uses different titleIDs for different regions but the save files itself are identical, it is possible to redirect a config file to another.",
+          "examples": [
+            "0100E66006406000.json"
+          ],
+          "pattern": "^[0-9A-F]{16}\\.json$"
+        }
+      },
+      "additionalProperties": false
+    }
+  ]
 }
