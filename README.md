@@ -49,7 +49,7 @@ Feel free to add more common functions and PR them!
 | [Dark Souls Remastered](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01004AB00A260000.json)             | darksouls.lua         | Jojo | Yes |
 | [Super Smash Bros. Ultimate](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/01006A800016E000.json)             | smash.lua         | mrLewisFC | Yes |
 | [Donkey Kong: Tropical Freeze](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C1F0051B6000.json)           | dktf.lua          | kindofblues | Yes |
-| [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100EA80032EA000.json)           | nsmbud.lua          | DNA | Yes |
+| [New Super Mario Bros. U Deluxe](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100EA80032EA000.json)           | nsmbud.lua          | DNA | No |
 | [Stardew Valley](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E65002BB8000.json)           | xml.py          | echo000 & WerWolv | Yes |
 | [Xenoblade Chronicles 2](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100E95004038000.json)           | bin.lua          | madhatter & macia10 | Yes |
 | [Xenoblade Chronicles 2 Torna Golden Country Stand Alone](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Configs/0100C9F009F7A000.json)           | torna.py          | macia10 | Yes |
