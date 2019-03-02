@@ -1,7 +1,7 @@
 {
 	"author": "DNA",
 	"scriptLanguage": "lua",
-	"beta": true,
+	"beta": false,
 	"all": [
 		{
 			"saveFilePaths": [""],
@@ -317,6 +317,31 @@
 							"Nothing"
 						],
 						"listItemValues": [0, 1, 2, 3, 5, 6, 7, 8, 9, 14, 15]
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "00 Mario Save Slot 1",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "You won't see a Yoshi following you,\nbut he will be there, if you start a level ;)"
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "00 Mario Save Slot 1",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "0052"],
+					"widget": {
+						"type": "list",
+						"listItemNames": [
+							"None",
+							"Blue",
+							"Red"
+						],
+						"listItemValues": [15, 10, 11]
 					}
 				},
 				{
@@ -662,6 +687,31 @@
 					}
 				},
 				{
+					"name": "Yoshi",
+					"category": "00 Mario Save Slot 2",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "You won't see a Yoshi following you,\nbut he will be there, if you start a level ;)"
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "00 Mario Save Slot 2",
+					"intArgs": [1, 1],
+					"strArgs": ["0001", "0052"],
+					"widget": {
+						"type": "list",
+						"listItemNames": [
+							"None",
+							"Blue",
+							"Red"
+						],
+						"listItemValues": [15, 10, 11]
+					}
+				},
+				{
 					"name": "Save",
 					"category": "00 Mario Save Slot 2",
 					"intArgs": [ ],
@@ -1004,6 +1054,31 @@
 					}
 				},
 				{
+					"name": "Yoshi",
+					"category": "00 Mario Save Slot 3",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "You won't see a Yoshi following you,\nbut he will be there, if you start a level ;)"
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "00 Mario Save Slot 3",
+					"intArgs": [1, 1],
+					"strArgs": ["0002", "0052"],
+					"widget": {
+						"type": "list",
+						"listItemNames": [
+							"None",
+							"Blue",
+							"Red"
+						],
+						"listItemValues": [15, 10, 11]
+					}
+				},
+				{
 					"name": "Save",
 					"category": "00 Mario Save Slot 3",
 					"intArgs": [ ],
@@ -1343,6 +1418,31 @@
 							"Nothing"
 						],
 						"listItemValues": [0, 1, 2, 3, 5, 6, 7, 8, 9, 14, 15]
+					}
+				},
+        {
+					"name": "Yoshi",
+					"category": "01 Luigi Save Slot 1",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "You won't see a Yoshi following you,\nbut he will be there, if you start a level ;)"
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "01 Luigi Save Slot 1",
+					"intArgs": [1, 1],
+					"strArgs": ["0003", "0052"],
+					"widget": {
+						"type": "list",
+						"listItemNames": [
+							"None",
+							"Blue",
+							"Red"
+						],
+						"listItemValues": [15, 10, 11]
 					}
 				},
 				{
@@ -1688,6 +1788,31 @@
 					}
 				},
 				{
+					"name": "Yoshi",
+					"category": "01 Luigi Save Slot 2",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "You won't see a Yoshi following you,\nbut he will be there, if you start a level ;)"
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "01 Luigi Save Slot 2",
+					"intArgs": [1, 1],
+					"strArgs": ["0004", "0052"],
+					"widget": {
+						"type": "list",
+						"listItemNames": [
+							"None",
+							"Blue",
+							"Red"
+						],
+						"listItemValues": [15, 10, 11]
+					}
+				},
+				{
 					"name": "Save",
 					"category": "01 Luigi Save Slot 2",
 					"intArgs": [ ],
@@ -2027,6 +2152,31 @@
 							"Nothing"
 						],
 						"listItemValues": [0, 1, 2, 3, 5, 6, 7, 8, 9, 14, 15]
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "01 Luigi Save Slot 3",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "You won't see a Yoshi following you,\nbut he will be there, if you start a level ;)"
+					}
+				},
+				{
+					"name": "Yoshi",
+					"category": "01 Luigi Save Slot 3",
+					"intArgs": [1, 1],
+					"strArgs": ["0005", "0052"],
+					"widget": {
+						"type": "list",
+						"listItemNames": [
+							"None",
+							"Blue",
+							"Red"
+						],
+						"listItemValues": [15, 10, 11]
 					}
 				},
 				{
