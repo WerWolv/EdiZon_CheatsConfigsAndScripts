@@ -1,9 +1,4 @@
-# AMS-CheatDB
-
-* Download the latest cheats [here](https://github.com/zkitX/AMS-CheatDB/archive/master.zip)
-* Download EdiZon for better cheat selection [here!](https://github.com/WerWolv/EdiZon/releases)
-* [Credits](#Credits)
-# Current Cheats (WIP LIST)
+# Atmosphère Cheats
 
 There might be a cheat in the database but not listed here!
 
