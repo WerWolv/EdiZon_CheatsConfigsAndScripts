@@ -1,10 +1,12 @@
-# EdiZon Configs and Scripts
+# EdiZon Configs and Scripts & Atmosphère Cheats
 
-This is the official repository for EdiZon Editor Config and Editor Script files. They can be used by the [EdiZon save Editor
-](https://github.com/WerWolv/EdiZon) to modify every Nintendo Switch save file.
+This is the official repository for EdiZon Editor Config, Editor Script files and Atmosphère Cheats. The configs and scripts can be used by the [EdiZon save Editor
+](https://github.com/WerWolv/EdiZon) to modify every Nintendo Switch save file. 
+The Atmosphère cheat files get loaded by Atmosphère's `dmnt:cht` cheat module.
+
 If you want yours to be added, please send them to @WerWolv#1337 on Discord or create a Pull Request.
 
-Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder and libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder.
+Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder, libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder and cheats go into the `/atmosphere/titles/<titleID>/cheats` folder.
 
 Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
 
@@ -76,3 +78,8 @@ Feel free to add more common functions and PR them!
 | [Mario Kart 8](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/mk8.py) | None  | Ac_K | No |
 | [Kirby Star Allies](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/kirbysa.py) | None  | Ac_K | No |
 | [Super Mario Odyssey](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/smo.py) | [lib/byml.py](https://github.com/WerWolv98/EdiZon_ConfigsAndScripts/blob/master/Scripts/lib/byml.py) & lib/python3.5/sortedcontainers/  | Ac_K & WerWolv | No |
+
+## Atmosphère Cheats
+
+A list of all available cheats can be found [here](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Cheats/README.MD).
+
