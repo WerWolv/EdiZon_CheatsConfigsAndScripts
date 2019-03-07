@@ -22,7 +22,7 @@ options = {
 ```
 Feel free to add more common functions and PR them!
 
-## Editor Config files [![Build Status](https://travis-ci.com/WerWolv/EdiZon_ConfigsAndScripts.svg?branch=master)](https://travis-ci.com/WerWolv/EdiZon_ConfigsAndScripts)
+## Editor Config files [![Build Status](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts.svg?branch=master)](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts)
 
 | Game                            | Requirements            | Author    | Beta     |
 |:-------------------------------:|:-----------------------:|:---------:|:--------:|
