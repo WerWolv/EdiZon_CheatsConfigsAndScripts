@@ -193,6 +193,7 @@ There might be a cheat in the database but not listed here!
 ### Z
 |Name|TitleID|Region
 |--|--|--
+|Zoids Wild King of Blast|[0100E43009320000](0100E43009320000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
 
 # Credits
 

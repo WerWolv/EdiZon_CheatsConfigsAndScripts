@@ -1,5 +1,8 @@
 [Super Mario Odyssey 1.2.0]
 
+[Free Shopping in Crazy Cap]
+040F0000 0031CBC4 52800016
+
 [9999 Coins Save 1]
 02100000 635E7098 0000270f
 
