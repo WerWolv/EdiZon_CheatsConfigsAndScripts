@@ -81,5 +81,5 @@ Feel free to add more common functions and PR them!
 
 ## Atmosphère Cheats
 
-A list of all available cheats can be found [here](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Cheats/CHEATS.md).
+A list of all available cheats can be found [here](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Cheats/README.md).
 
