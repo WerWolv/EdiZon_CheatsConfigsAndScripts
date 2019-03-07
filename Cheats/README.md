@@ -90,7 +90,7 @@ There might be a cheat in the database but not listed here!
 ### I
 |Name|TitleID|Region
 |--|--|--
-|Iconoclasts|[0100BC60099FE000](0100BC60099FE000/cheats)|[WLD](http://nswdb.com/images/WLD.jpg)
+|Iconoclasts|[0100BC60099FE000](0100BC60099FE000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 
 ### J
 |Name|TitleID|Region
