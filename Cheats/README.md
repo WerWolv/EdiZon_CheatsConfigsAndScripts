@@ -39,6 +39,7 @@ There might be a cheat in the database but not listed here!
 ### B
 |Name|TitleID|Region
 |--|--|--
+|Battle Cats|[01003C300B274000](01003C300B274000/cheats)|![JPN](https://nswdb.com/images/JPG.jpg)
 |Bayonetta|[010076F0049A2000](010076F0049A2000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
 |Bayonetta 2|[01007960049A0000](01007960049A0000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Beyblade Burst Battle Zero|[010068600AD16000](010068600AD16000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
@@ -89,6 +90,7 @@ There might be a cheat in the database but not listed here!
 ### I
 |Name|TitleID|Region
 |--|--|--
+|Iconoclasts|[0100BC60099FE000](0100BC60099FE000/cheats)|[WLD](http://nswdb.com/images/WLD.jpg)
 
 ### J
 |Name|TitleID|Region
@@ -151,6 +153,7 @@ There might be a cheat in the database but not listed here!
 |Samurai Aces|[0100ADF0096F2000](0100ADF0096F2000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Senjou no Valkyria 4|[0100C11009378000](0100C11009378000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
 |Shovel Knight: Specter of Torment|[01001180021FA000](01001180021FA000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Shovel Knight: Treasure Trove|[010057D0021E8000](010057D0021E8000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Sky Force Reloaded|[01006FE005B6E000](01006FE005B6E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Sonic Mania Plus|[01009AA000FAA000](01009AA000FAA000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Splatoon 2|[0100F8F0000A2000](0100F8F0000A2000/cheats)|![EUR](http://nswdb.com/images/EUR.jpg)
@@ -163,10 +166,13 @@ There might be a cheat in the database but not listed here!
 ### T
 |Name|TitleID|Region
 |--|--|--
+|Tales of Vesperia|[01002C0008E52000](01002C0008E52000)|![WLD](http://nswdb.com/images/WLD.jpg)
 |TENGAI|[0100B2600A398000](0100B2600A398000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |The Legend of Zelda: Breath of the Wild|[01007EF00011E000](01007EF00011E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |The Messenger|[0100DC300AC78000](0100DC300AC78000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|The World Ends With You: Final Remix|[0100C1500B82E000](0100C1500B82E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Titan Quest|[0100605008268000](0100605008268000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Toki|[0100F3400A432000](0100F3400A432000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 
 ### U
 |Name|TitleID|Region
@@ -180,6 +186,7 @@ There might be a cheat in the database but not listed here!
 ### W
 |Name|TitleID|Region
 |--|--|--
+|WARRIORS OROCHI 4|[010016A00AEC0000](010016A00AEC0000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 
 ### X
 |Name|TitleID|Region
