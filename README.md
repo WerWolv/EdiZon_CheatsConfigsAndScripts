@@ -22,7 +22,7 @@ options = {
 ```
 Feel free to add more common functions and PR them!
 
-If you want to read up on how the save files of some games are structured, check out the [Save research](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Save research) folder. 
+If you want to read up on how the save files of some games are structured, check out the [Save research](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/tree/master/Save%20research) folder. 
 You can PR your own research there if you have some but don't want to build a config/script yourself.
 
 ## Editor Config files [![Build Status](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts.svg?branch=master)](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts)
