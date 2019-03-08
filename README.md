@@ -7,8 +7,8 @@ The Atmosphère cheat files get loaded by Atmosphère's `dmnt:cht` cheat module.
 If you want yours to be added, please send them to @WerWolv#1337 on Discord or create a Pull Request.
 
 Config files go into the `/EdiZon/editor` folder, Script files go into the `/EdiZon/editor/scripts` folder, libraries used by scripts go into the `/EdiZon/editor/scripts/lib` folder and cheats go into the respective `/atmosphere/titles/<titleID>/cheats` folders.
-
 Before submitting a config file, please make sure it works correctly and run it through the test suite with `npm test`. The test suite requires a [Node.js](https://nodejs.org/) environment can be installed via `npm install`.
+
 
 ## Save file analyzing
 You can use the [save_util.py Python script](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Tools/save_util.py) to analyze your save file. It supports following options:
@@ -21,6 +21,9 @@ options = {
 }
 ```
 Feel free to add more common functions and PR them!
+
+If you want to read up on how the save files of some games are structured, check out the [Save research](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Save research) folder. 
+You can PR your own research there if you have some but don't want to build a config/script yourself.
 
 ## Editor Config files [![Build Status](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts.svg?branch=master)](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts)
 
