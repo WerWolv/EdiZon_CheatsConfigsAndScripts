@@ -1,0 +1,41 @@
+{
+	"author": "Abenx",
+	"scriptLanguage": "lua",
+	"beta": true,
+	"all": [{
+		"saveFilePaths": ["Partner-SaveData"],
+		"files": "savedata_pk\\d+\\.s13",
+		"filetype": "bin",
+		"items": [{
+			"name": "Gold",
+			"category": "General",
+			"intArgs": [2, 4],
+			"strArgs": ["0000", "1322"],
+			"widget": {
+				"type": "int",
+				"minValue": 0,
+				"maxValue": 999999
+			}
+		}, {
+			"name": "Private arms",
+			"category": "General",
+			"intArgs": [2, 4],
+			"strArgs": ["0000", "4DC1"],
+			"widget": {
+				"type": "int",
+				"minValue": 0,
+				"maxValue": 100000
+			}
+		}, {
+			"name": "Private arms Max",
+			"category": "General",
+			"intArgs": [2, 4],
+			"strArgs": ["0000", "4DC5"],
+			"widget": {
+				"type": "int",
+				"minValue": 0,
+				"maxValue": 100000
+			}
+		}]
+	}]
+}
