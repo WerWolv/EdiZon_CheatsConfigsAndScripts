@@ -1,5 +1,5 @@
 {
-	"author": "Jojo",
+	"author": "Jojo modified by DNA",
 	"scriptLanguage": "lua",
 	"beta": true,
 	"all": [
@@ -7,12 +7,23 @@
 			"saveFilePaths": ["save"],
 			"files": "DRAKS\\d+\\.sl2",
 			"filetype": "darksouls",
+			"startupMessage": "Read the README!",
 			"items": [
 				{
+					"name": "INFO",
+					"category": "#README!!!",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "After applying changes, EdiZon seems to be frozen.\nThis happens due to all the checksum calculation.\nJust wait until it finishes."
+					}
+				},
+				{
 					"name": "HP",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "0070"],
+					"strArgs": ["0050", "0070"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -21,9 +32,9 @@
 				},
 				{
 					"name": "Max HP",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "0078"],
+					"strArgs": ["0050", "0078"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -32,9 +43,9 @@
 				},
 				{
 					"name": "Stamina",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "008C"],
+					"strArgs": ["0050", "008C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -43,9 +54,9 @@
 				},
 				{
 					"name": "Max Stamina",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "0094"],
+					"strArgs": ["0050", "0094"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -54,9 +65,9 @@
 				},
 				{
 					"name": "Vitality",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "009C"],
+					"strArgs": ["0050", "009C"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -65,9 +76,9 @@
 				},
 				{
 					"name": "Attunement",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00A4"],
+					"strArgs": ["0050", "00A4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -76,9 +87,9 @@
 				},
 				{
 					"name": "Endurance",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00AC"],
+					"strArgs": ["0050", "00AC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -87,9 +98,9 @@
 				},
 				{
 					"name": "Strength",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00B4"],
+					"strArgs": ["0050", "00B4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -98,9 +109,9 @@
 				},
 				{
 					"name": "Dexterity",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00BC"],
+					"strArgs": ["0050", "00BC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -109,9 +120,9 @@
 				},
 				{
 					"name": "Intelligence",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00C4"],
+					"strArgs": ["0050", "00C4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -120,9 +131,9 @@
 				},
 				{
 					"name": "Faith",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00CC"],
+					"strArgs": ["0050", "00CC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -131,9 +142,9 @@
 				},
 				{
 					"name": "Resistance",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00E4"],
+					"strArgs": ["0050", "00E4"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -142,9 +153,9 @@
 				},
 				{
 					"name": "Level",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00EC"],
+					"strArgs": ["0050", "00EC"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -153,9 +164,1395 @@
 				},
 				{
 					"name": "Souls",
-					"category": "Save 1",
+					"category": "Save 01",
 					"intArgs": [4, 4],
-					"strArgs": ["0028", "00F0"],
+					"strArgs": ["0050", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 02",
+					"intArgs": [4, 4],
+					"strArgs": ["0070", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 03",
+					"intArgs": [4, 4],
+					"strArgs": ["0090", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 04",
+					"intArgs": [4, 4],
+					"strArgs": ["00B0", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 05",
+					"intArgs": [4, 4],
+					"strArgs": ["00D0", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 06",
+					"intArgs": [4, 4],
+					"strArgs": ["00F0", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 07",
+					"intArgs": [4, 4],
+					"strArgs": ["0110", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 08",
+					"intArgs": [4, 4],
+					"strArgs": ["0130", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 09",
+					"intArgs": [4, 4],
+					"strArgs": ["0150", "00F0"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "0078"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Stamina",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "008C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Max Stamina",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "0094"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Vitality",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "009C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Attunement",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00A4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Endurance",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00AC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Strength",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00B4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Dexterity",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00BC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Intelligence",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00C4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Faith",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00CC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Resistance",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00E4"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Level",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00EC"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Souls",
+					"category": "Save 10",
+					"intArgs": [4, 4],
+					"strArgs": ["0170", "00F0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
