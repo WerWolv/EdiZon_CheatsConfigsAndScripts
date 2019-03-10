@@ -49,11 +49,12 @@ function setValueInSaveFile(value)
 	end
 end
 
-function getOffset()
+function getOffset(slot)
 	offset = 0
 	for i = 0, 3 do
-		offset = offset | (saveFileBuffer[41 + i] << i * 8)
+		offset = offset | (saveFileBuffer[0x51 + i + 0x20 * slot] << i * 8)
 	end
+
 	return offset
 end
 
@@ -66,12 +67,15 @@ function calcChecksum(saveDataOffset)
 end
 
 function setChecksum()
-	checksumOffset = getOffset()
-	md5hash = calcChecksum(checksumOffset + 17)
-	checksum = table.pack(md5hash:byte(1, 16))
-	for i = 1, 16 do
-		saveFileBuffer[checksumOffset + i] = checksum[i]
+	for slot = 0, 9 do
+		checksumOffset = getOffset(slot)
+		md5hash = calcChecksum(checksumOffset + 17)
+		checksum = table.pack(md5hash:byte(1, 16))
+		for i = 1, 16 do
+			saveFileBuffer[checksumOffset + i] = checksum[i]
+		end
 	end
+
 end
 
 function getModifiedSaveFile()
