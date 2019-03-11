@@ -19,7 +19,7 @@
 
 [Lora 9999999 Skill Point]
 580f0000 00C284D8
-780f0000 00126EE0 
+780f0000 00126EE0
 640f0000 00000000 0098967f
 
 [Lora 9999999 WP]
@@ -50,5 +50,3 @@
 780f0000 00000014
 620f0000 00000000 0000xxxx
 
-xxxx = set HP input Hex value must not more than your characters Max HP
-will update cheat if TX adds function for copying value from another address

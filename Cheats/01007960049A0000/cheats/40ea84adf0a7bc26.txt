@@ -71,4 +71,3 @@
 [Witchs Recipes x99]
 01000000 034e49b4 00000063
 
-Made by Stoned and RyuSeisuke1992
