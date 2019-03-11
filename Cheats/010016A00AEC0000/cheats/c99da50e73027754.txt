@@ -40,4 +40,3 @@
 [9999 Def]
 041F0000 11a8eb62 0000270F
 
-Made by Stoned
