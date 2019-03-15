@@ -1,13 +1,13 @@
-[All Pokémon Shiny (Hold B) (Handheld Only)]
-04000000 00739994 540002e0
+[All PokÃ©mon Shiny (Hold B) (Handheld Only)]
+04000000 00739984 540002e0
 80000002
-04000000 00739994 14000027
+04000000 00739984 14000027
 20000000
 
-[All Pokémon Shiny Always]
+[All PokÃ©mon Shiny Always]
 04000000 00739984 14000027
 
-[Normal Pokémon Shiny Odds]
+[Normal PokÃ©mon Shiny Odds]
 04000000 00739984 540002e0
 
 [Max Money]
