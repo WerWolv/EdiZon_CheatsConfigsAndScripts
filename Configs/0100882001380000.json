@@ -1,41 +1,6187 @@
 {
-	"author": "Abenx",
-	"scriptLanguage": "lua",
-	"beta": true,
-	"all": [{
-		"saveFilePaths": ["Partner-SaveData"],
-		"files": "savedata_pk\\d+\\.s13",
-		"filetype": "bin",
-		"items": [{
-			"name": "Gold",
-			"category": "General",
-			"intArgs": [2, 4],
-			"strArgs": ["0000", "1322"],
-			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 999999
-			}
-		}, {
-			"name": "Private arms",
-			"category": "General",
-			"intArgs": [2, 4],
-			"strArgs": ["0000", "4DC1"],
-			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 100000
-			}
-		}, {
-			"name": "Private arms Max",
-			"category": "General",
-			"intArgs": [2, 4],
-			"strArgs": ["0000", "4DC5"],
-			"widget": {
-				"type": "int",
-				"minValue": 0,
-				"maxValue": 100000
-			}
-		}]
-	}]
+  "author": "Abenx",
+  "scriptLanguage": "lua",
+  "beta": true,
+  "all": [
+    {
+      "saveFilePaths": [
+        "Partner-SaveData"
+      ],
+      "files": "savedata_pk\\d+\\.s13",
+      "filetype": "bin",
+      "items": [
+        {
+          "name": "Gold - 金",
+          "category": "0. General - 基本",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "1322"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Private arms - 私兵",
+          "category": "0. General - 基本",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "4DC1"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 100000
+          }
+        },
+        {
+          "name": "Private arms Max - 私兵最大",
+          "category": "0. General - 基本",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "4DC5"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 100000
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "1. City - 襄平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "56D6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "1. City - 襄平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "56DA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "1. City - 襄平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "56DE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "1. City - 襄平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "56E2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "1. City - 襄平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "56E2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "1. City - 襄平",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "56A0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "2. City - 北平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "57CC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "2. City - 北平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "57D0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "2. City - 北平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "57D4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "2. City - 北平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "57D8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "2. City - 北平",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "57D8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "2. City - 北平",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5796"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "3. City - 薊",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "58C2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "3. City - 薊",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "58C6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "3. City - 薊",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "58CA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "3. City - 薊",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "58CE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "3. City - 薊",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "58CE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "3. City - 薊",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "588C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "4. City - 南皮",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "59B8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "4. City - 南皮",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "59BC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "4. City - 南皮",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "59C0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "4. City - 南皮",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "59C4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "4. City - 南皮",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "59C4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "4. City - 南皮",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5982"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "5. City - 中山",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5AAE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "5. City - 中山",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5AB2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "5. City - 中山",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5AB6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "5. City - 中山",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5ABA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "5. City - 中山",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5ABA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "5. City - 中山",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5A78"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "6. City - 鉅鹿",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5BA4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "6. City - 鉅鹿",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5BA8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "6. City - 鉅鹿",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5BAC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "6. City - 鉅鹿",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5BB0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "6. City - 鉅鹿",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5BB0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "6. City - 鉅鹿",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5B6E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "7. City - 甘陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5C9A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "7. City - 甘陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5C9E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "7. City - 甘陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5CA2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "7. City - 甘陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5CA6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "7. City - 甘陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5CA6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "7. City - 甘陵",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5C64"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "8. City - 鄴",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5D90"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "8. City - 鄴",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5D94"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "8. City - 鄴",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5D98"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "8. City - 鄴",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5D9C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "8. City - 鄴",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5D9C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "8. City - 鄴",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5D5A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "9. City - 晉陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5E86"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "9. City - 晉陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5E8A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "9. City - 晉陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5E8E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "9. City - 晉陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5E92"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "9. City - 晉陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5E92"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "9. City - 晉陽",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5E50"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "10. City - 上黨",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5F7C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "10. City - 上黨",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5F80"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "10. City - 上黨",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5F84"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "10. City - 上黨",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5F88"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "10. City - 上黨",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "5F88"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "10. City - 上黨",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "5F46"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "11. City - 平原",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6072"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "11. City - 平原",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6076"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "11. City - 平原",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "607A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "11. City - 平原",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "607E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "11. City - 平原",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "607E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "11. City - 平原",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "603C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "12. City - 北海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6168"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "12. City - 北海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "616C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "12. City - 北海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6170"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "12. City - 北海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6174"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "12. City - 北海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6174"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "12. City - 北海",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6132"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "13. City - 琅邪",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "625E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "13. City - 琅邪",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6262"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "13. City - 琅邪",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6266"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "13. City - 琅邪",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "626A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "13. City - 琅邪",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "626A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "13. City - 琅邪",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6228"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "14. City - 下邳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6354"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "14. City - 下邳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6358"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "14. City - 下邳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "635C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "14. City - 下邳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6360"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "14. City - 下邳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6360"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "14. City - 下邳",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "631E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "15. City - 廣陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "644A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "15. City - 廣陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "644E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "15. City - 廣陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6452"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "15. City - 廣陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6456"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "15. City - 廣陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6456"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "15. City - 廣陵",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6414"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "16. City - 濟北",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6540"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "16. City - 濟北",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6544"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "16. City - 濟北",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6548"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "16. City - 濟北",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "654C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "16. City - 濟北",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "654C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "16. City - 濟北",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "650A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "17. City - 濮陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6636"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "17. City - 濮陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "663A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "17. City - 濮陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "663E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "17. City - 濮陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6642"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "17. City - 濮陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6642"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "17. City - 濮陽",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6600"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "18. City - 陳留",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "672C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "18. City - 陳留",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6730"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "18. City - 陳留",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6734"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "18. City - 陳留",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6738"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "18. City - 陳留",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6738"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "18. City - 陳留",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "66F6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "19. City - 小沛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6822"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "19. City - 小沛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6826"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "19. City - 小沛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "682A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "19. City - 小沛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "682E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "19. City - 小沛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "682E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "19. City - 小沛",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "67EC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "20. City - 譙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6918"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "20. City - 譙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "691C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "20. City - 譙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6920"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "20. City - 譙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6924"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "20. City - 譙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6924"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "20. City - 譙",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "68E2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "21. City - 許昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6A0E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "21. City - 許昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6A12"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "21. City - 許昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6A16"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "21. City - 許昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6A1A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "21. City - 許昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6A1A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "21. City - 許昌",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "69D8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "22. City - 汝南",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6B04"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "22. City - 汝南",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6B08"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "22. City - 汝南",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6B0C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "22. City - 汝南",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6B10"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "22. City - 汝南",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6B10"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "22. City - 汝南",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6ACE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "23. City - 河內",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6BFA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "23. City - 河內",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6BFE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "23. City - 河內",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6C02"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "23. City - 河內",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6C06"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "23. City - 河內",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6C06"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "23. City - 河內",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6BC4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "24. City - 洛陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6CF0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "24. City - 洛陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6CF4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "24. City - 洛陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6CF8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "24. City - 洛陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6CFC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "24. City - 洛陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6CFC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "24. City - 洛陽",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6CBA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "25. City - 弘農",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6DE6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "25. City - 弘農",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6DEA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "25. City - 弘農",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6DEE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "25. City - 弘農",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6DF2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "25. City - 弘農",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6DF2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "25. City - 弘農",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6DB0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "26. City - 長安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6EDC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "26. City - 長安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6EE0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "26. City - 長安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6EE4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "26. City - 長安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6EE8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "26. City - 長安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6EE8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "26. City - 長安",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6EA6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "27. City - 安定",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6FD2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "27. City - 安定",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6FD6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "27. City - 安定",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6FDA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "27. City - 安定",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6FDE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "27. City - 安定",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "6FDE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "27. City - 安定",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "6F9C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "28. City - 天水",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "70C8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "28. City - 天水",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "70CC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "28. City - 天水",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "70D0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "28. City - 天水",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "70D4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "28. City - 天水",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "70D4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "28. City - 天水",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7092"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "29. City - 武威",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "71BE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "29. City - 武威",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "71C2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "29. City - 武威",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "71C6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "29. City - 武威",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "71CA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "29. City - 武威",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "71CA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "29. City - 武威",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7188"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "30. City - 金城",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "72B4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "30. City - 金城",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "72B8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "30. City - 金城",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "72BC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "30. City - 金城",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "72C0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "30. City - 金城",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "72C0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "30. City - 金城",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "727E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "31. City - 武都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "73AA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "31. City - 武都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "73AE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "31. City - 武都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "73B2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "31. City - 武都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "73B6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "31. City - 武都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "73B6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "31. City - 武都",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7374"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "32. City - 漢中",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "74A0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "32. City - 漢中",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "74A4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "32. City - 漢中",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "74A8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "32. City - 漢中",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "74AC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "32. City - 漢中",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "74AC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "32. City - 漢中",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "746A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "33. City - 永安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7596"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "33. City - 永安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "759A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "33. City - 永安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "759E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "33. City - 永安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "75A2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "33. City - 永安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "75A2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "33. City - 永安",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7560"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "34. City - 梓潼",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "768C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "34. City - 梓潼",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7690"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "34. City - 梓潼",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7694"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "34. City - 梓潼",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7698"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "34. City - 梓潼",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7698"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "34. City - 梓潼",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7656"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "35. City - 成都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7782"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "35. City - 成都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7786"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "35. City - 成都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "778A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "35. City - 成都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "778E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "35. City - 成都",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "778E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "35. City - 成都",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "774C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "36. City - 江州",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7878"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "36. City - 江州",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "787C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "36. City - 江州",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7880"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "36. City - 江州",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7884"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "36. City - 江州",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7884"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "36. City - 江州",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7842"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "37. City - 牂牁",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "796E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "37. City - 牂牁",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7972"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "37. City - 牂牁",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7976"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "37. City - 牂牁",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "797A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "37. City - 牂牁",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "797A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "37. City - 牂牁",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7938"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "38. City - 越巂",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7A64"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "38. City - 越巂",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7A68"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "38. City - 越巂",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7A6C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "38. City - 越巂",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7A70"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "38. City - 越巂",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7A70"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "38. City - 越巂",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7A2E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "39. City - 建寧",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7B5A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "39. City - 建寧",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7B5E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "39. City - 建寧",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7B62"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "39. City - 建寧",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7B66"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "39. City - 建寧",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7B66"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "39. City - 建寧",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7B24"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "40. City - 永昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7C50"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "40. City - 永昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7C54"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "40. City - 永昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7C58"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "40. City - 永昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7C5C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "40. City - 永昌",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7C5C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "40. City - 永昌",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7C1A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "41. City - 宛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7D46"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "41. City - 宛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7D4A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "41. City - 宛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7D4E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "41. City - 宛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7D52"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "41. City - 宛",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7D52"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "41. City - 宛",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7D10"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "42. City - 新野",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7E3C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "42. City - 新野",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7E40"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "42. City - 新野",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7E44"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "42. City - 新野",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7E48"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "42. City - 新野",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7E48"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "42. City - 新野",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7E06"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "43. City - 襄陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7F32"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "43. City - 襄陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7F36"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "43. City - 襄陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7F3A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "43. City - 襄陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7F3E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "43. City - 襄陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "7F3E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "43. City - 襄陽",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7EFC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "44. City - 江夏",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8028"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "44. City - 江夏",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "802C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "44. City - 江夏",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8030"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "44. City - 江夏",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8034"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "44. City - 江夏",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8034"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "44. City - 江夏",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "7FF2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "45. City - 上庸",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "811E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "45. City - 上庸",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8122"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "45. City - 上庸",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8126"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "45. City - 上庸",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "812A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "45. City - 上庸",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "812A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "45. City - 上庸",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "80E8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "46. City - 江陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8214"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "46. City - 江陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8218"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "46. City - 江陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "821C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "46. City - 江陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8220"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "46. City - 江陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8220"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "46. City - 江陵",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "81DE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "47. City - 長沙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "830A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "47. City - 長沙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "830E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "47. City - 長沙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8312"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "47. City - 長沙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8316"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "47. City - 長沙",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8316"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "47. City - 長沙",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "82D4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "48. City - 武陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8400"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "48. City - 武陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8404"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "48. City - 武陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8408"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "48. City - 武陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "840C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "48. City - 武陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "840C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "48. City - 武陵",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "83CA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "49. City - 桂陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "84F6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "49. City - 桂陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "84FA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "49. City - 桂陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "84FE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "49. City - 桂陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8502"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "49. City - 桂陽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8502"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "49. City - 桂陽",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "84C0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "50. City - 零陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "85EC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "50. City - 零陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "85F0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "50. City - 零陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "85F4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "50. City - 零陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "85F8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "50. City - 零陵",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "85F8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "50. City - 零陵",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "85B6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "51. City - 壽春",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "86E2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "51. City - 壽春",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "86E6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "51. City - 壽春",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "86EA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "51. City - 壽春",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "86EE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "51. City - 壽春",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "86EE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "51. City - 壽春",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "86AC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "52. City - 廬江",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "87D8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "52. City - 廬江",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "87DC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "52. City - 廬江",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "87E0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "52. City - 廬江",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "87E4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "52. City - 廬江",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "87E4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "52. City - 廬江",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "87A2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "53. City - 建業",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "88CE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "53. City - 建業",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "88D2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "53. City - 建業",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "88D6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "53. City - 建業",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "88DA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "53. City - 建業",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "88DA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "53. City - 建業",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8898"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "54. City - 吳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "89C4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "54. City - 吳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "89C8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "54. City - 吳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "89CC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "54. City - 吳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "89D0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "54. City - 吳",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "89D0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "54. City - 吳",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "898E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "55. City - 會稽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8ABA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "55. City - 會稽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8ABE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "55. City - 會稽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8AC2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "55. City - 會稽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8AC6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "55. City - 會稽",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8AC6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "55. City - 會稽",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8A84"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "56. City - 豫章",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8BB0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "56. City - 豫章",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8BB4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "56. City - 豫章",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8BB8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "56. City - 豫章",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8BBC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "56. City - 豫章",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8BBC"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "56. City - 豫章",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8B7A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "57. City - 建安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8CA6"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "57. City - 建安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8CAA"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "57. City - 建安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8CAE"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "57. City - 建安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8CB2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "57. City - 建安",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8CB2"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "57. City - 建安",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8C70"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "58. City - 南海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8D9C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "58. City - 南海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8DA0"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "58. City - 南海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8DA4"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "58. City - 南海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8DA8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "58. City - 南海",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8DA8"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "58. City - 南海",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8D66"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "59. City - 合浦",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8E92"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "59. City - 合浦",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8E96"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "59. City - 合浦",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8E9A"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "59. City - 合浦",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8E9E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "59. City - 合浦",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8E9E"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "59. City - 合浦",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8E5C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        },
+        {
+          "name": "Gold - 金",
+          "category": "60. City - 交趾",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8F88"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Food - 兵糧",
+          "category": "60. City - 交趾",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8F8C"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Civilians - 人口",
+          "category": "60. City - 交趾",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8F90"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Soldiers - 兵役人口",
+          "category": "60. City - 交趾",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8F94"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Morale - 民心",
+          "category": "60. City - 交趾",
+          "intArgs": [
+            2,
+            4
+          ],
+          "strArgs": [
+            "0000",
+            "8F94"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 999999
+          }
+        },
+        {
+          "name": "Ruler - 統治者",
+          "category": "60. City - 交趾",
+          "intArgs": [
+            2,
+            1
+          ],
+          "strArgs": [
+            "0000",
+            "8F52"
+          ],
+          "widget": {
+            "type": "int",
+            "minValue": 0,
+            "maxValue": 254
+          }
+        }
+      ]
+    }
+  ]
 }
