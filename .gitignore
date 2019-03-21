@@ -1,2 +1,4 @@
 node_modules
 package-lock.json
+Tools/credentials.py
+*.pyc
