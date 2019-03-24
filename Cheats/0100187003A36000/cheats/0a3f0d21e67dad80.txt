@@ -1,5 +1,9 @@
 [Pokemon: Let's Go Eevee!]
 
+[Always 6IV wild Pokemon]
+04000000 00739AC0 d503201f
+04000000 00739B50 7100191f
+
 [Pause when Shiny (A to continue)]
 04000000 00739A60 2A0003E9
 04000000 00739A64 B9401260
