@@ -1,5 +1,9 @@
 [Pokemon: Lets Go, Pikachu!]
 
+[Always 6IV wild Pokemon]
+04000000 00739A60 d503201f
+04000000 00739AF0 7100191f
+
 [Pause when Shiny (A to continue)]
 04000000 00739A00 2A0003E9
 04000000 00739A04 B9401260
