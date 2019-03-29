@@ -1,0 +1,25 @@
+{
+	"author": "DNA",
+	"scriptLanguage": "lua",
+	"beta": true,
+	"all": [
+		{
+			"saveFilePaths": [""],
+			"files": "Slot00",
+			"filetype": "yoshicw",
+			"items": [
+				{
+					"name": "Coins",
+					"category": "Slot1",
+					"intArgs": [4, 4],
+					"strArgs": ["0", "18","coins"],
+					"widget": {
+						"type": "int",
+						"minValue": 1,
+						"maxValue": 99999999
+					}
+				}
+			]
+		}
+	]
+}
