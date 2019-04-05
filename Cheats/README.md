@@ -62,6 +62,7 @@ There might be a cheat in the database but not listed here!
 |Dead Cells|[0100646009FBE000](0100646009FBE000/cheats)|![EUR](http://nswdb.com/images/EUR.jpg)
 |Dead Cells|[0100FC000AEF0000](0100FC000AEF0000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Dragon Ball FighterZ|[0100A250097F0000](0100A250097F0000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Dragon Ball Heroes|[0100E5E00C464000](0100E5E00C464000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Dragon Ball Xenoverse 2|[010078D000F88000](010078D000F88000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Dragon Blaze|[010099B00A2DC000](010099B00A2DC000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Dragon Quest Builders|[010008900705C000](010008900705C000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
