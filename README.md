@@ -62,6 +62,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [Mario Kart 8](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100152000022000.json)           | mk8.py          | Ac_K | No |
 | [Kirby Star Allies](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01007E3006DDA000.json)           | kirbysa.py          | Ac_K | No |
 | [Romance of the Three Kingdoms 13 / Sangokushi 13](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100882001380000.json)           | bin.lua          | Abenx | Yes |
+| [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100E5E00C464000.json) | bin.py | Krank | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |

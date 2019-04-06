@@ -1,0 +1,316 @@
+{
+	"author": "KranK",
+	"scriptLanguage": "py",
+	"beta": true,
+	"all": 
+	[
+		{
+			"saveFilePaths": [""],
+			"files": "save_play_data.dat",
+			"filetype": "bin",
+			"items": 
+			[
+				{
+					"name": "Zeni $$$",
+					"category": "Hero Slot 1 - Curency",
+					"intArgs": [2, 4],
+					"strArgs": ["0000", "0008"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+					
+				},
+				{
+					"name": "Blue Tickets",
+					"category": "Hero Slot 1 - Curency",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0014"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Gold Tickets",
+					"category": "Hero Slot 1 - Curency",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "001C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Dark Blue Tickets",
+					"category": "Hero Slot 1 - Curency",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0024"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 1",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "002C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 2",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0034"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 3",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "003C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 4",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0044"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 5",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "004C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 6",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0054"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 7",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "005C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 8",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0064"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 9",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "006C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 10",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0074"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 11",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "007C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 12",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0084"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 13",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "008C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 14",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0094"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 15",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "009C"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 16",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "00A4"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 17",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "00AC"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 18",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "00B4"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				},
+				{
+					"name": "Item 19",
+					"category": "Hero Slot 1 - Items",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "00BC"],
+					"widget": 
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+					
+				}
+				
+			]
+		}
+	]
+}
