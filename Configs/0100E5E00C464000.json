@@ -1,18 +1,18 @@
 {
 	"author": "KranK",
 	"scriptLanguage": "py",
-	"beta": true,
+	"beta": false,
 	"all": 
 	[
 		{
 			"saveFilePaths": [""],
 			"files": "save_play_data.dat",
-			"filetype": "bin",
+			"filetype": "DragonBallHeroes",
 			"items": 
 			[
 				{
 					"name": "Zeni $$$",
-					"category": "Hero Slot 1 - Curency",
+					"category": "Hero 1 - Curency",
 					"intArgs": [2, 4],
 					"strArgs": ["0000", "0008"],
 					"widget": 
@@ -25,7 +25,7 @@
 				},
 				{
 					"name": "Blue Tickets",
-					"category": "Hero Slot 1 - Curency",
+					"category": "Hero 1 - Curency",
 					"intArgs": [2, 2],
 					"strArgs": ["0000", "0014"],
 					"widget": 
@@ -38,7 +38,7 @@
 				},
 				{
 					"name": "Gold Tickets",
-					"category": "Hero Slot 1 - Curency",
+					"category": "Hero 1 - Curency",
 					"intArgs": [2, 2],
 					"strArgs": ["0000", "001C"],
 					"widget": 
@@ -51,7 +51,7 @@
 				},
 				{
 					"name": "Dark Blue Tickets",
-					"category": "Hero Slot 1 - Curency",
+					"category": "Hero 1 - Curency",
 					"intArgs": [2, 2],
 					"strArgs": ["0000", "0024"],
 					"widget": 
@@ -63,254 +63,99 @@
 					
 				},
 				{
-					"name": "Item 1",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "002C"],
+					"name": "Unlock All (3093) Accessory's",
+					"category": "Hero 1 - Unlockables",
+					"intArgs": [2, 1],
+					"strArgs": ["0001", "7C16"],
 					"widget": 
 					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 7
 					}
-					
 				},
 				{
-					"name": "Item 2",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0034"],
+					"name": "Unlock (23 of 27) Items",
+					"category": "Hero 1 - Unlockables",
+					"intArgs": [2, 1],
+					"strArgs": ["0002", "0034"],
 					"widget": 
 					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 99
 					}
-					
 				},
 				{
-					"name": "Item 3",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "003C"],
+					"name": "Unlock All (1161) Cards",
+					"category": "Hero 1 - Unlockables",
+					"intArgs": [2, 1],
+					"strArgs": ["0003", "17A3"],
 					"widget": 
 					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 1
 					}
-					
-				},
+				}
+			]
+		},
+		{
+			"saveFilePaths": [""],
+			"files": "save_creation_card_data.dat",
+			"filetype": "DragonBallHeroes",
+			"items": 
+			[
 				{
-					"name": "Item 4",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0044"],
+					"name": "Customization Points",
+					"category": "General",
+					"intArgs": [2, 4],
+					"strArgs": ["0000", "0004"],
 					"widget": 
 					{
 						"type": "int",
 						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 5",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "004C"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 6",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0054"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 7",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "005C"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 8",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0064"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 9",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "006C"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 10",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0074"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 11",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "007C"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 12",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0084"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 13",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "008C"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 14",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "0094"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 15",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "009C"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 16",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "00A4"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 17",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "00AC"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 18",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "00B4"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
-					}
-					
-				},
-				{
-					"name": "Item 19",
-					"category": "Hero Slot 1 - Items",
-					"intArgs": [2, 2],
-					"strArgs": ["0000", "00BC"],
-					"widget": 
-					{
-						"type": "int",
-						"minValue": 0,
-						"maxValue": 999
+						"maxValue": 999999
 					}
 					
 				}
-				
-			]
-		}
+		  ]
+
+	  },
+		{
+			"saveFilePaths": [""],
+			"files": "save_arcade_data.dat",
+			"filetype": "DragonBallHeroes",
+			"items": 
+			[
+				{
+					"name": "Super Dragonballs",
+					"category": "General",
+					"intArgs": [2, 4],
+					"strArgs": ["0000", "0DB6"],
+					"widget": 
+					{
+						"type" : "list",
+						"listItemNames" : [ "0 Super Dragonballs", "1 Super Dragonball", "2 Super Dragonballs" , "3 Super Dragonballs", "4 Super Dragonballs", "5 Super Dragonballs", "6 Super Dragonballs" ],
+						"listItemValues" : [ 0, 1, 5, 38, 58, 59, 63]
+					}
+					
+				},
+				{
+					"name": "Change Species to",
+					"category": "General",
+					"intArgs": [2, 4],
+					"strArgs": ["0000", "0011"],
+					"widget": 
+					{
+						"type" : "list",
+						"listItemNames" : [ "Cyborg", "Demon King", "Freezer Arm" , "Kaio", "Majin", "Namek", "Saiyan Male", "Saiyan Female" ],
+						"listItemValues" : [ 85, 93, 77, 89, 69, 81, 65, 73]
+					}
+					
+				}
+		  ]
+
+	  }
 	]
 }
