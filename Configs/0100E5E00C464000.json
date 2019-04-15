@@ -97,6 +97,30 @@
 						"offValue": 0,
 						"onValue": 1
 					}
+				},
+				{
+					"name": "Player Name",
+					"category": "Hero 1 - Names",
+					"intArgs": [2, 16],
+					"strArgs": ["0004", "012C14"],
+					"widget": 
+					{
+						"type": "string",
+						"minLength" : 1,
+						"maxLength" : 30
+					}
+				},
+				{
+					"name": "Partner Name",
+					"category": "Hero 1 - Names",
+					"intArgs": [2, 16],
+					"strArgs": ["0004", "012C54"],
+					"widget": 
+					{
+						"type": "string",
+						"minLength" : 1,
+						"maxLength" : 30
+					}
 				}
 			]
 		},
@@ -109,13 +133,27 @@
 				{
 					"name": "Customization Points",
 					"category": "General",
-					"intArgs": [2, 4],
+					"intArgs": [2, 3],
 					"strArgs": ["0000", "0004"],
 					"widget": 
 					{
 						"type": "int",
 						"minValue": 0,
 						"maxValue": 999999
+					}
+					
+				},
+				{
+					"name": "Unlock all (99999) Custom Blank Cards",
+					"category": "General",
+					"intArgs": [2, 1],
+					"strArgs": ["0005", "0024"],
+					"tooltip" : "All will not Show for 0% story \n You must progress little farder in the game !!!",
+					"widget": 
+					{
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 159
 					}
 					
 				}
@@ -144,15 +182,67 @@
 				{
 					"name": "Change Species to",
 					"category": "General",
-					"intArgs": [2, 4],
+					"intArgs": [2, 2],
 					"strArgs": ["0000", "0011"],
 					"widget": 
 					{
 						"type" : "list",
-						"listItemNames" : [ "Cyborg", "Demon King", "Freezer Arm" , "Kaio", "Majin", "Namek", "Saiyan Male", "Saiyan Female" ],
-						"listItemValues" : [ 85, 93, 77, 89, 69, 81, 65, 73]
+						"listItemNames" : [ "Cyborg","Super Cyborg","Ultimate Cyborg","God Cyborg","Super God Cyborg","Demon King","Super Demon King","Ultimate Demon King","God Demon King","Super God Demon King","Freezer Army","Super Freezer Army","Ultimate Freezer Army","God Freezer Army","Super God Freezer Army","Kaio","Kaio Super Kaio","Kaio Ultimate","Kaio God","Kaio Super God","Majin","Super Majin","Ultimate Majin","God Majin","Super God Majin","Namek","Super Namek","Ultimate Namek","God Namek","Super God Namek","Saiyan Male","Super Saiyan Male","Ultimate Saiyan Male","God Saiyan Male","Super God Saiyan Male","Saiyan Female","Super Saiyan Female","Ultimate Saiyan Female","God Saiyan Female","Super God Saiyan Female" ],
+						"listItemValues" : [ 85, 8405, 16597, 24789, 40917, 93, 8413, 16605, 24797, 40925, 77, 8397, 16589, 24781, 40909, 192, 8410, 16602, 24794, 40922, 69, 8389, 16581, 24773, 40901, 81, 8401, 16593, 24785, 40913, 65, 8385, 16577, 24769, 40897, 73, 8393, 16585, 24777, 40905 ]
 					}
 					
+				},
+				{
+					"name": "Hero Level Boost to (97) Grade Super God",
+					"category": "General",
+					"intArgs": [2, 1],
+					"strArgs": ["0000", "0012"],
+					"tooltip" : "You Must Change Species to any Super Hero otherwise this wont work !!! \n Please Change Species to Super atleast",
+					"widget": 
+					{
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 159
+					}
+				},
+				{
+					"name": "Boost Hero TP",
+					"category": "General",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0DBD"],
+					"tooltip" : "This will Reset when you use Dragonballs To upgrade Hero !!! \n Please Change Species to Super atleast",
+					"widget": 
+					{
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 65535
+					}
+				},
+				{
+					"name": "Boost Hero Power",
+					"category": "General",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0DBF"],
+					"tooltip" : "This will Reset when you use Dragonballs To upgrade Hero !!! \n Please Change Species to Super atleast",
+					"widget": 
+					{
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 65535
+					}
+				},
+				{
+					"name": "Boost Hero Stamina",
+					"category": "General",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "0DC1"],
+					"tooltip" : "This will Reset when you use Dragonballs To upgrade Hero !!! \n Please Change Species to Super atleast",
+					"widget": 
+					{
+						"type": "bool",
+						"offValue": 0,
+						"onValue": 65535
+					}
 				}
 		  ]
 
