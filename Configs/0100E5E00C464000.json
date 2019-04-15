@@ -196,14 +196,13 @@
 					"name": "Hero Level Boost to (97) Grade Super God",
 					"category": "General",
 					"intArgs": [2, 1],
-					"strArgs": ["0005", "0012"],
-					"tooltip" : "You Must Change Species to any Super Hero \n otherwise this wont work !!!",
+					"strArgs": ["0000", "0012"],
+					"tooltip" : "You Must Change Species to any Super Hero otherwise this wont work !!! \n Please Change Species to Super atleast",
 					"widget": 
 					{
 						"type": "bool",
-						"comment": "Please Change Species. \n to Super atleast",
 						"offValue": 0,
-						"onValue": 1
+						"onValue": 159
 					}
 				},
 				{
@@ -211,11 +210,10 @@
 					"category": "General",
 					"intArgs": [2, 2],
 					"strArgs": ["0000", "0DBD"],
-					"tooltip" : "This will Reset when you use Dragonballs  \n To upgrade Hero !!!",
+					"tooltip" : "This will Reset when you use Dragonballs To upgrade Hero !!! \n Please Change Species to Super atleast",
 					"widget": 
 					{
 						"type": "bool",
-						"comment": "Please Change Species. \n to Super atleast",
 						"offValue": 0,
 						"onValue": 65535
 					}
@@ -225,11 +223,10 @@
 					"category": "General",
 					"intArgs": [2, 2],
 					"strArgs": ["0000", "0DBF"],
-					"tooltip" : "This will Reset when you use Dragonballs  \n To upgrade Hero !!!",
+					"tooltip" : "This will Reset when you use Dragonballs To upgrade Hero !!! \n Please Change Species to Super atleast",
 					"widget": 
 					{
 						"type": "bool",
-						"comment": "Please Change Species. \n to Super atleast",
 						"offValue": 0,
 						"onValue": 65535
 					}
@@ -239,11 +236,10 @@
 					"category": "General",
 					"intArgs": [2, 2],
 					"strArgs": ["0000", "0DC1"],
-					"tooltip" : "This will Reset when you use Dragonballs  \n To upgrade Hero !!!",
+					"tooltip" : "This will Reset when you use Dragonballs To upgrade Hero !!! \n Please Change Species to Super atleast",
 					"widget": 
 					{
 						"type": "bool",
-						"comment": "Please Change Species. \n to Super atleast",
 						"offValue": 0,
 						"onValue": 65535
 					}
