@@ -62,7 +62,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [Mario Kart 8](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100152000022000.json)           | mk8.py          | Ac_K | No |
 | [Kirby Star Allies](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01007E3006DDA000.json)           | kirbysa.py          | Ac_K | No |
 | [Romance of the Three Kingdoms 13 / Sangokushi 13](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100882001380000.json)           | bin.lua          | Abenx | Yes |
-| [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100E5E00C464000.json) | bin.py | Krank | Yes |
+| [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100E5E00C464000.json) | DragonBallHeroes.py | Krank | No |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
@@ -83,6 +83,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [Mario Kart 8](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/mk8.py) | None  | Ac_K | No |
 | [Kirby Star Allies](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/kirbysa.py) | None  | Ac_K | No |
 | [Super Mario Odyssey](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/smo.py) | [lib/byml.py](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/byml.py) & lib/python3.5/sortedcontainers/  | Ac_K & WerWolv | No |
+| [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/DragonBallHeroes.py) | [lib/python3.5/codecs.py](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/byml.py) | KranK | No |
 
 ## Atmosphère Cheats
 
