@@ -147,13 +147,13 @@
 					"name": "Unlock all (99999) Custom Blank Cards",
 					"category": "General",
 					"intArgs": [2, 1],
-					"strArgs": ["0005", "0024"],
-					"tooltip" : "All will not Show for 0% story \n You must progress little farder in the game !!!",
+					"strArgs": ["0005", "0010"],
+					"tooltip" : "Toogle This [Off] and [On] Again and save If You have \n Wrong ulocked Cards perior or if Cards Wont Show !!!",
 					"widget": 
 					{
 						"type": "bool",
-						"offValue": 0,
-						"onValue": 159
+						"offValue": 1,
+						"onValue": 231
 					}
 					
 				}
