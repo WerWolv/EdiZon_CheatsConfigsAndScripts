@@ -106,6 +106,7 @@ There might be a cheat in the database but not listed here!
 ### L
 |Name|TitleID|Region
 |--|--|--
+|Little Inferno|[0100B18001D8E000](0100B18001D8E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 
 ### M
 |Name|TitleID|Region
