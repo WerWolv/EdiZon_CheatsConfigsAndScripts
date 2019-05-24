@@ -53,7 +53,7 @@ There might be a cheat in the database but not listed here!
 |Cave Story+|[0100A55003B5C000](0100A55003B5C000/cheats)|![EUR](http://nswdb.com/images/EUR.jpg)
 |Cave Story+|[0100B7D0022EE000](0100B7D0022EE000/cheats)|![USA](http://nswdb.com/images/USA.jpg)
 |Crash Bandicoot N. Sane Trilogy|[0100D1B006744000](0100D1B006744000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
-
+|Cuphead|[0100A5C00D162000](0100A5C00D162000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 
 ### D
 |Name|TitleID|Region
