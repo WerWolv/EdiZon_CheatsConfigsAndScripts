@@ -168,7 +168,7 @@ There might be a cheat in the database but not listed here!
 ### T
 |Name|TitleID|Region
 |--|--|--
-|Tales of Vesperia|[01002C0008E52000](01002C0008E52000)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Tales of Vesperia|[01002C0008E52000](01002C0008E52000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |TENGAI|[0100B2600A398000](0100B2600A398000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |The Legend of Zelda: Breath of the Wild|[01007EF00011E000](01007EF00011E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |The Messenger|[0100DC300AC78000](0100DC300AC78000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)

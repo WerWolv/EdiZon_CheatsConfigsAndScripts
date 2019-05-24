@@ -2,7 +2,7 @@
 	"author": "borntohonk & macia10",
 	"scriptLanguage": "lua",
 	"beta": false,
-	"1.5.0": [
+	"1.6.0": [
 		{
 			"saveFilePaths": ["\\d"],
 			"files": "game_data\\.sav",
