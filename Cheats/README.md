@@ -75,6 +75,7 @@ There might be a cheat in the database but not listed here!
 ### F
 |Name|TitleID|Region
 |--|--|--
+|Final Fantasy XII The Zodiac Age|[0100EB100AB42000](0100EB100AB42000/cheats)![WLD](http://nswdb.com/images/WLD.jpg)
 |Fire Emblem Warriors|[0100F15003E64000](0100F15003E64000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 
 ### G
