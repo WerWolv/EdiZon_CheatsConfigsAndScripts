@@ -3,3 +3,5 @@ package-lock.json
 Tools/credentials.py
 *.pyc
 Tools/Scrapers/MaxCheats
+fix_readme.py
+update.py
