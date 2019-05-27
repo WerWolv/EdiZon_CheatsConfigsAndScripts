@@ -28,6 +28,7 @@
 |ACA NEOGEO METAL SLUG 2|[010086300486E000](010086300486E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |ACA NEOGEO METAL SLUG 3|[0100BA8001DC6000](0100BA8001DC6000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |ACA NEOGEO METAL SLUG 4|[01009CE00AFAE000](01009CE00AFAE000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|ACA NEOGEO METAL SLUG 5|[01004C000AFDC000](01004C000AFDC000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |ACA NEOGEO METAL SLUG X|[01008FD004DB6000](01008FD004DB6000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |ACA NEOGEO MUTATION NATION|[01007F4004FA4000](01007F4004FA4000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |ACA NEOGEO NAM-1975|[0100A8C001DCE000](0100A8C001DCE000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
@@ -260,4 +261,4 @@
 ### n
 |Name|TitleID|Region
 |--|--|--
-|nickelodeon Kart Racers|[0100D6200933C000](0100D6200933C000/cheats)|![USA](http://nswdb.com/images/USA.jpg)
+|Nickelodeon Kart Racers|[0100D6200933C000](0100D6200933C000/cheats)|![USA](http://nswdb.com/images/USA.jpg)
