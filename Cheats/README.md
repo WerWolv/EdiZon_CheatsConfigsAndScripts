@@ -172,6 +172,7 @@
 |NBA 2K Playgrounds 2|[01001AE00C1B2000](01001AE00C1B2000/cheats)|![EUR](http://nswdb.com/images/EUR.jpg)
 |Neko Navy Daydream Edition|[0100E5500B020800](0100E5500B020800/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |New Super Mario Bros. U Deluxe|[0100EA80032EA000](0100EA80032EA000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Nickelodeon Kart Racers|[0100D6200933C000](0100D6200933C000/cheats)|![USA](http://nswdb.com/images/USA.jpg)
 |Nightmare Boy|[01005F4009112000](01005F4009112000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 ### O
 |Name|TitleID|Region
@@ -258,7 +259,3 @@
 |Name|TitleID|Region
 |--|--|--
 |Zoids Wild: King of Blast|[0100E43009320000](0100E43009320000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
-### n
-|Name|TitleID|Region
-|--|--|--
-|Nickelodeon Kart Racers|[0100D6200933C000](0100D6200933C000/cheats)|![USA](http://nswdb.com/images/USA.jpg)
