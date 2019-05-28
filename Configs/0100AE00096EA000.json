@@ -1,5 +1,5 @@
 {
-	"author": "borntohonk & loganavatar",
+	"author": "borntohonk, loganavatar & WilHiteWarrior",
 	"scriptLanguage": "lua",
 	"beta": false,
 	"all": [
@@ -3328,6 +3328,1293 @@
 						"type": "int",
 						"minValue": 1,
 						"maxValue": 3
+					}
+				},
+				{
+					"name": "Weird Egg",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2620"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+					"name": "Tasty Weird Egg",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2621"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Weird Egg",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2622"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Lon Lon Milk",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2623"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Lon Lon Milk",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2624"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Lon Lon Milk",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2625"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Odd Mushroom",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2626"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Odd Mushroom",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2627"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Odd Mushroom",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2628"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Deku Nut",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2629"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Deku Nut",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "262A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delcious Deku Nut",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "262B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Magic Beans",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "262C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Magic Beans",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "262D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Magic Beans",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "262E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Pumpkin Soup",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "262F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Pumpkin Soup",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2630"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delcious Pumpkin Soup",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2631"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Sacred Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2632"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Sacred Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2633"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Sacred Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2634"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Life Tree Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2635"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Life Tree Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2636"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Life Tree Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2637"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Light Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2638"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Light Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2639"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Light Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "263A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Stamina Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "263B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Stamina Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "263C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Stamina Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "263D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Water Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "263E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Water Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "263F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Water Fruit",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2640"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Mushroom Spores",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2641"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Mushroom Spores",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2642"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Mushroom Spores",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2643"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "All-Purpose Bait",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2644"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty All-Purpose Bait",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2645"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious All-Purpose Bait",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2646"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Elixir Soup",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2647"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Elixir Soup",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2648"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Elixir Soup",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2649"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Hyoi Pear",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "264A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Hyoi Pear",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "264B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Hyoi Pear",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "264C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Ordon Goat Cheese",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "264D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Ordon Goat Cheese",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "264E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Ordon Goat Cheese",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "264F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Great Fairy's Tears",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2650"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Great Fairy's Tears",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2651"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Great Fairy's Tears",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2652"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Greengill",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2653"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Greengill",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2654"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Greengill",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2655"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Ordon Catfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2656"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Ordon Catfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2657"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Ordon Catfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2658"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Hyrule Bass",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2659"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Hyrule Bass",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "265A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Hyrule Bass",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "265B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Hylian Pike",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "265C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Hylian Pike",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "265D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Hylian Pike",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "265E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Reekfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "265F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Reekfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2660"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Reekfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2661"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Hylian Loach",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2662"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Hylian Loach",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2663"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Hylian Loach",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2664"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Skullfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2665"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Skullfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2666"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Skullfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2667"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bombfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2668"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Bombfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2669"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Bombfish",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "266A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Chu Jelly",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "266B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Chu Jelly",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "266C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Chu Jelly",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "266D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bee Larvae",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "266E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Bee Larvae",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "266F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Bee Larvae",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2670"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Chateau Romani",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2671"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Chateau Romani",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2672"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Chateau Romani",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2673"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bottled Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2674"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Bottled Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2675"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Bottled Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2676"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Hot Spring Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2677"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Hot Spring Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2678"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Hot Spring Water",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2679"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Rock Sirloin",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "267A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Rock Sirloin",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "267B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Rock Sirloin",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "267C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Meat",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "267D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Meat",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "267E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Meat",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "267F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Carrot",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2680"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Carrot",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2681"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Carrot",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2682"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Ember Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2683"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Ember Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2684"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Ember Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2685"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Scent Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2686"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Scent Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2687"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Scent Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2688"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Pegasus Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2689"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Pegasus Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "268A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Pegasus Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "268B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Gale Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "268C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Gale Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "268D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Gale Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "268E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Mystery Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "268F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Tasty Mystery Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2690"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Delicious Mystery Seeds",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2691"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bronze Gratitude Crystal",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2692"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Silver Gratitude Crystal",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2693"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Gold Gratitude Crystal",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2694"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
 					}
 				}
 			]
