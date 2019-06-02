@@ -1,5 +1,5 @@
 [The Legend of Zelda: Breath of the Wild]
-[Credits optantic]
+[Credits optantic, WerWolv Grattler | Sven | Horizon, & WilHiteWarrior]
 [https://www.youtube.com/watch?v=m3a3T0gDHtA]
 
 [Infinite Health]
@@ -37,9 +37,16 @@
 780f0000 00000020
 620f0000 00000000 000003e7
 
-[999999 Rupee]
+[999999 Rupees]
 580f0000 02cc5fe0
 580f1000 00000e40
 580f1000 00005b08
 780f0000 00005d90
-640f0000 00000000 000f423f 
+640f0000 00000000 000f423f
+
+[R+L+A To Recharge Master Sword]
+800000C1
+580F0000 02C99E18
+780F0000 0000ABE4
+640F0000 00000000 41E00000
+20000000
