@@ -16,8 +16,8 @@ That's all.
 
 ## Config & Script ##
 
-- Script: [GearClubUnlimited.py](https://github.com/WerWolv/EdiZon_ConfigsAndScripts/blob/master/Scripts/GearClubUnlimited.py)
-- Config: [010065E003FD8000.json](https://github.com/WerWolv/EdiZon_ConfigsAndScripts/blob/master/Configs/010065E003FD8000.json)
+- Script: [GearClubUnlimited.py](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/GearClubUnlimited.py)
+- Config: [010065E003FD8000.json](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010065E003FD8000.json)
 
 ## TODO ##
 
@@ -30,7 +30,7 @@ Script improvements and additional support may be added later on.
 JSON file looks like:
 
 ```JSON
-{  
+{
          "0x40":"1",
          "0x325":"12835",
          "0x335":"12921",
@@ -42,12 +42,12 @@ JSON file looks like:
          "0x336":"2147483647",
          "0x329":"100",
          "0x337":"1#1&True&0.063&0.0312&6&1#",
-         "0x326":[  
-            {  
+         "0x326":[
+            {
                "0x322":"446",
                "0x323":"12839"
             },
-            {  
+            {
                "0x322":"453",
                "0x323":"12841"
             },
