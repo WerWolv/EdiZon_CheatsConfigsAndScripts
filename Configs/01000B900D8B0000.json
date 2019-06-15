@@ -1,0 +1,63 @@
+{
+	"author": "DNA",
+	"scriptLanguage": "py",
+	"beta": true,
+	"all": [
+		{
+			"saveFilePaths": [""],
+			"files": "savedata.xml",
+			"filetype": "xmls",
+			"items": [
+				{
+					"name": "Rupees",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["COH", "player0", "@numCoins"],
+					"widget": {
+						"type": "int",
+						"stepSize": 1,
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+			
+				{
+					"name": "Diamonds",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["COH", "player0", "@numDiamonds"],
+					"widget": {
+						"type": "int",
+						"stepSize": 1,
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Total Hearts",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["COH", "player0", "@numHearts"],
+					"widget": {
+						"type": "int",
+						"stepSize": 1,
+						"minValue": 0,
+						"maxValue": 20
+					}
+				},
+				{
+					"name": "Full Hearts (each step is one half of a heart)",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["COH", "player0", "@savedHealth0"],
+					"widget": {
+						"type": "int",
+						"stepSize": 1,
+						"minValue": 1,
+						"maxValue": 40
+					}
+				}
+			]
+		}
+	]
+}
