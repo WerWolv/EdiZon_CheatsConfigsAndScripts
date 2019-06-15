@@ -1,7 +1,7 @@
 # EdiZon Configs and Scripts & Atmosphère Cheats
 
 This is the official repository for EdiZon Editor Config, Editor Script files and Atmosphère Cheats. The configs and scripts can be used by the [EdiZon save Editor
-](https://github.com/WerWolv/EdiZon) to modify every Nintendo Switch save file. 
+](https://github.com/WerWolv/EdiZon) to modify every Nintendo Switch save file.
 The Atmosphère cheat files get loaded by Atmosphère's `dmnt:cht` cheat module.
 
 If you want yours to be added, please send them to @WerWolv#1337 on Discord or create a Pull Request.
@@ -26,7 +26,7 @@ options = {
 ```
 Feel free to add more common functions and PR them!
 
-If you want to read up on how the save files of some games are structured, check out the [Save research](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/tree/master/Save%20research) folder. 
+If you want to read up on how the save files of some games are structured, check out the [Save research](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/tree/master/Save%20research) folder.
 You can PR your own research there if you have some but don't want to build a config/script yourself.
 
 ## Editor Config files [![Build Status](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts.svg?branch=master)](https://travis-ci.com/WerWolv/EdiZon_CheatsConfigsAndScripts)
@@ -68,6 +68,8 @@ You can PR your own research there if you have some but don't want to build a co
 | [Romance of the Three Kingdoms 13 / Sangokushi 13](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100882001380000.json)           | bin.lua          | Abenx | Yes |
 | [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100E5E00C464000.json) | DragonBallHeroes.py | Krank | No |
 | [Cadence of Hyrule](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01000B900D8B0000.json | xml.py | DNA | Yes |
+| [Gear Club Unlimited](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010065E003FD8000.json)             | GearClubUnlimited.py | haykuro  | No |
+
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
 |:---------------------------------:|:-----------------------:|:---------:|:------:|
@@ -88,6 +90,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [Kirby Star Allies](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/kirbysa.py) | None  | Ac_K | No |
 | [Super Mario Odyssey](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/smo.py) | [lib/byml.py](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/byml.py) & lib/python3.5/sortedcontainers/  | Ac_K & WerWolv | No |
 | [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/DragonBallHeroes.py) | [lib/python3.5/codecs.py](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/byml.py) | KranK | No |
+| [Gear Club Unlimited](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/GearClubUnlimited.py) | None | haykuro | No |
 
 ## Atmosphère Cheats
 

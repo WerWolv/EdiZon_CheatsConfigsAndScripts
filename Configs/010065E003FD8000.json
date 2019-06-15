@@ -1,0 +1,42 @@
+{
+	"author": "haykuro",
+	"scriptLanguage": "py",
+	"beta": false,
+	"all":
+	[
+		{
+			"saveFilePaths": [""],
+			"files": "savegame",
+			"filetype": "GearClubUnlimited",
+			"items":
+			[
+				{
+					"name": "Player Level",
+					"category": "Player",
+					"intArgs": [],
+					"strArgs": ["player_level"],
+					"widget":
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 100
+					}
+
+				},
+				{
+					"name": "Player Money",
+					"category": "Player",
+					"intArgs": [],
+					"strArgs": ["player_money"],
+					"widget":
+					{
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999999
+					}
+
+				}
+			]
+		}
+	]
+}
