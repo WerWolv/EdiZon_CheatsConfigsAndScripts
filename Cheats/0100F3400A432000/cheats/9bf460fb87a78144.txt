@@ -1,4 +1,6 @@
-[TOKI Retrollector Edition]
-
-[Infinity Lives]
-011F0000 01428710 00000063
+[Credits unlimited]
+02100000 014286B0
+00000009 20000000
+[Lives unlimited]
+02100000 01428710
+00000009 20000000

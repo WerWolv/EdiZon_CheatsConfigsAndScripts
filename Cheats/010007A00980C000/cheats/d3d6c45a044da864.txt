@@ -1,0 +1,4 @@
+[Lives infinite]
+01100000 014b304c 00000005
+[credit infinite]
+01100000 014b301a 00000009

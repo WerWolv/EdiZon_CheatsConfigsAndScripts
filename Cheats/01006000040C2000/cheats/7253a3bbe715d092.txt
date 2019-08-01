@@ -1,13 +1,8 @@
-[Credits BlackDeath]
-
-[finish Level with 999 coins - on]
+[1 Coin worth 999]
 04000000 001DF980 52807CE8
-
-[finish Level with 999 coins - off]
+[1 Coin worth 1]
 04000000 001DF980 B9443C08
-
 [Invincible On]
 040F0000 004F4574 D65F03C0
-
 [Invincible Off]
 040F0000 004F4574 D10203FF
