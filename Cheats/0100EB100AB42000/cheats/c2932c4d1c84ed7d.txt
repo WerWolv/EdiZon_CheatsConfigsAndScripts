@@ -1,6 +1,3 @@
-[FINAL FANTASY XII THE ZODIAC AGE 1.1.0]
-[Credits: Falo (https://gbatemp.net/threads/cheat-codes-ams-and-sx-os-add-and-request.520293/page-245#post-8610195)]
-
 [Infinite Items on change (99)]
 04000000 00201E18 52800C7C
 [Infinite Items on change (10)]
