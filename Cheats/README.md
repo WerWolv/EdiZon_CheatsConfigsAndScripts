@@ -200,6 +200,7 @@
 |Rad Rodgers Radical Edition|[010000600CD54000](010000600CD54000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Resident Evil|[010050F00BC1A000](010050F00BC1A000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Resident Evil Revelations|[0100643002136000](0100643002136000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|River City Girls|[01004E700DFE6000](01004E700DFE6000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 ### S 
 |Name|TitleID|Region
 |--|--|--
