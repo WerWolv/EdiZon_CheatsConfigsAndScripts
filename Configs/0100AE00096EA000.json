@@ -4585,7 +4585,7 @@
 					}
 				},
 				{
-				"name": "Bronze Gratitude Crystal",
+				"name": "Bronze Gratitude Crystal (Fire)",
 					"category": "Food",
 					"intArgs": [1, 1],
 					"strArgs": ["0000", "2692"],
@@ -4596,7 +4596,7 @@
 					}
 				},
 				{
-				"name": "Silver Gratitude Crystal",
+				"name": "Silver Gratitude Crystal (Fire)",
 					"category": "Food",
 					"intArgs": [1, 1],
 					"strArgs": ["0000", "2693"],
@@ -4607,10 +4607,142 @@
 					}
 				},
 				{
-				"name": "Gold Gratitude Crystal",
+				"name": "Gold Gratitude Crystal (Fire)",
 					"category": "Food",
 					"intArgs": [1, 1],
 					"strArgs": ["0000", "2694"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bronze Gratitude Crystal (Water)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2695"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Silver Gratitude Crystal (Water)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2696"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Gold Gratitude Crystal (Water)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2697"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bronze Gratitude Crystal (Lightning)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2698"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Silver Gratitude Crystal (Lightning)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "2699"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Gold Gratitude Crystal (Lightning)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "269A"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bronze Gratitude Crystal (Light)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "269B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Silver Gratitude Crystal (Light)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "269C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Gold Gratitude Crystal (Light)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "269D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Bronze Gratitude Crystal (Dark)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "269E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Silver Gratitude Crystal (Dark)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "269F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+				"name": "Gold Gratitude Crystal (Dark)",
+					"category": "Food",
+					"intArgs": [1, 1],
+					"strArgs": ["0000", "26A0"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
