@@ -1560,6 +1560,24 @@
 					}
 				}
 			]
+		},
+		{
+			"saveFilePaths": [""],
+			"files": "lang",
+			"filetype": "bin",
+			"items": [
+				{
+					"name": "Fix menu controls (\uE0E0 Confirm/\uE0E1 Cancel)",
+					"category": "Controls",
+					"intArgs": [0, 2],
+					"strArgs": ["0000", "26"],
+					"widget": {
+						"type": "bool",
+						"onValue": 11050,
+						"offValue": 10795
+					}
+				}
+			]
 		}
 	]
 }
