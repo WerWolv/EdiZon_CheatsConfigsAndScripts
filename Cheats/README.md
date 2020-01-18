@@ -233,6 +233,7 @@
 |Tiny Barbarian DX|[0100D940022F6000](0100D940022F6000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Titan Quest|[0100605008268000](0100605008268000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Toki|[0100F3400A432000](0100F3400A432000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Tokyo Mirage Sessions ♯FE Encore|[0100A9400C9C2000](0100A9400C9C2000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 ### U 
 |Name|TitleID|Region
 |--|--|--
