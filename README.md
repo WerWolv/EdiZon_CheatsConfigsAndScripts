@@ -67,8 +67,9 @@ You can PR your own research there if you have some but don't want to build a co
 | [Kirby Star Allies](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01007E3006DDA000.json)           | kirbysa.py          | Ac_K | No |
 | [Romance of the Three Kingdoms 13 / Sangokushi 13](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100882001380000.json)           | bin.lua          | Abenx | Yes |
 | [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100E5E00C464000.json) | DragonBallHeroes.py | Krank | No |
-| [Cadence of Hyrule](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01000B900D8B0000.json | xml.py | DNA | Yes |
+| [Cadence of Hyrule](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01000B900D8B0000.json) | xml.py | DNA | Yes |
 | [Gear Club Unlimited](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010065E003FD8000.json)             | GearClubUnlimited.py | haykuro  | No |
+| [Futaride! Nyanko Daisensou / ふたりで! にゃんこ大戦争](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01003C300B274000.json)           | bin.lua          | robin5968 | No |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
