@@ -1,0 +1,258 @@
+{
+	"author": "robin5968",
+	"scriptLanguage": "lua",
+	"beta": false,
+	"1.0.3": [
+		{
+			"saveFilePaths": [""],
+			"files": "savedata",
+			"filetype": "bin",
+			"items": [
+				{
+					"name": "Kanzume (Cat Can)",
+					"category": "General",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "002F"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "XP",
+					"category": "General",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0073"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99999999
+					}
+				},
+				{
+					"name": "Speed-up",
+					"category": "Items",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2D20"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Treasure Radar",
+					"category": "Items",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2D24"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Max Worker Rate",
+					"category": "Items",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2D28"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Cat-Puter",
+					"category": "Items",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2D2C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "XP-Up",
+					"category": "Items",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2D30"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Sniper",
+					"category": "Items",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2D34"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Silver Gatcha Ticket",
+					"category": "Gatcha Tickets",
+					"tooltip": "More than 999 will all display 999,\nbut the actual value is still modified.",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2F57"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Gold Gatcha Ticket",
+					"category": "Gatcha Tickets",
+					"tooltip": "More than 999 will all display 999,\nbut the actual value is still modified.",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "2F5B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Purple Matatabi Seed",
+					"category": "Matatabi Seeds",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36ACF"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Red Matatabi Seed",
+					"category": "Matatabi Seeds",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AD3"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Blue Matatabi Seed",
+					"category": "Matatabi Seeds",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AD7"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Green Matatabi Seed",
+					"category": "Matatabi Seeds",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36ADB"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Yellow Matatabi Seed",
+					"category": "Matatabi Seeds",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36ADF"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Purple Matatabi",
+					"category": "Matatabis",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AE3"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Red Matatabi",
+					"category": "Matatabis",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AE7"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Blue Matatabi",
+					"category": "Matatabis",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AEB"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Green Matatabi",
+					"category": "Matatabis",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AEF"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Yellow Matatabi",
+					"category": "Matatabis",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AF3"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Rainbow Matatabi",
+					"category": "Matatabis",
+					"tooltip": "All Matatabis can only have 256 in total,\nmore will be cutted off!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "36AF7"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				}
+			]
+		}
+	]
+}
