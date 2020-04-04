@@ -1,0 +1,179 @@
+{
+	"author": "robin5968",
+	"scriptLanguage": "lua",
+	"beta": false,
+	"1.0.0": [
+		{
+			"saveFilePaths": [""],
+			"files": "rf4_s\\d+\\.sav",
+			"filetype": "rf4s",
+			"items": [
+				{
+					"name": "INFO",
+					"category": "#README",
+					"intArgs": [ ],
+					"tooltip": "This game will do crc32 checksum calculation.\nCalc Range: 0x04 .. 0x02239F\nSave to: 0x00 .. 0x03",
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "This game will do crc32 checksum calculation.\nCalc Range: 0x04 .. 0x02239F\nSave to: 0x00 .. 0x03"
+					}
+				},
+				{
+					"name": "Current HP",
+					"category": "HP/RP",
+					"tooltip": "Not recommend be greater than\nBase Max HP!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0054"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99999999
+					}
+				},
+				{
+					"name": "Base Max HP",
+					"category": "HP/RP",
+					"tooltip": "Not recommend be less than\nCurrent HP!",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0058"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99999999
+					}
+				},
+				{
+					"name": "Current RP",
+					"category": "HP/RP",
+					"tooltip": "Not recommend be greater than\nBase Max RP!\nMax: 65535",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "005C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 65535
+					}
+				},
+				{
+					"name": "Base Max RP",
+					"category": "HP/RP",
+					"tooltip": "Not recommend be less than\nCurrent RP!\nMax: 65535",
+					"intArgs": [2, 2],
+					"strArgs": ["0000", "005E"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 65535
+					}
+				},
+				{
+					"name": "Prince/Princess Point",
+					"category": "General",
+					"tooltip": "Max: 99999",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "20710"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 99999
+					}
+				},
+				{
+					"name": "Money",
+					"category": "General",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "004C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Lumber",
+					"category": "General",
+					"tooltip": "Max: 50000",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "003C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 50000
+					}
+				},
+				{
+					"name": "Stone",
+					"category": "General",
+					"tooltip": "Max: 50000",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0040"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 50000
+					}
+				},
+				{
+					"name": "STR",
+					"category": "State",
+					"tooltip": "More than maximum will all show as 99999",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0060"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "VIT",
+					"category": "State",
+					"tooltip": "More than maximum will all show as 99999",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0064"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "INT",
+					"category": "State",
+					"tooltip": "More than maximum will all show as 99999",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0068"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Level (See Tooltip)",
+					"category": "State",
+					"tooltip": "Ingame it will show as this setting +1\n(ex: set 4 here, then Lv.5 ingame)\nMax: 49999(Lv.50000)",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "006C"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 49999
+					}
+				},
+				{
+					"name": "XP",
+					"category": "State",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0070"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				}
+			]
+		}
+	]
+}
