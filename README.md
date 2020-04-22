@@ -71,6 +71,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [Gear Club Unlimited](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010065E003FD8000.json)             | GearClubUnlimited.py | haykuro  | No |
 | [Futaride! Nyanko Daisensou / ふたりで! にゃんこ大戦争](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01003C300B274000.json)           | bin.lua          | robin5968 | No |
 | [Rune Factory 4 Special (ASIA)](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010009400DD38000.json)           | rf4s.lua          | robin5968 | No |
+| [Rune Factory 4 Special (USA)](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010051D00E3A4000.json)           | rf4s.lua          | Goon and robin5968 | No |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
