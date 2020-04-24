@@ -2,7 +2,7 @@
 	"author": "Goon, robin5968",
 	"scriptLanguage": "lua",
 	"beta": true,
-	"1.0.1": [
+	"all": [
 		{
 			"saveFilePaths": [""],
 			"files": "rf4_s\\d+\\.sav",
