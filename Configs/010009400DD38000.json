@@ -1,8 +1,8 @@
 {
-	"author": "robin5968",
+	"author": "Goon, robin5968",
 	"scriptLanguage": "lua",
 	"beta": false,
-	"1.0.0": [
+	"all": [
 		{
 			"saveFilePaths": [""],
 			"files": "rf4_s\\d+\\.sav",
@@ -22,7 +22,7 @@
 				{
 					"name": "Current HP",
 					"category": "HP/RP",
-					"tooltip": "Not recommend be greater than\nBase Max HP!",
+					"tooltip": "Not recommend be greater than\nBase Max HP!\nSeems it can be greater than 99999999,\nbut don't knows the maximum.",
 					"intArgs": [4, 4],
 					"strArgs": ["0000", "0054"],
 					"widget": {
@@ -34,7 +34,7 @@
 				{
 					"name": "Base Max HP",
 					"category": "HP/RP",
-					"tooltip": "Not recommend be less than\nCurrent HP!",
+					"tooltip": "Not recommend be less than\nCurrent HP!\nSeems it can be greater than 99999999,\nbut don't knows the maximum.",
 					"intArgs": [4, 4],
 					"strArgs": ["0000", "0058"],
 					"widget": {
@@ -115,6 +115,30 @@
 					}
 				},
 				{
+					"name": "Fodder",
+					"category": "General",
+					"tooltip": "Max: 50000",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "0048"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 50000
+					}
+				},
+				{
+					"name": "Tourists",
+					"category": "General",
+					"tooltip": "Max: 999999999",
+					"intArgs": [4, 4],
+					"strArgs": ["0000", "20714"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
 					"name": "STR",
 					"category": "State",
 					"tooltip": "More than maximum will all show as 99999",
@@ -131,7 +155,7 @@
 					"category": "State",
 					"tooltip": "More than maximum will all show as 99999",
 					"intArgs": [4, 4],
-					"strArgs": ["0000", "0064"],
+					"strArgs": ["0000", "0068"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
@@ -143,7 +167,7 @@
 					"category": "State",
 					"tooltip": "More than maximum will all show as 99999",
 					"intArgs": [4, 4],
-					"strArgs": ["0000", "0068"],
+					"strArgs": ["0000", "0064"],
 					"widget": {
 						"type": "int",
 						"minValue": 0,
