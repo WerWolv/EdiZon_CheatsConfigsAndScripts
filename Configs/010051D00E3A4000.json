@@ -1,7 +1,7 @@
 {
 	"author": "Goon, robin5968",
 	"scriptLanguage": "lua",
-	"beta": false,
+	"beta": true,
 	"all": [
 		{
 			"saveFilePaths": [""],
@@ -22,7 +22,7 @@
 				{
 					"name": "Current HP",
 					"category": "HP/RP",
-					"tooltip": "Not recommend be greater than\nBase Max HP!\nSeems it can be greater than 99999999,\nbut don't knows the maximum.",
+					"tooltip": "Not recommend be greater than\nBase Max HP!",
 					"intArgs": [4, 4],
 					"strArgs": ["0000", "0054"],
 					"widget": {
@@ -34,7 +34,7 @@
 				{
 					"name": "Base Max HP",
 					"category": "HP/RP",
-					"tooltip": "Not recommend be less than\nCurrent HP!\nSeems it can be greater than 99999999,\nbut don't knows the maximum.",
+					"tooltip": "Not recommend be less than\nCurrent HP!",
 					"intArgs": [4, 4],
 					"strArgs": ["0000", "0058"],
 					"widget": {
