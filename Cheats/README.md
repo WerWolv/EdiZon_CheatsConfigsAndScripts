@@ -107,8 +107,9 @@
 |Dead Cells|[0100FC000AEF0000](0100FC000AEF0000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Dragon Blaze for Nintendo Switch|[010099B00A2DC000](010099B00A2DC000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 |Dragon Marked for Death: Frontline Fighters|[010089700150E000](010089700150E000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
-|Dragon Quest Builders 2|[010050000705E000](010050000705E000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
 |Dragon Quest® Builders™|[010008900705C000](010008900705C000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Dragon Quest Builders 2|[010042000A986000](010042000A986000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
+|Dragon Quest Builders 2|[010050000705E000](010050000705E000/cheats)|![JPN](http://nswdb.com/images/JPN.jpg)
 |Dusty Raging Fist|[010097D00402C000](010097D00402C000/cheats)|![WLD](http://nswdb.com/images/WLD.jpg)
 ### E 
 |Name|TitleID|Region
