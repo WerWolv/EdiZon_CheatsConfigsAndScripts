@@ -1,0 +1,589 @@
+{
+	"author": "proendreeper",
+	"scriptLanguage": "lua",
+	"beta": true,
+	"all": [
+		{
+			"saveFilePaths": [""],
+			"files": "data00\\.bin",
+			"filetype": "pmtok",
+			"items": [
+				{
+					"name": "Coins",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "coin"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Coins Spent",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "use_coin"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "HP",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "hp"],
+					"widget": {
+						"type": "int",
+						"minValue": 1,
+						"maxValue": 999
+					}
+				},
+				{
+					"name": "Max HP",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "hp_max"],
+					"widget": {
+						"type": "int",
+						"minValue": 1,
+						"maxValue": 999
+					}
+				},
+				{
+					"name": "Confetti",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "confetti_paper"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999999
+					}
+				},
+				{
+					"name": "Max Confetti",
+					"category": "Player",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "confetti_paper_max"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999999
+					}
+				},
+				{
+					"name": "Earth Bibliofold",
+					"category": "Progression",
+					"intArgs": [2],
+					"strArgs": ["Pouch", "equipment","magic","0"],
+					"widget": {
+						"type": "bool",
+						"onValue": "3:O_BOOK_EARTH",
+						"offValue": "-1:"
+					}
+				},
+				{
+					"name": "Water Bibliofold",
+					"category": "Progression",
+					"intArgs": [2],
+					"strArgs": ["Pouch", "equipment","magic","1"],
+					"widget": {
+						"type": "bool",
+						"onValue": "3:O_BOOK_WATER",
+						"offValue": "-1:"
+					}
+				},
+				{
+					"name": "Fire Bibliofold",
+					"category": "Progression",
+					"intArgs": [2],
+					"strArgs": ["Pouch", "equipment","magic","2"],
+					"widget": {
+						"type": "bool",
+						"onValue": "3:O_BOOK_FIRE",
+						"offValue": "-1:"
+					}
+				},
+				{
+					"name": "Ice Bibliofold",
+					"category": "Progression",
+					"intArgs": [2],
+					"strArgs": ["Pouch", "equipment","magic","3"],
+					"widget": {
+						"type": "bool",
+						"onValue": "3:O_BOOK_ICE",
+						"offValue": "-1:"
+					}
+				},
+				{
+					"name": "#RecordDisclaimer",
+					"category": "Records",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "It's unclear what most of these records do,\nthe names are based off the save file descriptors."
+					}
+				},
+				{
+					"name": "Toad Points",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "kinopio_point"],
+					"tooltip": "Seem to only update when you go to the museum.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Game Over Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch","record", "game_over_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Olivia Hint Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "olivia_hint_count"],
+					"widget": {
+						"type": "int",
+						"minValue": -999999999,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Photos Taken",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "take_photo_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "1-Up Mushrooms Used",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "use_1up_kinoko_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Total coins used at shop",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "shop_cumulative_coin"],
+					"tooltip": "How many coins have been used cumulatively at shops.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Total coins used to buy items",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "total_buy_item_coin"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Total coins used to buy accessories",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "total_buy_accessory_coin"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battles Encountered",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "battle_encount_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battle Puzzles Solved",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "puzzle_success_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Times Cheered",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "cheer_count"],
+					"tooltip": "How many times you've used toads to grant hearts/solve puzzles in battle.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Coins Cheered",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "total_cheer_coin"],
+					"tooltip": "How much you've used on toads to grant hearts/solve puzzles in battle.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battle Time - Added Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "add_time_count"],
+					"tooltip": "How many times you've added time to solve a battle puzzle.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battle Time - Coins Used",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "total_add_time_coin"],
+					"tooltip": "How many coins you've used to add time to solve a battle puzzle.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Footstep Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "footstep_count"],
+					"tooltip": "Unknown use.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Puzzle Level",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "puzzle_level"],
+					"tooltip": "Unknown use.",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Open Offline Pages Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "open_offline_html"],
+					"widget": {
+						"type": "int",
+						"minValue": -999999999,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battle Win Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "battle_win_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Battle Coins Won",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "battle_win_coin"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battle Enemies Killed",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "battle_kill_enemy_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Battle EXP Won",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "battle_win_exP"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Total Coins Received",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "total_get_coin"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Total Excellent Count",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "total_excellent_count"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Coin Adjust Rate",
+					"category": "Records",
+					"intArgs": [0],
+					"strArgs": ["Pouch", "record", "coin_adjust_rate"],
+					"widget": {
+						"type": "int",
+						"minValue": -999999999,
+						"maxValue": 999999999
+					}
+				},
+				{
+					"name": "Inventory Slot",
+					"dummy": true,
+					"category": "Inventory",
+					"intArgs": [0],
+					"strArgs": ["bag","item_slot"],
+					"widget":{
+						"type":"int",
+						"minValue": 1,
+						"maxValue": 150
+					}
+				},
+				{
+					"name": "Item Name",
+					"dummy": true,
+					"category": "Inventory",
+					"intArgs": [2],
+					"strArgs": ["bag","item_descriptor"],
+					"widget":{
+						"type":"list",
+						"listItemNames":["Hammer","Shiny Hammer","Flashy Hammer","Legendary Hammer","Gold Hammer","Hurlhammer","Flashy Hurlhammer","Fire Hammer","Ice Hammer","Boots","Shiny Boots","Flashy Boots","Legendary Boots","Gold Boots","Iron Boots","Shiny Iron Boots","Flashy Iron Boots","Legendary Iron Boots","Mushroom","Shiny Mushroom","Flashy Mushroom","1-Up Mushroom","Fire Flower","Shiny Fire Flower","Ice Flower","Shiny Ice Flower","Tail","Shiny Tail","POW Block","Guard Plus","Silver Guard Plus","Gold Guard Plus","Time Plus","Silver Time Plus","Gold Time Plus","Confetti Vacuum","Petal Bag","Membership Card","Silver Membership Card","Gold Membership Card","Heart Plus","Silver Heart Plus","Gold Heart Plus","Toad Alert","Treasure Alert","Hidden Block Alert","Toad Radar","Boot Whistle","Ally Tambourine","Lamination Suit","Coin Step Counter","Retro Soundbox","Hidden Block Unhider","Nothing"],
+						"listItemValues":["0:HAMMER","0:SILVER_HAMMER","0:SUPER_HAMMER","0:GREAT_HAMMER","0:GOLDEN_HAMMER","0:THROW_HAMMER","0:SUPER_THROW_HAMMER","0:FIRE_HAMMER","0:ICE_HAMMER","1:BOOTS","1:SILVER_BOOTS","1:SUPER_BOOTS","1:GREAT_BOOTS","1:GOLD_BOOTS","1:IRON_BOOTS","1:STEEL_BOOTS","1:SUPER_IRON_BOOTS","1:SUPER_STEEL_BOOTS","4:KINOKO","4:SUPER_KINOKO","4:GREAT_KINOKO","4:HEEL_KINOKO","4:FIRE_FLOWER","4:SUPER_FIRE_FLOWER","4:ICE_FLOWER","4:SUPER_ICE_FLOWER","4:TAIL","4:SUPER_TAIL","4:POW_BLOCK","2:PSV_Battle_DAMAGE1","2:PSV_Battle_DAMAGE2","2:PSV_Battle_DAMAGE3","2:PSV_Puzzle_TIME1","2:PSV_Puzzle_TIME2","2:PSV_Puzzle_TIME3","2:PSV_Sub_PaperVacuum","2:PSV_Sub_FlowerShower","2:PSV_Sub_MembersCard1","2:PSV_Sub_MembersCard2","2:PSV_Sub_MembersCard3","2:PSV_Battle_HP1","2:PSV_Battle_HP2","2:PSV_Battle_HP3","2:PSV_Sub_KinopioAlarm","2:PSV_Sub_TreasureAlarm","2:PSV_Sub_HideBlockAlarm","4:IC_KINOPIO_RS","4:IC_WHISTLE","2:PSV_Sub_BattleParty","4:IC_LATENCY","2:PSV_Sub_Pedometer","2:PSV_Sub_MarioSound","4:IC_SECRET_BLOCK_RS","-1:"]
+					}
+				},
+				{
+					"name": "Damage",
+					"dummy": true,
+					"category": "Inventory",
+					"intArgs": [0],
+					"strArgs": ["bag","item_damage"],
+					"widget":{
+						"type":"int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Durability",
+					"dummy": true,
+					"category": "Inventory",
+					"intArgs": [0],
+					"strArgs": ["bag","item_durability"],
+					"tooltip": "When damage reaches this number, the item breaks (maybe?)",
+					"widget":{
+						"type":"int",
+						"minValue": 0,
+						"maxValue": 999999
+					}
+				},
+				{
+					"name": "Item Count",
+					"dummy": true,
+					"category": "Inventory",
+					"intArgs": [0],
+					"strArgs": ["bag","item_count"],
+					"widget":{
+						"type":"int",
+						"minValue": 0,
+						"maxValue": 99
+					}
+				},
+				{
+					"name": "Key Item Slot",
+					"dummy": true,
+					"category": "Key Items",
+					"intArgs": [0],
+					"strArgs": ["bag","key_item_slot"],
+					"widget":{
+						"type":"int",
+						"minValue": 1,
+						"maxValue": 64
+					}
+				},
+				{
+					"name": "Stamp Card Notes",
+					"category": "Key Items",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"widget": {
+						"type": "comment",
+						"comment": "The letters in parenthesis denote which\nstamps have been received.\n\nR - Red\nG - Green\nM - Magenta\nB - Blue"
+					}
+				},
+				{
+					"name": "Item Name",
+					"dummy": true,
+					"category": "Key Items",
+					"intArgs": [0],
+					"strArgs": ["bag","key_item_name"],
+					"widget":{
+						"type":"list",
+						"listItemNames":["Nothing","Empty Stamp Card","Stamp Card (R)","Stamp Card (G)","Stamp Card (GR)","Stamp Card (M)","Stamp Card (MR)","Stamp Card (GM)","Stamp Card (GMR)","Stamp Card (B)","Stamp Card (BR)","Stamp Card (BG)","Stamp Card (BGR)","Stamp Card (BM)","Stamp Card (BMR)","Stamp Card (BGM)","Stamp Card (BGMR)","Key to Peach's Castle","Key to Bowser's Castle","Spring of Rainbows - VIP","Red Gem","Courage Orb","Wisdom Orb","Power Orb","Diamond Key","Big Shell","Mushroom Handle","Canned Heart","\"Thrills at Night\"","\"Heartbeat Skipper\"","\"Deep, Deep Vibes\"","\"M-A-X Power!\"","Round Jewel","Diamond Jewel","Square Jewel","Triangle Jewel","Suite Key","Shriveled MAX UP Heart","Sun Incense","Professor's Room Key","Lever","Shogun Studios Master Key","Bone","Baseball","Space Warrior Mask","Jungle King Mask","Goomba Mask","Shuriken","Straw","Commoner Pass","Royalty Pass","Opened Can of Tuna","Canned Tuna","Groovier Panel","Groovy Panel","Blue Shell Stone","Red Shell Stone","Yellow Shell Stone","Green Shell Stone","Manhole Hook","Soul Seed","Shriveled Seed","Faded Fire Flower","Shriveled Mushroom"],
+						"listItemValues":["","X_STAMPCARD_A","X_STAMPCARD_B","X_STAMPCARD_C","X_STAMPCARD_D","X_STAMPCARD_E","X_STAMPCARD_F","X_STAMPCARD_G","X_STAMPCARD_H","X_STAMPCARD_I","X_STAMPCARD_J","X_STAMPCARD_K","X_STAMPCARD_L","X_STAMPCARD_M","X_STAMPCARD_N","X_STAMPCARD_O","X_STAMPCARD_P","X_KEYPEACHCASTLE","X_KEYKOOPACASTLE","X_SPATICKET_A","X_DLAGONPEARL_RED","X_ORBCOURAGE","X_ORBWISDOM","X_ORBPOWER","X_KEYORB","X_SHELLFISH_BIG","X_KEYKINOKO","X_CANHEART","X_CD_A","X_CD_B","X_CD_C","X_CD_D","X_KNPEYE_A","X_KNPEYE_B","X_KNPEYE_C","X_KNPEYE_D","X_KEYOASIS_A","X_HPMAXUP_LVUP_DRY","X_SUNINCENSE","X_KEYOASIS_B","X_GNERATORHANDLE","X_MASTERKEY","X_BONE","X_SIGNBALL","X_COSTUME_SAM","X_COSTUME_DON","X_COSTUME_KUR","X_THROWINGSTARSET","X_STRAW","X_NORMALPASS","X_PREMIUMPASS","X_CAN_A_OPEN","X_CAN_A","X_MINIPIECE_B","X_MINIPIECE_A","X_TURTLE_BALL_C","X_TURTLE_BALL_D","X_TURTLE_BALL_B","X_TURTLE_BALL_A","X_MANHOLEHANDLE_A","X_DEKUSEED","X_DEKUSEED_DRY","X_FIREFLOWERWITHER","X_KINOKO_DRY"]
+					}
+				},
+				{
+					"name": "Hidden?",
+					"dummy": true,
+					"category": "Key Items",
+					"intArgs": [1],
+					"strArgs": ["bag","key_item_hidden"],
+					"widget":{
+						"type":"bool",
+						"onValue": 1,
+						"offValue": 0
+					}
+				},
+				{
+					"name": "Slot Type",
+					"dummy": true,
+					"category": "Equipped Items",
+					"intArgs": [0],
+					"strArgs": ["equipped","slot_type"],
+					"tooltip": "The type of in-game slot.",
+					"widget":{
+						"type":"list",
+						"listItemNames":["Hammer","Boots","Accessory"],
+						"listItemValues":["hammer","boots","amulet"]
+					}
+				},
+				{
+					"name": "Slot",
+					"dummy": true,
+					"category": "Equipped Items",
+					"intArgs": [0],
+					"strArgs": ["equipped","slot"],
+					"tooltip": "Which in-game slot to configure for the selected slot type.",
+					"widget":{
+						"type":"int",
+						"minValue": 1,
+						"maxValue": 6
+					}
+				},
+				{
+					"name": "Equipped Item Slot",
+					"dummy": true,
+					"category": "Equipped Items",
+					"intArgs": [0],
+					"strArgs": ["equipped","item_slot"],
+					"tooltip": "The associated inventory space to assign to the equipment slot.",
+					"widget":{
+						"type":"int",
+						"minValue": 0,
+						"maxValue": 150
+					}
+				},
+				{
+					"name": "",
+					"category": "Equipped Items",
+					"intArgs": [ ],
+					"strArgs": [ ],
+					"tooltip": "I just make it easier to see the equipped item name.",
+					"widget":{
+						"type":"comment",
+						"comment":"Ignore me"
+					}
+				},
+				{
+					"name": "Equipped Item Name",
+					"dummy": true,
+					"category": "Equipped Items",
+					"intArgs": [0],
+					"strArgs": ["equipped","item_name"],
+					"tooltip": "Displays the name of the item in the associated inventory space.",
+					"widget":{
+						"type":"string",
+						"minLength": 1,
+						"maxLength": 100
+					}
+				},
+				{
+					"name": "Valid Equipment?",
+					"dummy": true,
+					"category": "Equipped Items",
+					"intArgs": [1],
+					"strArgs": ["equipped","valid"],
+					"tooltip": "Displays whether or not the item is a valid selection, and if not, the save file value won't be edited.",
+					"widget": {
+						"type": "bool",
+						"onValue": 1,
+						"offValue": 0
+					}
+				}
+			]
+		}
+	]
+}
