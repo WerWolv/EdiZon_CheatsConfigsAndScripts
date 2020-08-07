@@ -72,6 +72,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [Futaride! Nyanko Daisensou / ふたりで! にゃんこ大戦争](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/01003C300B274000.json)           | bin.lua          | robin5968 | No |
 | [Rune Factory 4 Special (ASIA)](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010009400DD38000.json)           | rf4s.lua          | Goon and robin5968 | No |
 | [Rune Factory 4 Special (USA)](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/010051D00E3A4000.json)           | rf4s.lua          | Goon and robin5968 | No |
+| [Paper Mario: The Origami King](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Configs/0100A3900C3E2000.json)           | pmtok.lua          | proEndreeper | Yes |
 
 ## Editor Script files
 | Script                            | Requirements            | Author    | Beta   |
@@ -95,6 +96,7 @@ You can PR your own research there if you have some but don't want to build a co
 | [SUPER DRAGON BALL HEROES WORLD MISSION](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/DragonBallHeroes.py) | [lib/python3.5/codecs.py](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/byml.py) | KranK | No |
 | [Gear Club Unlimited](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/GearClubUnlimited.py) | None | haykuro | No |
 | [Rune Factory 4 Special (ASIA)](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/rf4s.lua) | [lib/checksum.lua](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/checksum.lua) | robin5968 | No |
+| [Paper Mario: The Origami King](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/pmtok.lua) | [lib/json.lua](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/json.lua), [lib/checksum.lua](https://github.com/WerWolv/EdiZon_CheatsConfigsAndScripts/blob/master/Scripts/lib/checksum.lua) | proEndreeper | No |
 
 ## Atmosphère Cheats
 
