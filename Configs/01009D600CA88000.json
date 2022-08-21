@@ -1,0 +1,653 @@
+{
+	"author": "zzpong",
+	"scriptLanguage": "lua",
+	"beta": false,
+	"all": [
+		{
+			"saveFilePaths": [""],
+			"files": "SVDT",
+			"filetype": "bin",
+			"items": [
+				{
+					"name": "Gold",
+					"category": "Basic",
+					"intArgs": [2, 4],
+					"strArgs": ["0", "050D"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999999
+					}
+				},
+				{
+					"name": "Gems",
+					"category": "Basic",
+					"intArgs": [2, 2],
+					"strArgs": ["0", "214B"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Structure Materials",
+					"category": "Basic",
+					"intArgs": [2, 2],
+					"strArgs": ["0", "1FAD9"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name": "Weapon Materials",
+					"category": "Basic",
+					"intArgs": [2, 2],
+					"strArgs": ["0", "1FADB"],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9999
+					}
+				},
+				{
+					"name" : "Accuracy",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA45" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Quick Learner",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA47" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Fortune Hunter",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA49" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "VictoryCry",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA4B" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Health Springs",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA4D" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Muso Springs",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA4F" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Rage Springs",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA51" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Burning Spirit",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA53" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Secret Arts",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA55" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Nullification",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA57" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Equestrian",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA59" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Havoc",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA5B" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Health Boost",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA5D" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Attack Boost",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA5F" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Defense Boost",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA61" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Mighty Roar",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA63" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Steely Heart",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA65" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Determination",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CA67" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "Full" ],
+						"listItemValues" : [ 0, 5121 ]
+					}
+				},
+				{
+					"name" : "Dash Weapon Skill",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CB03" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "GetDa☆ze" ],
+						"listItemValues" : [ 0, 257 ]
+					}
+				},
+				{
+					"name" : "Dive Weapon Skill",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CB05" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "GetDa☆ze" ],
+						"listItemValues" : [ 0, 257 ]
+					}
+				},
+				{
+					"name" : "Shadow Sprint Weapon Skill",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CB07" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "GetDa☆ze" ],
+						"listItemValues" : [ 0, 257 ]
+					}
+				},
+				{
+					"name" : "Whirlwind Weapon Skill",
+					"category" : "Skills",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "CB09" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Unavailable", "GetDa☆ze" ],
+						"listItemValues" : [ 0, 257 ]
+					}
+				},
+				{
+					"name" : "Weapon Type",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB1F" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 999
+					}
+				},
+				{
+					"name" : "Weapon Affinity",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB21" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : [ "Heaven", "Earth", "Man" ],
+						"listItemValues" : [ 0, 1, 2 ]
+					}
+				},
+				{
+					"name" : "Weapon Atk",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB22" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 255
+					}
+				},
+				{
+					"name" : "Element Slot1",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB23" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Thorns", "Awareness", "Survival", "Frenzy", "Barricade", "Aggression", "Flurry", "Velocity", "Chain", "Inferno", 
+						  "Frost", "Thunder", "Cyclone", "Slash", "Venom", "Flash", "Spurt", "Recovery", "Uplift", "Enlightenment",
+						  "Explosive", "Induction", "Vigo", "Jolt", "Desperation", "Resolve", "Swiftness", "Agility", "Harmony", "Protection",
+						  "Fear", "Awe", "Morass", "Jubilation", "Roar", "Triumph", "Greed", "Fury", "Rigidity", "Whirlwind",  
+						  "Gale", "Comet", "Thunderclap", "Efflorescence", "Conflagration", "Battleaxe", "Armor Sleeve", "War Shoes", "Rakshasa", "Shining Warrior", 
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+						  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+						  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Element Slot2",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB24" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Thorns", "Awareness", "Survival", "Frenzy", "Barricade", "Aggression", "Flurry", "Velocity", "Chain", "Inferno", 
+						  "Frost", "Thunder", "Cyclone", "Slash", "Venom", "Flash", "Spurt", "Recovery", "Uplift", "Enlightenment",
+						  "Explosive", "Induction", "Vigo", "Jolt", "Desperation", "Resolve", "Swiftness", "Agility", "Harmony", "Protection",
+						  "Fear", "Awe", "Morass", "Jubilation", "Roar", "Triumph", "Greed", "Fury", "Rigidity", "Whirlwind",  
+						  "Gale", "Comet", "Thunderclap", "Efflorescence", "Conflagration", "Battleaxe", "Armor Sleeve", "War Shoes", "Rakshasa", "Shining Warrior", 
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+						  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+						  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Element Slot3",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB25" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Thorns", "Awareness", "Survival", "Frenzy", "Barricade", "Aggression", "Flurry", "Velocity", "Chain", "Inferno", 
+						  "Frost", "Thunder", "Cyclone", "Slash", "Venom", "Flash", "Spurt", "Recovery", "Uplift", "Enlightenment",
+						  "Explosive", "Induction", "Vigo", "Jolt", "Desperation", "Resolve", "Swiftness", "Agility", "Harmony", "Protection",
+						  "Fear", "Awe", "Morass", "Jubilation", "Roar", "Triumph", "Greed", "Fury", "Rigidity", "Whirlwind",  
+						  "Gale", "Comet", "Thunderclap", "Efflorescence", "Conflagration", "Battleaxe", "Armor Sleeve", "War Shoes", "Rakshasa", "Shining Warrior", 
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+						  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+						  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Element Slot4",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB26" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Thorns", "Awareness", "Survival", "Frenzy", "Barricade", "Aggression", "Flurry", "Velocity", "Chain", "Inferno", 
+						  "Frost", "Thunder", "Cyclone", "Slash", "Venom", "Flash", "Spurt", "Recovery", "Uplift", "Enlightenment",
+						  "Explosive", "Induction", "Vigo", "Jolt", "Desperation", "Resolve", "Swiftness", "Agility", "Harmony", "Protection",
+						  "Fear", "Awe", "Morass", "Jubilation", "Roar", "Triumph", "Greed", "Fury", "Rigidity", "Whirlwind",  
+						  "Gale", "Comet", "Thunderclap", "Efflorescence", "Conflagration", "Battleaxe", "Armor Sleeve", "War Shoes", "Rakshasa", "Shining Warrior", 
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+						  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+						  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Element Slot5",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB27" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Thorns", "Awareness", "Survival", "Frenzy", "Barricade", "Aggression", "Flurry", "Velocity", "Chain", "Inferno", 
+						  "Frost", "Thunder", "Cyclone", "Slash", "Venom", "Flash", "Spurt", "Recovery", "Uplift", "Enlightenment",
+						  "Explosive", "Induction", "Vigo", "Jolt", "Desperation", "Resolve", "Swiftness", "Agility", "Harmony", "Protection",
+						  "Fear", "Awe", "Morass", "Jubilation", "Roar", "Triumph", "Greed", "Fury", "Rigidity", "Whirlwind",  
+						  "Gale", "Comet", "Thunderclap", "Efflorescence", "Conflagration", "Battleaxe", "Armor Sleeve", "War Shoes", "Rakshasa", "Shining Warrior", 
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+						  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+						  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Element Slot6",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB28" ],
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Thorns", "Awareness", "Survival", "Frenzy", "Barricade", "Aggression", "Flurry", "Velocity", "Chain", "Inferno", 
+						  "Frost", "Thunder", "Cyclone", "Slash", "Venom", "Flash", "Spurt", "Recovery", "Uplift", "Enlightenment",
+						  "Explosive", "Induction", "Vigo", "Jolt", "Desperation", "Resolve", "Swiftness", "Agility", "Harmony", "Protection",
+						  "Fear", "Awe", "Morass", "Jubilation", "Roar", "Triumph", "Greed", "Fury", "Rigidity", "Whirlwind",  
+						  "Gale", "Comet", "Thunderclap", "Efflorescence", "Conflagration", "Battleaxe", "Armor Sleeve", "War Shoes", "Rakshasa", "Shining Warrior", 
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 
+						  30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 
+						  40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Element Slot1 Value",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB29" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 10
+					}
+				},
+				{
+					"name" : "Element Slot2 Value",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB2A" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 10
+					}
+				},
+				{
+					"name" : "Element Slot3 Value",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB2B" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 10
+					}
+				},
+				{
+					"name" : "Element Slot4 Value",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB2C" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 10
+					}
+				},
+				{
+					"name" : "Element Slot5 Value",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB2D" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 10
+					}
+				},
+				{
+					"name" : "Element Slot6 Value",
+					"category" : "Weapon (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "EB2E" ],
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 10
+					}
+				},
+				{
+					"name" : "Animal Spd",
+					"category" : "Animal (First Only)",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "1E331" ],
+					"tooltip" : "Only effective after first catch",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 500
+					}
+				},
+				{
+					"name" : "Animal Break",
+					"category" : "Animal (First Only)",
+					"intArgs" : [ 2, 2 ], 
+					"strArgs" : [ "0", "1E337" ],
+					"tooltip" : "Only effective after first catch",
+					"widget": {
+						"type": "int",
+						"minValue": 0,
+						"maxValue": 9000
+					}
+				},
+				{
+					"name" : "Animal Attribute Slot1",
+					"category" : "Animal (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "1E33B" ],
+					"tooltip" : "Only effective after first catch",
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Sprint Shadow", "Sprint Encouragement", "Sprint Charge", "Sprint Endurance", "Sprint Growth", "Sprint Recovery", "Sprint Swimming", "Sprint Penetrate", "Assistance Recovery", "Assistance Assault", 
+						  "Assistance Protect", "Assistance Energy", "Assistance Healing", "Assistance Rally", "Assistance Discovery", "Assistance Growth", "Assistance Affluence", "Rouse Recovery", "Rouse Assault", "Rouse Recovery",
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Animal Attribute Slot2",
+					"category" : "Animal (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "1E33C" ],
+					"tooltip" : "Only effective after first catch",
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Sprint Shadow", "Sprint Encouragement", "Sprint Charge", "Sprint Endurance", "Sprint Growth", "Sprint Recovery", "Sprint Swimming", "Sprint Penetrate", "Assistance Recovery", "Assistance Assault", 
+						  "Assistance Protect", "Assistance Energy", "Assistance Healing", "Assistance Rally", "Assistance Discovery", "Assistance Growth", "Assistance Affluence", "Rouse Recovery", "Rouse Assault", "Rouse Recovery",
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Animal Attribute Slot3",
+					"category" : "Animal (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "1E33D" ],
+					"tooltip" : "Only effective after first catch",
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Sprint Shadow", "Sprint Encouragement", "Sprint Charge", "Sprint Endurance", "Sprint Growth", "Sprint Recovery", "Sprint Swimming", "Sprint Penetrate", "Assistance Recovery", "Assistance Assault", 
+						  "Assistance Protect", "Assistance Energy", "Assistance Healing", "Assistance Rally", "Assistance Discovery", "Assistance Growth", "Assistance Affluence", "Rouse Recovery", "Rouse Assault", "Rouse Recovery",
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  255
+						]
+					}
+				},
+				{
+					"name" : "Animal Attribute Slot4",
+					"category" : "Animal (First Only)",
+					"intArgs" : [ 2, 1 ], 
+					"strArgs" : [ "0", "1E33E" ],
+					"tooltip" : "Only effective after first catch",
+					"widget" : {
+						"type" : "list",
+						"listItemNames" : 
+						[ "Sprint Shadow", "Sprint Encouragement", "Sprint Charge", "Sprint Endurance", "Sprint Growth", "Sprint Recovery", "Sprint Swimming", "Sprint Penetrate", "Assistance Recovery", "Assistance Assault", 
+						  "Assistance Protect", "Assistance Energy", "Assistance Healing", "Assistance Rally", "Assistance Discovery", "Assistance Growth", "Assistance Affluence", "Rouse Recovery", "Rouse Assault", "Rouse Recovery",
+						  "None"
+						],
+						"listItemValues" : 
+						[ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 
+						  10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 
+						  255
+						]
+					}
+				}
+			]
+		}
+	]
+}
